@@ -1,0 +1,2 @@
+Hypothesis,Precision,Recall,Fmeasure_score,hamming_loss,Accuracy_Score,Train/Test_Size,Project
+H2,0.24844783715012722,0.32719298245614037,0.7183631658554077,0.18,0.8200000000000001,0.8,jabRef50_2

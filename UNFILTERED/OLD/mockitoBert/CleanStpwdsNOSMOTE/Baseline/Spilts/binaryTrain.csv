@@ -1,0 +1,200 @@
+Util,Network,Interpreter,i18n,Logic,Test,IO,Security,corpus
+0,0,0,0,1,1,1,0,fixes issue returns_deep_stubs automatically tries to create serializable mocks
+1,0,0,1,1,1,1,0,deep stubbing with generic responses in the call chain is not working
+1,0,0,1,1,1,0,0,make propertyandsetterinjection field sorting consistent
+1,0,0,0,1,1,0,0,argumentcaptorforclass is more friendly with generic types
+1,0,0,1,1,1,1,0,better protection against incompatible returned value of default answer and get safely mock name
+0,0,0,0,1,0,0,0,blocks ability to use negative value for timeout and after method
+1,0,0,1,1,1,1,0,argumentcaptor no longer working for varargs
+1,0,0,0,1,1,0,0,add shouldhavezerointeractions as bdd version of verifyzerointeractions
+1,1,0,1,1,0,1,0,related to windows path
+1,0,0,1,1,0,0,0,a verify call example in captor javadoc
+0,0,0,0,0,1,0,0,cannot instantiate type with public method of a public parent class having a non public types in signature
+1,1,1,1,1,1,1,0,migrate fest assert code to assertj
+1,1,0,0,1,1,0,0,typo in documentation
+1,0,0,1,1,1,0,0,issue added support for generic arrays as return types
+1,0,0,0,1,1,0,0,reintroduce null check on mockutilismock
+1,1,0,0,1,1,1,0,remove validateserializable
+1,0,0,1,1,1,1,0,simplify the invocationonmock api to get a casted argument
+1,0,0,0,1,1,0,0,remove deprecated code
+1,1,0,1,1,1,1,0,removed deprecated classes and methods
+1,0,0,1,1,1,1,0,refactored class reporter to a static utillity
+1,0,0,0,1,1,1,0,dropped class handyreturnvalues
+1,0,0,0,1,1,0,0,refactored invocationmarker to a static utility class
+0,0,0,0,0,1,1,0,enable some ignored tests of bridgemethodshitagaintest and detectingf…
+1,0,0,1,0,1,0,0,refactored timeout and after concurrent test
+0,0,0,1,1,1,0,0,deprecate whitebox and corresponding verboserunner and junitfailureha…
+1,0,0,1,1,1,0,0,revert remove deprecated method
+1,0,0,0,1,1,0,0,makes the junit runner detect unused stubs
+0,0,0,1,1,1,0,0,refactored testmethodsfinder to a static utility class
+1,0,0,1,1,1,1,0,refactored argumentscomparator to a static utility class
+1,0,0,0,1,1,0,0,refactored nongreedynumberofinvocationsinorderchecker to a static uti…
+1,0,0,0,1,0,0,0,tweaks any matchers
+1,0,0,1,1,1,1,0,refactored mockutil to a static utility class
+1,0,0,0,1,1,0,0,refactored allinvocationsfinder and verifiableinvocationsfinder to st…
+0,0,0,0,0,1,0,0,add regression test for
+1,0,0,0,1,0,0,0,missing generics info on collection matchers
+1,0,0,1,1,1,0,0,refactored supertypeslastsorter to a static utility class
+1,0,0,0,1,0,0,0,inlined arrayutilsisempty in argumentsprocessor
+1,0,0,1,1,1,1,0,refactored objectmethodsguru to a static utility class
+1,0,0,1,1,1,0,0,changed error message in case initialization for mock injection fails
+1,1,0,1,1,1,1,0,junit rules report unused stubs
+1,0,0,1,1,1,0,0,checkschecknotnull now throws iae instead of npe
+1,0,0,0,1,1,0,0,ensured that mockitojunitrunner is thread safe wrt unused stubs detection
+1,0,0,0,1,1,0,0,ensured that mockitojunitrunner is thread safe wrt unused stubs detection
+1,1,0,1,1,1,1,0,stylesheet tweaks for openjdk
+1,1,1,1,1,1,1,0,returns_deep_stubs may try to mock final classes
+1,0,0,0,1,1,0,0,moves arity interfaces of java helper answers to public api
+1,0,0,0,0,1,0,0,from now on verification happens always call in other thre…
+0,0,0,0,0,1,0,0,updated the javadocs
+0,0,0,1,1,1,0,0,unified logic of argument matching and capturing
+0,0,0,0,1,1,0,0,update travis configuration to also build on oraclejdk
+1,1,0,1,1,1,1,0,warns user to upgrade if java version is to low
+0,0,0,0,1,1,0,0,renamed failuredetecter to failure detector
+1,1,1,1,1,1,1,1,add missing copyright headers
+1,0,0,0,0,1,0,0,implements retry rule for flaky tests
+1,0,0,1,1,1,0,0,adds a warning for ibm j vms if mock generation fails
+1,0,0,0,0,1,0,0,new opt in stubbing strictness implemented in junit rules
+1,0,0,1,1,1,1,0,returnsargat to handle returning vararg as arrays
+0,0,0,1,1,1,1,0,introduce validable answers for early validation of stubbing
+0,0,0,0,0,1,1,0,improves exception message in case a matcher is used for a primitive parameter
+1,0,0,1,1,1,0,0,test clean up according to discussions for rememberinglisteners
+1,0,0,0,1,1,1,0,adds a matches pattern
+0,0,0,0,0,1,0,0,junit rule strictness can be tweaked per test method
+0,0,0,0,1,1,0,0,backport release x changes to master fix for
+1,0,0,0,1,1,0,0,new strict stubbing api mockitosession
+1,0,0,0,1,1,0,0,new strict stubbing api mockitosession
+1,0,0,0,1,1,0,0,new strict stubbing api mockitosession
+1,1,0,1,1,0,1,0,jacaco synthetic fields are not anymore final in
+1,0,0,0,1,0,0,0,argumentmatchers grammar fix
+0,0,0,1,1,0,0,0,spy annotation reports better error message if instance creation is impossible
+1,0,0,0,0,1,0,0,update to byte buddy fixes bridge method resolution for generic types
+1,1,0,0,1,1,0,0,a elements were missing the name attribute
+1,0,0,0,1,1,0,0,unified all number of invocations checker in numberofinvocationschecker
+1,0,0,1,1,1,0,0,simplified the creation of argumentsaredifferent exceptions
+1,1,0,1,1,1,1,0,refactored removefirstline to a static utility class
+1,1,0,1,1,1,1,0,support for return type void in doesnothinganswer
+1,1,0,1,1,1,1,0,new feature enable mocking using constructor arguments
+1,1,0,0,1,1,0,0,allow spying on interfaces so that it is convenient to work with java default methods
+0,0,0,0,0,1,0,0,verifies acceptance test to prevent future regression
+1,1,0,1,1,1,1,0,fix to get correct stubbing location with inline mocking
+1,1,0,1,1,1,1,0,break cyclical compile time dependency on hiderecursivecall
+1,1,0,0,1,1,0,0,update javadoc about the mockito inline artifact
+1,1,0,0,1,1,0,0,update javadoc about the mockito inline artifact
+1,0,0,0,1,1,0,0,verifyzerointeractions guarantees zero interactions instead of just delegating to verifynomoreinteractions
+0,0,0,1,1,1,1,0,validation in returnargumentat int in case of type erasure on the parameter
+1,0,0,1,1,1,0,0,add information about donothing method to cannotstubvo…
+1,1,0,1,1,1,0,1,interfaces only declare tostring implicitly and should t…
+1,0,0,0,1,1,1,0,made it possible to delay the return of a mock or spy
+1,1,0,1,1,1,1,0,properly resolve visibility bridges
+1,0,0,1,0,1,0,0,enable stubonly on mock annotation
+1,1,0,1,1,0,1,0,fix performance regression caused by use of method graph compiler
+1,1,0,1,1,1,1,0,compare method of graph to defined form of method
+1,0,0,0,1,1,1,0,added new public api for spring boot use case
+1,0,0,0,1,1,0,0,java ci build for mockito x
+1,1,0,0,1,1,0,0,improve deprecated javadoc
+1,1,0,1,1,0,1,0,make override check more forgiving to accomondate kotlin compile patterns
+1,0,0,1,1,1,0,0,mockitoextension for junit
+0,0,0,1,0,0,0,0,add checkreturnvalue to stubbing verification methods
+1,0,0,1,1,1,0,0,remove several container classes and inline code
+1,1,0,1,1,1,1,0,and improved check for self invocation
+1,1,0,1,1,1,1,0,and improved check for self invocation
+1,1,0,0,1,1,0,0,update doc for answerscalls_real_methods
+0,0,0,0,1,1,0,0,update strict_stubs documentation for verifynomoreinteractions
+1,0,0,1,1,1,1,0,extend mockitosession builder api to enable usage by testing frameworks
+1,0,0,0,1,1,0,0,update public api of invocationfactory needed for android static mocking
+0,0,0,0,1,1,0,0,ensure isolation of stubbings
+0,0,0,0,1,1,0,0,ensure isolation of stubbings
+1,0,0,0,1,1,0,0,include all the invocation in mock verification error message
+1,1,0,1,1,1,1,0,avoid bytebuddy import issue to enable repackaging without bytebuddy
+1,0,0,1,1,1,0,0,different mocks are used for mock and injectmock in the same test class with junit extension
+1,1,0,1,1,1,1,0,support local parameters in test methods with junit jupiter
+0,1,1,1,1,0,0,0,resolve the correct protection domain for the codegen package when using reflection
+1,1,0,1,1,1,0,1,performance improvements
+1,1,0,1,1,1,0,1,avoid circularity avoid endless loop during mock creation
+1,0,0,0,0,1,0,0,adding atmostonce rename threadverifiescontinuoslyinteractingmocktest and one todo
+1,0,0,0,0,1,0,0,make mockitoextension constructor public
+1,0,0,0,1,1,0,0,correctly handle varargsmatcher check for hamcrestmatchers
+1,1,0,1,1,1,0,1,mockito on java ea
+1,1,0,0,1,1,0,0,javadoc update ignorestubs to include strictness
+1,0,0,0,1,1,0,0,add stubbinglookupevent and notifier a part of
+1,0,0,0,1,1,1,0,exposed new api stubbinglookuplistener
+1,0,0,0,1,1,1,0,exposed new api stubbinglookuplistener
+1,0,0,0,1,1,0,0,prevent premature garbage collection of mock objects
+1,0,0,0,1,1,0,0,issue with leftover state when stubbing with bad throwables
+0,0,0,0,0,1,0,0,minimal test to repro generic issue with smart nulls
+0,0,0,0,0,0,0,0,verifyerror when junit is in the classpath
+0,0,0,0,1,1,1,0,fix bug cce on smart not null answers
+1,0,0,0,1,1,1,0,refactoring naming rule for sealed packages to better work with the java module system
+1,1,1,1,1,1,1,0,where multipleparentclassloader lacks of classloaders of superclasses
+1,0,0,1,1,0,0,0,remove unnecessary loop from injectingannotationengine
+0,0,0,0,0,1,0,0,outer class mocks unavailable from inner class
+1,1,1,1,1,1,1,0,new api to clean up all inline mocks after test
+1,1,1,1,1,1,1,0,new api to clean up all inline mocks after test
+1,1,1,1,1,1,1,0,new api to clean up all inline mocks after test
+1,1,0,1,1,1,1,0,handle terminal type var with bounds
+0,0,0,0,1,1,0,0,verificationcollector to handle non matching args and other assertions
+1,0,0,1,1,0,1,0,new public api invocationgetargumentsasmatchers
+1,1,0,1,1,1,0,0,improved ide experience for junit visual comparison failure
+0,0,0,0,1,1,0,0,report initialization failures per test method
+1,0,1,0,1,0,0,0,make mockitonotextensible service loadable
+1,0,0,1,1,1,0,0,show multiple invocations on argumentsaredifferent
+1,0,0,1,1,1,0,0,rename toolittleactualinvocations
+1,0,0,0,0,1,0,0,replaces objenesis references from stubbing classes with plugin equivalents
+1,1,0,1,1,1,0,1,configure the methodvisitor for java compatibility
+0,0,0,0,0,0,0,0,change implementation of exceptionfactory to explicitly test for dependent classes
+1,1,0,1,1,1,1,0,verifynointeractions guarantees no interactions with mock
+1,1,0,1,1,1,1,0,verifynointeractions guarantees no interactions with mock
+1,1,0,0,1,1,0,0,clarify default answer in
+1,1,0,0,1,1,0,0,minor bug fixes
+1,1,0,0,1,1,0,0,minor bug fixes
+1,0,0,1,1,1,1,0,method generictypeextractorfindgenericinterface always …
+0,0,0,0,1,1,0,0,clarify default strict stubbing behaviour in
+1,0,0,0,1,1,0,0,close file handle to avoid a file handle leak
+1,0,0,0,1,1,0,0,close file handle to avoid a file handle leak
+1,0,0,1,1,1,0,0,junit jupiter parallel issue
+1,1,0,0,1,1,0,0,fix typo in the wiki link
+0,0,0,0,0,1,0,0,revert remove unnecessary loop from injectingannotationengine
+1,1,0,1,1,0,1,0,upgrade byte buddy to from
+1,1,0,0,1,1,0,0,add duration overloads
+0,0,0,0,1,1,0,0,guard against multiple evaluations of before statement
+1,0,0,1,1,1,0,0,undetected unused stubbing when matching previous stubbed call
+1,0,0,1,1,1,1,0,performance optimization by using methodgetparametercount where possible
+1,0,0,0,1,1,1,0,basic test suite for osgi framework
+1,0,0,0,1,1,1,0,basic test suite for osgi framework
+1,0,0,1,0,1,0,0,allow mockitosettings to be inherited
+1,0,0,1,1,1,1,0,revert undetected unused stubbing when matching previous stubbed call
+0,0,0,0,0,0,0,0,fix unnecessarystubbingexception javadoc
+1,0,0,0,1,1,1,0,fix mocks throwing same instance with throwable class
+1,0,0,0,0,1,0,0,checkstyle error on windows
+1,0,0,0,1,0,0,0,update description of argumentmatcher javadoc
+1,0,0,0,0,1,1,0,fix pattern matcher not matching to subregion
+1,0,0,0,0,1,1,0,fix pattern matcher not matching to subregion
+1,1,1,0,1,1,1,0,return mock name from tostring method for deep stub mocks
+1,1,1,0,1,1,1,0,return mock name from tostring method for deep stub mocks
+1,0,0,0,1,1,0,0,prepend description to assertionerror thrown in verification
+1,1,0,1,1,1,0,0,correctly handle mocks with limited life cycle in listeners
+1,0,0,1,1,1,0,0,do not pass static mocks to regular listener callback
+1,1,0,1,1,1,0,0,only enable mocking of types right before instantiation to avoid circular interception of constructor creation
+1,1,0,1,1,1,0,0,only enable mocking of types right before instantiation to avoid circular interception of constructor creation
+1,1,0,1,1,1,0,1,initializes classes prior to instrumentation to avoid uncontrolled code execution
+1,1,0,1,1,1,1,0,escape mock during method dispatch on mock to avoid premature garbage collection
+1,1,0,1,1,1,1,0,mock resolver plugin
+1,1,0,1,1,1,1,1,do not exclude synthetic constructors from instrumentation
+1,0,0,1,1,1,0,0,argumentmatcher error messages use lambda class names
+1,1,1,1,1,1,1,0,bump versionserrorprone from to
+1,1,1,1,1,1,1,0,bump versionserrorprone from to
+1,1,1,1,1,1,1,0,bump versionserrorprone from to
+0,0,0,0,1,1,0,0,fix reversed order of verify parameters
+0,0,0,0,1,1,0,0,javalangobject is now instrumented again
+1,0,0,0,1,1,0,0,bugfix verify on a wrapped mock fails
+1,0,0,1,1,1,0,0,but invoked here lists the invocation parameters
+0,0,0,0,0,1,0,0,make exceptions for inorderverify more standard spec…
+1,1,0,1,1,1,1,0,include cause when fieldreader fails to access field
+0,0,0,0,1,1,0,0,add missing parenthesis to javadoc example
+1,0,0,1,1,1,0,0,bump versionserrorprone from to
+1,0,0,1,1,1,0,0,bump versionserrorprone from to
+1,0,0,1,1,1,0,0,bump versionserrorprone from to
+1,0,0,1,1,1,0,0,bump versionserrorprone from to
+1,1,1,1,1,1,1,0,use the parent classloader if the context classloader is a child of it
+0,0,0,1,0,1,1,0,undo parent for multipleparentsclassloader

@@ -1,0 +1,5 @@
+CLEAN_WITHSTOPWDSANDSTEMS_NOSMOTE - Original Experiment. More basic cleaning without SMOTE. MY CLEANING I USED BEFORE AND MODIFIED IN THE V6 NOTEBOOK THAT IS IN THE SAME DIR AS THE V9, E:\RESEARCH\GRAD\CLEANINGNOTEBOOKS\BinaryCleanerBERTNB
+UNCLEAN_SMOTE - No cleaning on the binaries, SMOTE is run. 
+CLEANED_NoStemsOrStopwords_SMOTE - Cleaned, stemmed, and stopwords removed
+someCleanSMOTE - Fabio's OG Cleaning with SMOTE applied.
+UNCLEAN - NO SMOTE NO CLEANING

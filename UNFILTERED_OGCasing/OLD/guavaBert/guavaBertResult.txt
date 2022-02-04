@@ -1,0 +1,9 @@
+Started fast-bert, emptying cache
+Building Box
+Built databunch
+Got cuda device
+Built learner
+Learning rate search finished. See the graph with {finder_name}.plot()
+Lr find
+█████████████Lr fit finished
+█

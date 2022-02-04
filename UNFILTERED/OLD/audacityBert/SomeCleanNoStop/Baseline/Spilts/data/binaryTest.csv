@@ -1,0 +1,31 @@
+Util,APM,Network,DB,Error Handling,Logging,Lang,Data Structure,i18n,Setup,Logic,IO,UI,Parser,Event Handling,App,GIS,Multimedia,CG,corpus
+0,0,1,1,0,0,0,0,0,1,1,1,1,0,1,1,0,1,0,check for updates dialog will not interrupt recordings
+0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fixes handling of invalid updatescheduledtime
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,add additional checks for macro output directory
+0,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,extract lib exceptions
+1,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1,0,fix event types used in prefslistener singalling
+0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,experimental dialog journalling
+1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,extract lib screen geometry
+0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,label track shift drag
+1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update
+1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update
+0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,not move clip on insertion by default
+0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,smart clips
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,makes selection tool available at affordance area
+1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements
+1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements
+1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements
+0,0,0,1,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,fix auto clip naming
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,change default spectrogram settings
+0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,adds whats new link to the splash dialog
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,issue screen readers should read labels when tabbing
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,issue compromise
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,1,0,issue add names of clips to messages for screen readers
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,issue feedback for screen readers when tabbing to clips
+1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,1,1,0,allow the application appearance to match the theme on macos
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,fix tab usage in wavetrack
+0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,playback looping drags
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,change shortcut for renaming label to hardcoded ctrl f
+0,0,0,1,0,0,0,1,0,1,1,1,1,0,1,1,0,1,0,issue starting play with empty selection loop disabled
+0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,fix playback policies
+0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,fix envelope drawing again

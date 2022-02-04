@@ -1,0 +1,47 @@
+Util,Network,Interpreter,i18n,Logic,Test,IO,Security,corpus
+1,0,0,0,1,1,0,0,introduce bdd inorder verification
+1,1,0,1,1,1,1,0,constructor invoking methods raise npe
+0,0,0,0,1,1,0,0,implement verificationcollector which can collect multiple verifications
+0,0,0,1,1,1,1,0,vararg method call on mock object fails
+1,1,0,0,1,1,0,0,inorder timeouts
+0,0,0,1,0,1,1,0,add parameter elementtype to mock
+0,0,0,0,1,1,0,0,modified javadoc for argumentmatcher
+1,0,0,1,1,1,0,0,improved exception message fixes issue
+1,1,0,1,1,1,1,0,junit rules report unused stubs
+1,0,0,0,1,1,0,0,improved the public api of mockingdetails
+1,0,0,0,0,1,0,0,from now on verification happens always call in other thre…
+0,0,0,1,1,1,0,0,unified logic of argument matching and capturing
+0,0,0,0,1,0,0,0,adds throwable to arity answers also improved javadoc
+1,1,0,1,1,1,1,0,only resolve instrumented method after validating that an instance is…
+0,0,0,0,1,1,1,0,should not throw npe when custom exception fillinstacktrace returns null
+1,0,0,0,1,0,0,0,argumentmatchers javadoc grammar improvement
+1,1,0,0,1,1,0,0,clarify documentation for consecutive stubbing
+1,0,0,1,1,1,0,0,resolve ambiguous constructors
+1,1,0,0,1,1,0,0,enabled continuous delivery via robust mockito release tools project
+1,1,0,0,1,1,0,0,updating documentation of verify feature to correct a s…
+1,1,0,1,1,1,1,0,improve and develop apis required for framework integrators
+1,0,0,0,1,1,1,0,made it possible to delay the return of a mock or spy
+1,0,0,0,0,1,1,0,fix for thenthrow class
+1,0,0,0,1,1,0,0,documentation issue added unit tests
+1,1,1,1,1,1,1,0,adresses allow opting out from annotation copying within mocks
+1,0,0,0,0,1,0,0,add regression test for issue
+1,1,0,1,1,1,0,0,prevent class loading race condition
+1,1,0,1,1,1,0,0,cleaner code for mockito users by better integration with static code checkers more checkreturnvalue
+1,1,0,0,1,1,0,0,strictness configurable per mock stubbing
+0,0,0,0,1,0,1,0,reduce the allocation rate for the typical use of locat…
+0,0,0,0,0,1,0,0,prevent stubonly from being verified
+0,0,0,0,0,1,0,0,outer class mocks unavailable from inner class
+1,0,0,0,1,1,1,0,return null instead of causing a cce
+1,0,0,0,0,1,1,0,with mocking of javautil classes
+1,0,0,0,1,1,1,0,fix strict stubbing profile serialization support
+1,0,0,1,1,1,0,0,show multiple invocations on argumentsaredifferent
+1,1,0,0,1,1,0,0,fix typo in mockitojava javadoc
+1,1,0,0,1,1,0,0,clarify differences between timeout and after
+0,0,0,0,0,1,0,0,upgraded junit jupiter
+0,0,0,0,1,1,0,0,deprecate mockitohamcrest
+1,1,0,1,1,1,0,0,revert add duration overloads
+1,1,0,0,1,1,0,0,document using mock with method parameters
+1,0,0,1,1,1,0,0,and improve error message when the inline mock maker cannot be used
+1,0,0,1,1,1,0,0,argumentmatcher error messages use lambda class names
+1,1,0,1,1,1,1,0,do not omit stack frames of causing class
+1,1,1,1,1,1,1,0,check package privacy of method params

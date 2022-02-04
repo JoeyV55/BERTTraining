@@ -1,0 +1,2 @@
+Hypothesis,Precision,Recall,Fmeasure_score,hamming_loss,Accuracy_Score,Train/Test_Size,Project
+H3,0.9297360248447204,1.315217391304348,0.05833978205919266,0.5353260869565217,0.46467391304347827,0.8,guava_2

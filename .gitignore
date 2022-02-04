@@ -1,0 +1,4 @@
+/.vscode
+/output
+*/output
+pytorch_model.bin

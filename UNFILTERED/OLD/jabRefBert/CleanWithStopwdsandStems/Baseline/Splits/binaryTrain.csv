@@ -1,0 +1,551 @@
+Util,NLP,APM,Network,DB,Interpreter,Logging,i18n,DevOps,Logic,Test,IO,UI,Security,App,corpus
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,unify and simplify gui actions
+0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix sf bug
+0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,added conversion menu on right click in text field
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fix latex field formatter
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fix latex field formatter
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fix latex field formatter
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,ieee journal abbreviations
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,added more and better information with unsaved database
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,add compatibility check for utf
+1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,proxy authentication support feature
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,move edit mode switch to file tab
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,revise maintable
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,revise maintable
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,revise maintable
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,revise maintable
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,use default directory when adding files to an entry
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,show author editor and journal publisher in the main table by default
+1,0,0,1,0,1,1,1,0,1,1,1,1,1,1,database type detection
+1,0,0,1,0,1,1,1,0,1,1,1,1,1,1,database type detection
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,write all field keys in lower case
+1,0,0,0,0,1,1,1,0,1,1,1,1,0,1,implements highlighting matches works now also for regular expr…
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fixed cite command changes are immediately reflected in the pus…
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,remove field saving options
+1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,solved and cleaned up the oo code a bit
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,change entrytype to string in bibentry
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,partly implemented
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,add test for parsing accents
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,make bibtex parser more robust against missing newlines
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,make bibtex parser more robust against missing newlines
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,0,remove url sanitizer as it is malfunctioning and unclear where needed…
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,simplify matching complexity of unlinked file finder
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,1,remove global sorting functionality
+1,0,0,1,0,1,1,1,0,1,1,1,1,0,1,file based bibtex mode
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,improve database writer
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,improve database writer
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,add an optional tab that shows fields that are not displayed inside t…
+1,0,0,1,0,1,1,0,0,1,1,1,0,1,1,use urldownload instead of getresults for fetching stuff
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fixed
+1,0,0,1,0,1,1,1,1,1,1,1,1,0,1,fixes mysql export for more than one entry
+1,0,0,0,0,1,0,0,0,1,1,1,0,0,0,fixed all text is copied if nothing is marked and preview of pa…
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,fixes the mysql export for more than one entry
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,ignore non displayable fields for indent during writing
+1,0,0,1,0,1,1,1,0,1,1,1,1,0,0,fixing openoffice citation with curly braces and manual connection browsing
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fixed
+1,0,0,0,0,0,1,0,0,1,1,1,0,0,1,fixed
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,add tests for metadata parsing
+1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,find unlinked files freezes when using for pdf
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,preview panel is now updated when an entry is cut deleted
+1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,removed fetch in title from database fetchers
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fix for undoing deletion cutting multiple entries
+1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,introduce search and error while fetching from
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,always trim fields on save and remove trimformatter
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,refactored singlebibtexfield
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,when clicking on a tab the first field now has the focus
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,better layout of databasepropertiesdialog
+1,0,0,1,0,1,1,0,0,1,1,1,1,1,0,fix entry deletion from database
+1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,db properties layout and save order config changed
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,added initial tests for exportformat
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,improved exception handling in tests cases
+1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,implemented
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,write database type in lower case into the bib file
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,restructrued cleanup formatters dialog
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,merge entry with doi information now also applies changes to entry type
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,filelist field size now dependent on its content
+1,0,0,1,0,1,1,1,0,1,0,1,1,1,0,open jdk problems with look and feels
+1,0,0,1,0,1,1,1,0,1,0,1,1,1,0,open jdk problems with look and feels
+0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,and re enable gui test
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,importformatreader test
+1,0,0,0,0,1,0,0,0,1,1,1,0,0,0,replace normalizenamesformatter by authorlist and so
+1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,by removing the strange functionality which enabled sorting…
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,preview panel is now updated when an entry is cut deleted again
+1,0,0,1,0,1,1,0,0,1,1,1,0,0,1,restructure importers
+1,0,0,1,0,1,1,0,0,1,1,1,0,0,1,restructure importers
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,improved conversion maps and conversion speed
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,1,added integrity checker for odd number of
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,1,added integrity checker for odd number of
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,apply and ensure correct import sort order
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,added integrity checker to detect html encoded characters in fields
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,fixed
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,tried to but all tests pass
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,1,replace bibtexentryassert by overwriting bibentryequals method
+1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,authors with compound first names are parsed properly
+1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,added option to copy version information in the about dialog
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,change jabref help to online help
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,change jabref help to online help
+1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,implemented jstyle file filter and opening in last dir
+1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,update localization instructions
+1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,open urls does not work with query strings
+1,0,0,1,0,0,1,0,0,1,1,1,0,0,1,fix npe on selecting invalid jstyle
+1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,update preview panel on generate bibtexkey
+1,0,0,1,0,0,1,0,0,1,0,1,0,0,0,removed possibility to automatically add braces via option preferen…
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,implemented error console in javafx
+1,0,0,1,0,1,1,0,0,1,0,0,1,0,0,display correct number of entries in static groups
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fix sorting issue
+1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,file links containing blanks are broken if non default viewer is set
+1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,cleanup guiglobals
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,auto downloader should respect file pattern and propose correct filename
+1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,improve parsing of author names containing braces
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,0,refactor placement of parsing and writing logic
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,0,npe when retrieving bibtex data from doi
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix for
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix for
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,preserve user comments in bib file
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,static groups are now longer displayed as dynamic ones
+1,0,0,0,0,1,1,0,0,1,1,0,1,0,0,correct number of matched entries is displayed for refining subgroups
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,export shorttitle as standard field
+1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,journal abbreviations dialog ported to javafx
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,searchbar across all bib files instead each having its own
+1,0,0,1,0,1,1,0,0,1,0,1,1,1,0,added button to crossref entry editor field to select parent entry
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,fix integrity checker should ignore unescaped hashes in url field
+1,0,1,0,0,0,0,0,0,1,1,1,1,0,0,fixed
+1,0,1,0,0,0,0,0,0,1,1,1,1,0,0,fixed
+1,0,0,1,0,1,1,0,0,1,0,1,1,1,0,fixed and some refactoring cleanups
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,added layout dateformatter see
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,added layout dateformatter see
+1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,implemented cleanup issn
+1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,fixed
+1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,fixed
+1,0,1,1,0,1,1,1,0,1,1,1,1,1,1,use jabref default icon for uninstaller for now
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,improved latex to unicode html formatters to output more sensible val…
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,keep comment text in a bib file
+1,0,0,1,0,1,1,1,0,1,0,1,0,0,0,rewrite bibtexml importer with jaxb parser
+1,0,0,1,0,1,1,1,0,1,0,1,0,0,0,rewrite bibtexml importer with jaxb parser
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,newly opened bib file is not focused
+1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,fixed oo lo manual connection dialog on linux
+1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,do not cite entries without a key in openoffice libreoffice
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,fixes broken serialization of bibentries containing an
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,changed possibly giant undo redo texts in status field
+1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,fixed concurrentmodificationexception when removing a field in the so…
+1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,fixed name column rendering and
+1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,fixed name column rendering and
+1,0,0,1,0,1,1,0,0,1,0,1,0,0,0,export to office
+0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,implements add help button to access new help page
+1,0,0,1,0,1,1,0,0,1,0,1,0,0,0,fix arxiv fetcher not working correctly
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,improved main table rendering when using eg title author
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,working directory is set to full path including filename
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fixed url field is not removed by integrity check
+1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,month field ascending descending sorting swapped
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fixed better multi monitor support
+1,0,0,0,0,0,1,0,0,1,1,1,1,0,1,download many files in one go
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,move files to subfolders in file directory
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,check integrity edition check implemented
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,extract all integrity checker classes to its own file
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,support citationstyles
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,export number field as number if not patent or issue in office xml
+1,0,0,1,0,1,1,0,0,1,0,1,0,0,0,mods importer
+1,0,0,1,0,1,1,1,0,1,0,1,1,0,0,try around with xmlunit
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,towards hierarchical keywords
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,towards hierarchical keywords
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,minor improvements to the javafx about dialog
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,verbatim url field is no longer checked for html encoded chars
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,implemented integrity monthchecker
+1,0,0,1,0,1,0,0,0,1,0,1,0,0,0,fix ris import
+1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,fix localization task hints
+1,0,0,1,0,1,1,0,0,1,0,1,0,0,0,fix bad web search error messages
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,right click menus should allow copying doi url
+1,0,0,0,0,1,0,0,0,1,0,1,0,0,1,use parallel stream while searching
+1,0,0,1,1,0,1,0,0,1,0,1,1,0,0,fix ignore version
+1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,medline fetcher using new infrastructure
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,undo
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,0,fix changing the font size not working when importing preferences
+1,0,0,1,1,1,1,0,0,1,0,1,1,0,0,fix execution of preference migrations
+1,0,0,1,0,1,1,0,0,1,0,1,0,1,0,quick fix google scholar entry fetching
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,rewrite mods exporter and add test
+1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,speed up search
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,make all files selectable in file chooser dialogs
+1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,store latex free fields in bibentry
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,0,crash after saving bibtex source with parsing error
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,ctrl s parsing error message
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,dont change the selected entry after search if you edit an entry
+1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,change download url to downloadsjabreforg
+1,0,0,1,0,0,0,0,0,1,1,0,0,0,1,fix failing ads test
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix memory leak in entry editor
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,clear bibtexkey exception
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,fix for add space after separator
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,integrity hotkey
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,prevent the search to get focus when deleting pasting an entry
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,fix strange styling behaviour of the error console
+1,0,0,1,0,1,1,0,0,1,0,1,0,1,0,urldownload now resolves redirects by default
+1,0,0,1,0,1,1,0,0,1,0,1,0,0,0,fix medline fetcher by using https
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,biblatex mode add month and year field to deprecated tab
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,implement collect telemetry
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,copy file attributes
+1,0,0,0,1,0,1,0,0,1,0,1,0,0,0,fix local metadata synchronization fixes
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,readd drop down content selectors
+1,0,0,1,0,0,0,0,0,1,1,0,0,0,1,rework dblpfetcher to new structure
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,1,add bibtex key deviation check
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,improve entrytype customization
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,improve entrytype customization
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,fix biblatex cleanup for date field
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,follow up for batch fulltext downloader
+1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,only add non empty paths
+1,0,0,1,0,1,1,0,0,1,0,1,1,1,0,integrity checker improvements
+1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,use bibtexformat for month field in medlinefetcher
+1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,fix a few group related issues
+1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,fix a few group related issues
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,be more friendly when using journal alias field
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,be more friendly when using journal alias field
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,relevance and read status field actions were switched
+1,0,0,1,1,1,1,0,0,1,1,1,1,0,0,preserve sign inside bibtex fields via cleanup
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,rename xmp data to xmp metadata
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,groups matching with brackets in name
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,datepicker fix
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,fix several file cleanup rename issues
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,fix several file cleanup rename issues
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,fix several file cleanup rename issues
+1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,fix collapse sub tree functionality for groups tree
+1,0,0,1,0,0,0,0,0,1,1,0,0,0,1,by removing the url when creating an entry by doi
+1,0,0,1,0,1,1,0,0,1,1,1,0,0,1,arxiv fetcher works with prefix
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix conversion of tilde n
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,fix conversion of n and \{n} from latex to unicode
+1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,remove html code from acm fetcher
+1,0,0,1,1,1,1,1,0,1,1,1,1,0,1,make sure that unregistered event sources do not stop jabref from shu…
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,classcastexception because of wrong cast
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,change key binding for cleanup from f to alt f
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,display latex free version of field content in entry preview panel
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,fix apostrophe conversion
+1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,fix journal title in ris importer
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fix sign cleanup
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix error when path is no valid directory
+1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,check more results returned by crossref api for matching
+1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,switch to latex unicode
+1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,switch to latex unicode
+1,0,0,1,1,1,1,1,0,1,0,1,1,0,0,bib database library
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,replaced lrumap with a guava cache
+1,0,0,0,0,1,0,0,0,1,0,1,0,0,1,move whole codebase to package orgjabref
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,and another unhandled exception
+1,0,0,0,0,0,0,0,0,1,1,0,1,0,1,implement filter groups
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,remove ordinalstosuperscriptformatter from recommended biblatex save actions
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,fix title related key patterns in bibtexkeypatternutil
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,fix title related key patterns in bibtexkeypatternutil
+1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,fix exception when parsing groups which contain a top level group
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,cleanup window has a scrollbar now
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,change dialog of download fulltext to save dialog
+1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,finally write the new group properties to the bib file icon with color description expanded status and automatic groups
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,add option to copy title of bibentries
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,improve issue reporting a bit
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,refactor oo connection
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,add crossref as fetcher for everything id entry search based
+1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,oo formatting
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,add possibility to clear the log at runtime
+1,0,1,1,0,1,1,0,1,1,1,1,1,1,1,add sorting of all groups and subgroups recursively
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,and fix swing errors are catched properly and without freezing
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,and fix swing errors are catched properly and without freezing
+1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,fileannotationtab now only shows the filename not the full path
+1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,export single corporate author to ms office xml
+1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,implement hierarchical keywords
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,extend architecture tests to javafx and javafxcollections
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fixed freeze on mac os x when creating editing groups
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,null pointer exception on get fulltext
+1,0,0,0,0,0,1,0,0,1,1,1,0,0,1,replace datenbank by bibliothek
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,sauliusg fix null pointer exception on get fulltext
+0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,if file is not found annotations might be null
+1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,fixes handling of unknown pdannotation types
+1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,date editor also accepts incomplete dates
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,implement allow selection of multiple groups
+1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,fix export and import of ms office day year month acessed fields
+1,0,0,0,0,0,0,0,0,1,1,0,1,0,1,implement resort groups using drag & drop
+0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix entry editor
+1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,fix loading of preferencesservice
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,open urls for recommneded articles in the browser
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix propagation of key events back to the jabref main frame
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,ask before deleting associated files from disk in entry
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,add a shortcut to quality look up full text documents
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix the function edit copy bibtex key and link
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,add remove link context menu entry in file editor
+1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,check for different editions in the duplicate check
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,less backups
+1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,changes in the entry editor mark the database as dirty
+1,0,0,0,0,1,1,1,0,1,1,1,1,0,1,javafx replacement for file dialog
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,add preference migration for keybdingings
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,update source tab when an entry is changed
+1,0,1,1,0,1,1,0,0,1,1,1,1,0,0,link missing docbookeditors formatter in layoutentry
+1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,fix keybinding in entry editor in localized installation
+1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,fix ads fetcher
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,make font size in entry editor and group panel customizable
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,fetcher timestamp
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,fix for issue
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,store changes in source tab when new entry is selected
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,remove entries from prior groups if move operation is selected
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,additional filter functionality for check integrity popup
+1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,increase size of file and keywords editors
+1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,increase size of file and keywords editors
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,export pdf linked files
+1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,add preference to disable validation in the entry editor by default
+1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,add preference to disable validation in the entry editor by default
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,close entry editor when the shown entry is removed externally
+1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,fix freezing on browse in protected terms dialog
+1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,update protected terms list in context menu when a new list is added
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,allow removal of online links from entry
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,add undo functionality to the source tab
+1,0,0,0,0,0,1,1,0,1,0,1,1,0,0,fix focus and keybinding in search
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,drop latex editor support
+1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,hyphens in last names are properly parsed
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,added logic to check whether linked file already exists
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,implemented issue
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,update link to renamed file
+1,0,0,1,0,1,1,0,0,1,0,1,0,0,0,fix for issue import entry from clipboard in different formats
+1,0,0,1,0,1,1,1,0,1,1,1,1,0,1,fix for issue bibtexkey generator does not use crossref information
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,open statistics dialog from correct thread
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,change oo paths to libre office in preferences
+1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,open unix filenames with spaces
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,add \textendash to the html conversion table
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,annotations are now automatically refreshed
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,fix npe when calling with bib file as cmd argument
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,use cite_comment not only for external latex editors but also for cop…
+1,1,0,1,0,0,1,0,0,1,0,1,1,0,0,replace linkedfiles backslashes with forward slashes
+1,0,0,0,0,0,0,0,0,1,1,1,1,0,1,rework autosetfilelinks
+1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,treat crossref titles as optional
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,added checking integrity dialog
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix npe when saving new file
+1,0,0,1,0,0,0,0,0,1,0,1,1,0,0,replace linkedfiles backslashes with forward slashes
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,no longer allow duplicate fields in customized entry types
+1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,fix removal of special fields when syncing them via keywords
+1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,fix for issue
+1,0,0,0,0,0,1,0,0,1,1,1,1,0,0,implements group based on aux file
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix for issue
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix threading issues
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix threading issues
+1,0,0,0,0,0,1,1,0,1,0,1,1,0,0,fix npe in search bar
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,update user agent and change acm to https
+1,0,0,1,0,1,1,1,0,1,0,1,1,0,0,convert entry preview panel to javafx
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,automatically remove colon and apostrophe from key pattern
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,files starting with bibtex key of a similar entry are no longer found by mistake
+1,0,0,0,0,0,1,1,0,1,0,1,1,0,0,another try to fix the npe in the search bar
+0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,add null checks in groupchangeviewmodel
+1,0,0,0,0,0,0,0,0,1,1,1,1,0,1,make path relative when adding automatically found file
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix group search performance
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,refactor export code to
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,initialize previe before mainpanel to prevent npes on delete
+1,0,0,1,0,1,1,1,0,1,1,1,1,0,0,maintable leaves the swing year and comes back in a new javafx dress
+1,0,0,1,0,1,1,1,0,1,1,1,1,0,0,maintable leaves the swing year and comes back in a new javafx dress
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,lookup filetypes in enum set to prevent npe due to uninitialized expo…
+1,0,0,1,0,0,1,0,0,1,0,1,0,0,0,add exporter desc to enum analog to import
+1,0,0,1,0,0,1,0,0,1,0,1,0,0,0,add exporter desc to enum analog to import
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix npe when changing entries between databases
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,export translator field to msoffice xml
+1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,extend ris import with multiple fields
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,migrate importer tests to junit
+1,0,0,0,0,0,1,0,0,1,1,1,0,0,1,chained modifiers work again
+1,0,0,1,0,0,0,0,0,1,1,1,1,0,1,file link deletion dialog improvements
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix some fx thread issue
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,differentiate inbooks with different chapters
+1,0,0,0,0,0,1,1,0,1,0,1,1,0,0,try to change color of magnifier icon
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,dublin core
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,improve performance for managing journal abbreviations
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,add the menubar to the titlebar in macos
+1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,update architecture tests to catch static imports
+1,0,0,0,0,0,1,1,0,1,0,0,1,0,0,extend toolbar with more icons and add tool tips
+0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,change open last edited dialgo to javafx
+1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,pretend that we have every translation for every key
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix copy linked files dialog showing npe when no linked files
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,provides download option in context menu and
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,provides download option in context menu and
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,show dialog when copy files did not found file
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,switch colors of search icon for the two search modes
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,improvements around external file types
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,prevent accidentaly deleting a second file when pressing del key
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,correct fetcher messages
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,add external application selection to preferences
+1,0,0,1,0,0,1,0,0,1,1,1,0,0,1,replace all ieee urls with
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,add button icon for union intersection in the groups side panel
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fixed url column
+1,0,0,1,0,0,1,0,0,1,0,1,0,0,0,fix ebookde
+1,0,0,1,0,0,1,0,0,1,0,1,0,0,0,fixieee
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,add text file export for find unlinked files
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fix ieee preview does not display month
+1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,add rfc entry generator id type option
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,duplicate unmodifiable list for sorting
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,fix look and feel related issues
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,fix look and feel related issues
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,reimplement tooltips for file and identifier columns
+1,0,0,1,1,1,1,1,0,1,1,1,1,0,1,fix custom exporter not displayed in file chooser
+1,0,0,1,0,0,1,0,0,1,1,1,0,0,0,do not trim or remove whitespace from the title based id fetcher
+0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,convert shareddatabaseconnect dialog to javafx
+1,0,0,0,0,0,1,1,0,1,0,0,1,0,0,extract old bibtex key generation action
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,to make push to application work again on osx
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,cpu leak
+1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,migrate review field in entry preview to comment
+1,0,1,1,1,1,1,1,0,1,1,1,1,0,0,fix a few things in entry editor
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,dont report journal name as abbreviated when full name abbreviated name
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,fix convert to bibtex moves contents of the file field
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,saves and reloads window state on close and on open
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,no longer freeze when clicking browse in aux import dialog
+1,0,0,0,0,1,1,1,0,1,0,1,1,0,0,ctrl f selects search field again
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,make attached files relative to the file directory
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fixed names are not in the standard bibtex format
+1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,fix chinese author bibtex key generation
+1,0,0,1,0,0,1,1,0,1,0,1,1,0,0,fix style issues in about dialog
+1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,solved file annotation
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fix attach file does not relativize file path
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix for issue koppor auto cleanup url
+1,0,0,1,0,1,0,1,1,1,1,1,1,0,1,migrate to junit
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,remove spin comments
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix npe while merging entries
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,convert part of the issue quality cleanup entries
+1,0,0,1,1,1,1,1,0,1,1,1,1,0,1,changed the behavior of the field formatting dialog
+0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix npe in merge entries dialog
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,fix loading and storing of xmp field exclusions
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fix freeze on import into current library
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix drag and drop in entry editor
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,save sort order column of main table
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,save sort order column of main table
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,fix export of corporate author to msoffice
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,auto trim url field
+1,0,0,1,0,1,1,0,0,1,0,1,0,0,0,arxiv fetcher support url
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,wip default external application push function
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,fixed testexportasmodsandthenimportasmods
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,change latex command handling only for xml chars
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,fixes for all mods exporter tests
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,show dialog before creating entry
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,add a preference to add files in entry editor
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,fix arrayindexoutofboundsexception on second pdf import
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fixed radiobuttons in preference menu
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,add submodule pull to circle ci and fix theme loading css
+1,0,0,0,0,1,1,1,0,1,0,1,1,0,0,fix group renaming
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix save button
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,improve page checker
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix button sizes in issue
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix for issue some bugs in preference entry table columns
+1,1,0,1,0,0,0,0,0,1,0,1,0,0,0,do not extract file ending from urls
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,enable default cursor for new entry
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix preview style configuration
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,try to fix not on fx thread for search and autocomplete
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,add integrity check for books with edition reported as
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,fix for issue remove usage of tempdirectory extension from junit pioneer
+1,0,0,0,1,1,1,0,0,1,0,1,1,0,0,remove resolve duplicate keys dialog
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,group and reorder the main menu tabs & icons
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,group and reorder the main menu tabs & icons
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,group and reorder the main menu tabs & icons
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,group and reorder the main menu tabs & icons
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,group and reorder the main menu tabs & icons
+1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,fix bibkey generated does not handle diacritics
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix entry preview copy exception
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,adding additional modifiers to be used in bibtex key generator
+1,0,1,1,0,1,1,1,0,1,1,1,1,1,1,saving changes and exiting application
+1,0,0,0,0,0,1,0,0,1,1,0,1,0,1,fix default import format pattern
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,adding support for input methods
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,adds a browse button next to the path text field for aux based groups
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,move library specific key pattern dialog call to library menu
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,feature implement search filter in show preferences
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,improve remote messaging
+1,0,0,1,0,1,1,0,0,1,0,1,1,0,0,enable import button only if entry selected
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,allow hyphens in bibtexgenygenerator
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix removing entries when source code field is out of focus
+1,1,0,1,1,1,1,1,0,1,1,1,1,0,1,fix illegalargumentexception when ranking entries
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,0,nightly indicate the build date and git revision
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix opening of entry editor
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix npe in duplicate resolver dialog
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,relativizes paths to aux files
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix closing of library not handling backup and autosave manager shutdown
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fixes ok button enabling property in group dialog
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fixed group creation with default settings
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,item count in a group updated correctly
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,item count in a group updated correctly
+1,0,0,1,0,1,1,1,0,1,1,1,1,0,0,enhanced message log
+1,0,0,1,0,1,1,1,0,1,1,1,1,0,0,enhanced message log
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,put renaming of file entries in javafx thread for cleanup
+1,0,0,1,0,0,1,0,0,1,0,1,0,0,0,fix parser exception when loading tex groups with non existing file
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,removed default constructor of fxdialogservice
+1,0,0,0,0,0,1,0,0,1,1,1,0,0,1,fix custom name formatters
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,improve full text search for several files
+1,0,0,1,0,1,1,0,0,1,1,1,1,1,0,fix saving of strings
+1,0,0,0,1,1,1,0,0,1,0,1,1,1,0,fixed closing of the shared database login dialog if the user enters wrong authentication details
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,make group dialog resizable
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,quick fix for error when opening preferences
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,fixes throwing an exception when id field is present in bib file
+1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,improve author parsing
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix for issue
+1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,throw bibentrynotfound exception in case entry is no longer present
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,fix threading issue with opening from recent libraries
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,fix for issue download fulltext for multiple entries
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,remove ui threadlist for maintable as it prevents sorting in maintable
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,fix downloading pdf produces html as extension
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,include preview in entry editor
+1,0,0,1,1,1,1,0,0,1,1,1,1,0,1,fix command line help text
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,submenu to select push application
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fix the attach file dialog for starting on the users main directory
+1,0,0,1,0,1,1,1,0,1,0,1,1,0,0,fix iee fetcher
+1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,fix field formatter save actions throwing exception on autosave
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,select push app in preferences
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,convert preferencedialog to mvvm
+1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,set up general fields character check not correct & alphabetical ordering
+1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,fix order of other fields
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,remove bindingshelper for ui in maintabledatamodel
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix automaticalls set file links task not runinng
+1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,bugfix modified the existing logic to comply crossref resolution with biblatex specification
+1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,fixes ris data field
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,issue &
+1,0,0,1,0,0,1,0,0,1,0,1,1,0,0,fix lookup fulltext document not finding files
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,add option to allow for integers in field edition when running database in bibtex mode
+1,0,0,1,0,0,0,0,0,1,1,0,0,0,1,fetcher ottobib
+1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,fix substring exception in find unlinked files
+1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,fix for issue
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,border for group color indicator and some space for tooltip
+1,0,0,1,0,1,1,0,0,1,0,1,1,1,0,tooltip and icon added to group cell
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix exception when adding new entry
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fix double paste on different os
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fix double paste on different os
+1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,fix exception when adding field formatter in cleanup entries dialog
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,add doi url eprint field to general tab layout
+0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,avoid erroneous materialdesigniconfactory
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,issue
+1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,issue
+1,0,0,1,0,0,1,0,0,1,1,0,0,0,0,add shorten doi field formatter
+1,0,0,1,0,1,1,0,0,1,0,0,1,0,0,revert get jabref running in eclipse
+1,0,0,0,0,1,1,1,0,1,0,1,0,0,0,unify month field formatting in test bib files jabref jabref
+1,0,0,0,0,1,1,1,0,1,0,1,1,0,0,use binding to update global state manager
+1,0,0,0,0,1,1,1,0,1,0,1,1,0,0,use binding to update global state manager
+1,0,0,1,0,1,1,1,0,1,0,1,1,0,0,fix problem with search and switching between libraries
+1,0,0,0,0,1,1,1,0,1,0,1,1,0,0,improve group coloring and item count
+1,0,0,0,0,1,1,1,0,1,0,1,1,0,0,improve group coloring and item count
+1,0,0,0,0,1,1,1,0,1,0,1,1,0,0,improve group coloring and item count
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix npe when opening a non existing file from the recent files menu
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix various copy to clipboard issues
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix exception when closing jabref
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,bring back the context menu
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,bring back the context menu
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,show more than one group color bar
+1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,reenable prevcycle
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,fix writing of editor field is duplicated
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,fix exception when merging entries
+1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,add change listener to main table to scroll to imported entry
+1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,fix cursor jump
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fix nullpointer on import
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,temporary fix for colorpicker in groups
+1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,fix for issue
+1,0,1,1,0,0,1,1,0,1,1,1,1,0,0,add x primary selection clipboard support
+1,0,0,0,1,0,1,0,0,1,0,1,1,0,0,fix not on fx thread error for custom entry types
+1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,fix deprecated crossref rest api parameter
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,0,try to fix dark theme path
+1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,new ads fetcher
+1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,making importing a single file easier issue
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,fix xmp null error
+1,0,0,0,0,0,0,0,0,1,1,1,0,0,1,fix text colour in merge dialogue
+1,0,0,1,0,1,1,0,0,1,1,1,1,0,1,remove empty customization warning
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,fix a bug that threw a npe when using middle mouse click on windows
+1,0,0,1,1,0,1,0,0,1,1,1,1,0,1,improve performance
+1,0,0,0,0,0,1,0,0,1,1,0,0,0,1,dont remove unwanted characters before first author is s…
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,make entry editor dnd behave as specified in settings
+1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,improve change scanner
+1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,auto file finder follows symbolic links
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,rename lookup fulltext to download fulltext
+1,0,0,0,0,1,1,0,0,1,0,1,1,0,0,
+1,0,0,1,0,0,1,0,0,1,1,1,1,0,1,improve column preference migration
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,fix copy drag and drop action
+1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,add throttle to autosaveuimanager
+1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,revert side pane not remembering position

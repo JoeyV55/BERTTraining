@@ -1,0 +1,109 @@
+Util,APM,Network,DB,Error Handling,Logging,Lang,Data Structure,i18n,Setup,Logic,IO,UI,Parser,Event Handling,App,GIS,Multimedia,CG,corpus
+1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix uninitialized variables
+0,0,0,1,0,0,0,1,0,1,1,1,1,0,0,1,0,1,0,prevent stereo mono effects from causing a crash
+0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,openmp trackartist drawspectrum take
+0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,fix filedialog compilation error gtk
+0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,0,sqlite open bugs
+1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,fix cve
+0,0,0,0,1,0,0,0,1,1,0,0,1,0,0,1,0,0,0,errorreportingdialog does not support screen readers
+0,0,0,1,0,0,0,0,0,1,1,1,1,0,1,1,0,1,0,check for updates will not interrupt the timer record wait dialog
+1,1,1,0,1,0,1,1,1,1,1,1,1,0,0,1,0,1,0,opt out of check for updates persists after preference resets
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,track affordances
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,track affordances
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,same custom over aligned allocation routine on all platforms
+0,0,0,1,1,0,0,1,0,1,1,1,1,0,0,1,0,1,0,fix recording starting position refs
+0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,move privacy policy url to a different tab to improve its visibility
+0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,fix bug
+1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,sequence of audioio and networkmanager shutdowns fixes crash at exit
+0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,fixes writability check for the macro output directory
+0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fix dangling pointers to project from lyricswindowcpp
+0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,1,0,0,0,fix scriptables commands which broke at b
+0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,install updates
+1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,extract lib preferences
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,1,shift drag of clips between tracks was never allowed up to
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,extract lib math
+1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,extract lib files
+0,0,0,1,1,0,0,1,0,1,1,1,1,0,1,1,0,1,0,stereo track affordance
+0,0,0,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0,0,experimental qa journalling basics
+0,0,0,0,1,0,0,1,0,1,1,1,1,0,1,0,0,1,1,extract lib registries
+0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,fix update on uihandle change within cell
+1,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1,0,fix event types used in prefslistener singalling
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,stereo wave track channel resizing
+1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,1,0,extract lib xml
+0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,rewrite dither
+1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix
+1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix
+1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,context menus
+1,0,0,0,1,1,0,1,0,1,1,1,1,0,1,0,1,1,0,extract lib audio devices
+1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,clip names
+1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,extract lib project
+1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1,extract lib project rate
+0,0,0,1,0,0,0,0,0,1,1,1,1,0,1,1,0,1,0,some audio io refactoring
+0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,0,0,audacitymessagebox button presses can now be replayed in journal
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,wave clip rename
+0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,label track shift drag
+1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update
+1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update
+1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update
+1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update
+1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update
+0,0,0,0,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,disentangle midi play from audio io
+0,0,0,1,0,0,0,1,0,1,1,1,1,0,1,1,0,1,0,generalize play head position updates
+0,0,0,0,1,0,0,1,0,0,1,1,1,1,0,1,1,0,0,fix journal of return key invoking default dialog button on mac
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,1,1,1,playback policy classes
+1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,restore missing localizations for linux appimage
+0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,the setclip command can set the clip name
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,clip renaming context menu item
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,clip renaming context menu item
+0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,smart clips
+0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,wave time shift tool hit testing fix
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,fix clip frame drawing
+1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,loop play button
+1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,fix for ffmpeg loading on macos
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix cut preview
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix cut preview
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix cut preview
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix cut preview
+1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements
+1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements
+1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements
+0,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,set the page_size for aup files using pragma
+0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,0,remove the requirement for the sqlite_enable_dbpage_vtab
+0,0,0,1,0,0,0,1,0,1,1,1,1,0,1,1,0,1,1,adjusting loop playback
+1,0,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,extract lib theme
+0,0,0,1,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,new clip naming scheme
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,fix event handling in wavetrackaffordancecontrol
+0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,multi tool shortcut is again f not f
+0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,right channel delete key behavior
+0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,right channel delete key behavior
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,fix text edit shortcuts
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,exit editing of clip a name and redraw when a trackpanel loses focus
+0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,fix clip name editing
+0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,fix clip name editing
+0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,avoid drawing text outside the clipping rectangle if possible
+0,0,0,1,0,0,0,1,0,1,1,1,1,0,1,1,0,1,0,less laggy response of looping playback to change of region bounds
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,customizable ctrl f not hard coded return to edit clip names
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix bug with lof unicode using
+0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,click away from trackpanel still in audacity ends clip name edit
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix recording to a new track
+0,0,0,1,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,adds an ability to change projects user_version based on features used
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,issue renaming clip using the keyboard
+0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,playback looping drags
+0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,playback looping drags
+0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,fixes splash screen size when whats new is shown
+0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,1,0,fix crash on looping play seen on windows
+0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,snapping when dragging whole play region leaves length unchanged
+0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,fixes alt key behavior if track is present
+0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,clips visibility
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,fix for text navigation with arrows
+0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,fix timeline hot zones
+0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,fix playback policies
+0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,fix playback policies
+0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,fix playback policies
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,1,0,1,1,minor looping region ui fixes
+0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,issue fix clip rename history
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,issue fix recording starting position
+0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,0,1,1,initialize play region to be invalid region
+0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,adds a checkmark to loop on off menu
+1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,1,0,fix manual link

@@ -1,0 +1,2 @@
+Hypothesis,Precision,Recall,Fmeasure_score,hamming_loss,Accuracy_Score,Train/Test_Size,Project
+H2,0.42996212121212124,0.31633638211382115,0.6295714378356934,0.29,0.71,0.8,mockito_2

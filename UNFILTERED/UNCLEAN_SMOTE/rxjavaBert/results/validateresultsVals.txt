@@ -1,0 +1,38 @@
+Run:  10 {'loss': 0.643866777420044, 'accuracy': 0.0, 'f1': 0.5521367788314819, 'Hammingloss': 0.375, 'f1macro': 0.3046717171717172, 'confmatrix': array([[[ 0,  0],
+        [ 0, 13]],
+
+       [[12,  0],
+        [ 1,  0]],
+
+       [[ 9,  0],
+        [ 4,  0]],
+
+       [[ 5,  5],
+        [ 2,  1]],
+
+       [[ 9,  0],
+        [ 4,  0]],
+
+       [[ 3,  4],
+        [ 5,  1]],
+
+       [[ 0,  0],
+        [ 6,  7]],
+
+       [[ 3,  4],
+        [ 4,  2]]]), 'f1bylabel': array([1.        , 0.        , 0.        , 0.22222222, 0.        ,
+       0.18181818, 0.7       , 0.33333333]), 'accuracybylabel': {'Util': 1.0, 'Network': 0.9230769230769231, 'Interpreter': 0.6923076923076923, 'i18n': 0.46153846153846156, 'Logic': 0.6923076923076923, 'Test': 0.3076923076923077, 'IO': 0.5384615384615384, 'App': 0.38461538461538464}}
+  Hypothesis  Precision  Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0         H3      -9999   -9999        0.398435      0.528846        0.471154              0.8  rxjava_2
+1         H3      -9999   -9999        0.466706      0.480769        0.519231              0.8  rxjava_2
+2         H3      -9999   -9999        0.477428      0.480769        0.519231              0.8  rxjava_2
+3         H3      -9999   -9999        0.537546      0.413462        0.586538              0.8  rxjava_2
+4         H3      -9999   -9999        0.634632      0.346154        0.653846              0.8  rxjava_2
+Fmeasuremean:  Precision         -9999.000000
+Recall            -9999.000000
+Fmeasure_score        0.555133
+hamming_loss          0.400000
+Accuracy_Score        0.600000
+Train/Test_Size       0.800000
+dtype: float64
+Model saved

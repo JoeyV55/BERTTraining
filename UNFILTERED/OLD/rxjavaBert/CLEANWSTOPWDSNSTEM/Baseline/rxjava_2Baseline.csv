@@ -1,0 +1,346 @@
+issueNumber,prNumber,Util,Network,i18n,Test,IO,corpus
+87.0,146,1.0,0.0,0.0,0.0,1.0,merge of pull for issue operator takewhile
+18.0,156,1.0,0.0,0.0,0.0,1.0,implemented toiterable operation
+164.0,165,1.0,0.0,0.0,0.0,1.0,bug in ranges
+74.0,248,1.0,0.0,0.0,0.0,1.0,implemented sample operation
+93.0,249,1.0,0.0,0.0,0.0,1.0,timestamp operation
+17.0,250,1.0,0.0,0.0,0.0,1.0,initial implementation of asyncsubject
+20.0,257,1.0,0.0,0.0,0.0,1.0,improved scan reduce aggregate
+38.0,375,1.0,0.0,0.0,0.0,1.0,implemented distinct operator
+372.0,381,1.0,0.0,0.0,0.0,1.0,implemented mapwithindex
+41.0,390,1.0,0.0,0.0,0.0,1.0,implemented the elementat and elementatordefault operators see
+84.0,409,1.0,0.0,0.0,0.0,1.0,implemented synchronize with lock
+42.0,415,1.0,0.0,0.0,0.0,1.0,implemented the empty operator with scheduler
+89.0,416,1.0,0.0,0.0,0.0,1.0,implemented the throw operator with scheduler
+54.0,424,1.0,0.0,0.0,0.0,1.0,implemented the ignoreelements operator
+90.0,450,1.0,0.0,0.0,0.0,1.0,implemented the timeinterval operator
+22.0,460,1.0,0.0,0.0,0.0,1.0,implemented the amb operator
+91.0,463,1.0,0.0,0.0,1.0,1.0,added the rest overloads of timeout operator
+99.0,481,1.0,0.0,0.0,0.0,1.0,implement the using operator
+68.0,492,1.0,0.0,0.0,0.0,1.0,implement the scheduler overloads for range from startwith
+82.0,492,1.0,0.0,0.0,0.0,1.0,implement the scheduler overloads for range from startwith
+98.0,492,1.0,0.0,0.0,0.0,1.0,implement the scheduler overloads for range from startwith
+100.0,506,1.0,0.0,0.0,0.0,1.0,operators and then when
+23.0,506,1.0,0.0,0.0,0.0,1.0,operators and then when
+88.0,506,1.0,0.0,0.0,0.0,1.0,operators and then when
+96.0,513,1.0,0.0,0.0,0.0,1.0,operators tomap and tomultimap again
+97.0,513,1.0,0.0,0.0,0.0,1.0,operators tomap and tomultimap again
+532.0,560,1.0,0.0,0.0,0.0,1.0,add type variances for dooneach actions
+52.0,563,1.0,0.0,0.0,0.0,1.0,operation groupbyuntil
+53.0,565,1.0,0.0,0.0,0.0,1.0,operator groupjoin v
+74.0,571,1.0,0.0,0.0,0.0,1.0,operation sample with observable v
+60.0,587,1.0,0.0,0.0,0.0,1.0,operation longcount
+666.0,667,1.0,0.0,0.0,0.0,1.0,operators skip skiplast take with time
+653.0,733,1.0,0.0,0.0,0.0,1.0,buffer with observable boundary
+653.0,734,1.0,0.0,0.0,0.0,1.0,delay with subscription and item delaying observables
+653.0,735,1.0,0.0,0.0,0.0,1.0,window with observable boundary
+653.0,736,1.0,0.0,0.0,0.0,1.0,mergemap with iterable and resultselector overloads
+653.0,738,1.0,0.0,0.0,0.0,1.0,publish and publishlast overloads
+653.0,740,1.0,0.0,0.0,0.0,1.0,timeout with selector overloads
+653.0,741,1.0,0.0,0.0,0.0,1.0,zip with iterable removed old aggregator version and updated tests
+799.0,825,1.0,0.0,0.0,0.0,1.0,issue commenting out the call to attachcallingthreadstack when co
+939.0,955,1.0,0.0,1.0,1.0,1.0,replaysubject leak
+1152.0,1160,1.0,0.0,0.0,0.0,1.0,add replay and multicast variants to rxscala
+1153.0,1160,1.0,0.0,0.0,0.0,1.0,add replay and multicast variants to rxscala
+1181.0,1185,1.0,0.0,1.0,0.0,1.0,behavior subject time gap fix
+658.0,1185,1.0,0.0,1.0,0.0,1.0,behavior subject time gap fix
+126.0,1269,1.0,0.0,0.0,0.0,1.0,fix the bug that int overflow can bypass the range check
+1206.0,1272,1.0,0.0,1.0,1.0,1.0,executorscheduler to wrap an executor
+1514.0,1559,1.0,0.0,1.0,0.0,1.0,more consistent hooks for scheduler plugins this is a rework of
+158.0,1602,1.0,0.0,0.0,0.0,1.0,make retrywhen the same with the scheduler as the retrywhen without the scheduler
+1741.0,1742,1.0,0.0,0.0,1.0,1.0,emptyobserver and testobserver
+1502.0,1777,1.0,0.0,1.0,1.0,1.0,excluding things from the javadoc
+1772.0,1802,1.0,0.0,1.0,1.0,1.0,add hasobservers method to subjects
+1972.0,1973,1.0,0.0,0.0,1.0,1.0,test issuing non serialized messages to the subject
+1897.0,2470,1.0,0.0,1.0,0.0,1.0,subject state information methods & bounded replaysubject termination
+2331.0,2470,1.0,0.0,1.0,0.0,1.0,subject state information methods & bounded replaysubject termination
+1702.0,2471,1.0,0.0,0.0,0.0,1.0,fixes npes reported in reactivex by synchronizing queue
+1956.0,2548,1.0,0.0,0.0,1.0,1.0,subscriberrequest should throw exception if negative request made
+2545.0,2548,1.0,0.0,0.0,1.0,1.0,subscriberrequest should throw exception if negative request made
+2544.0,2550,1.0,0.0,0.0,1.0,1.0,subscriberonstart requests should be additive and check for overflow
+2600.0,2630,1.0,0.0,0.0,0.0,1.0,cast back observer to subscriber if passed to subscribe observer
+2604.0,2759,1.0,0.0,0.0,0.0,1.0,observableusing should use unsafesubscribe and enable eager disposal
+2772.0,2804,1.0,0.0,0.0,0.0,1.0,observeon throughput enhancements
+2773.0,2804,1.0,0.0,0.0,0.0,1.0,observeon throughput enhancements
+2458.0,2883,1.0,0.0,1.0,1.0,1.0,proposal standardized subject state peeking methods
+1483.0,2969,1.0,0.0,0.0,0.0,1.0,operator cache now supports backpressure
+2979.0,2983,1.0,0.0,0.0,0.0,1.0,multiple calls to onstart
+3046.0,3048,1.0,0.0,0.0,1.0,1.0,compositeexception extra npe protection
+3128.0,3129,1.0,0.0,0.0,0.0,1.0,fix retry with predicate ignoring backpressure
+3022.0,3149,1.0,0.0,0.0,1.0,1.0,scheduler shutdown capability
+3252.0,3286,1.0,0.0,0.0,1.0,1.0,implements blockingsingle
+3385.0,3417,1.0,0.0,0.0,1.0,1.0,add singledoonsuccess
+3439.0,3444,1.0,0.0,0.0,1.0,1.0,completable class to support valueless event composition tests
+3445.0,3447,1.0,0.0,0.0,0.0,1.0,delaysubscription with a plain other observable
+2835.0,3513,1.0,0.0,1.0,1.0,1.0,add shorter rxjavaplugin class lookup approach
+3581.0,3584,1.0,0.0,0.0,0.0,1.0,clarify behaviour of groupby in javadoc
+3652.0,3655,1.0,0.0,0.0,1.0,1.0,add singleonerrorresumenext single
+3660.0,3661,1.0,0.0,0.0,0.0,1.0,combinelatest now supports any number of sources
+3685.0,3689,1.0,0.0,0.0,0.0,1.0,unified onerrorx and onexceptionresumenext and backpressure
+3700.0,3701,1.0,0.0,0.0,1.0,1.0,add completabledooncompleted and deprecate completabledooncomplete
+3710.0,3714,1.0,0.0,0.0,0.0,1.0,add maxconcurrent parameter to concatmapeager
+3711.0,3722,1.0,0.0,0.0,0.0,1.0,add maxconcurrent parameter to flatmapiterable
+372.0,3733,1.0,0.0,0.0,1.0,1.0,avoid swallowing errors in completable
+3740.0,3741,1.0,0.0,0.0,1.0,1.0,add doonsubscribe for single
+3732.0,3752,1.0,0.0,0.0,1.0,1.0,singleusing
+3440.0,3766,1.0,0.0,0.0,1.0,1.0,add singleonerrorresumenext func
+3731.0,3766,1.0,0.0,0.0,1.0,1.0,add singleonerrorresumenext func
+3938.0,3942,1.0,0.0,1.0,0.0,1.0,add completablesafesubscribe option rxjavaplugins hook support
+3947.0,3948,1.0,0.0,0.0,1.0,1.0,add completableandthen completable deprecate endwith
+3779.0,3966,1.0,0.0,0.0,0.0,1.0,add multi other withlatestfrom operators
+3576.0,3974,1.0,0.0,0.0,0.0,1.0,add terminal clarification to switchmap operators
+3721.0,4024,1.0,0.0,0.0,0.0,1.0,update dooneach observer javadoc
+3007.0,4026,1.0,0.0,0.0,0.0,1.0,expand and explain cache in more detail
+4001.0,4034,1.0,0.0,0.0,0.0,1.0,distinctuntilchanged with direct value comparator alternative
+4035.0,4036,1.0,0.0,0.0,0.0,1.0,added zip function with observable array
+4028.0,4051,1.0,0.0,1.0,1.0,1.0,fix replaysubject anomaly around caughtup by removing that optimization
+3959.0,4063,1.0,0.0,0.0,0.0,1.0,scan & reduce give javadoc about unsharing the initialvalue
+4057.0,4070,1.0,0.0,0.0,1.0,1.0,merge serialdisposable and multipleassignmentdisposable
+4109.0,4139,1.0,0.0,1.0,1.0,1.0,fix flaky tests
+4138.0,4139,1.0,0.0,1.0,1.0,1.0,fix flaky tests
+4137.0,4140,1.0,0.0,0.0,1.0,1.0,change completablesubscribe onerror oncomplete to oncomplete onerror
+4216.0,4226,1.0,0.0,0.0,1.0,1.0,singleflatmapcompletable
+4152.0,4261,1.0,0.0,0.0,0.0,1.0,concatdelayerror multiple arguments
+4260.0,4262,1.0,0.0,0.0,0.0,1.0,dooneach reduce allocations report to rxjavahooks
+4280.0,4288,1.0,0.0,1.0,1.0,1.0,move exceptions to public area exceptionhelper
+4306.0,4309,1.0,0.0,0.0,1.0,1.0,remove unused exceptions in public api
+4329.0,4330,1.0,0.0,0.0,1.0,1.0,added observableconcat iterable
+4082.0,4337,1.0,0.0,0.0,0.0,1.0,move disposableobserver to public area add some javadocs
+4366.0,4371,1.0,0.0,1.0,1.0,1.0,move blocking operators into the base classes
+4199.0,4442,1.0,0.0,1.0,1.0,1.0,cleanup javadoc completablefromemitter
+4255.0,4442,1.0,0.0,1.0,1.0,1.0,cleanup javadoc completablefromemitter
+4456.0,4458,1.0,0.0,0.0,0.0,1.0,rename observable and single dooncancel to doondispose
+4462.0,4466,1.0,0.0,0.0,0.0,1.0,deprecate notificationcreateoncompleted
+4481.0,4488,1.0,0.0,0.0,0.0,1.0,add new methods to maybe observable and single from
+4389.0,4503,1.0,0.0,0.0,0.0,1.0,add system properties to adjust thread priorities of schedulers
+4501.0,4504,1.0,0.0,0.0,0.0,1.0,add disposable observer for maybe completable & single
+4524.0,4525,1.0,0.0,0.0,0.0,1.0,fix generics t in zip & combinelatest
+4577.0,4580,1.0,0.0,0.0,0.0,1.0,rename asyncemitter to emitter
+4498.0,4586,1.0,0.0,0.0,1.0,1.0,add error assertion with predicate to testsubscriber and testobserver
+4628.0,4629,1.0,0.0,0.0,1.0,1.0,add completablefromrunnable
+4634.0,4636,1.0,1.0,1.0,1.0,1.0,update mockito to rc
+4332.0,4641,0.0,0.0,0.0,0.0,1.0,safesubscriber not to call rxjavahooks before delivering the original error
+464.0,4645,1.0,0.0,1.0,1.0,1.0,signal npe observableamb flowableamb
+4633.0,4647,1.0,0.0,1.0,1.0,1.0,merge ambarray and ambiterable into amb for single maybe and completable types
+4650.0,4651,1.0,0.0,1.0,1.0,1.0,switch maybe and single to use their transformers in compose
+4653.0,4654,1.0,0.0,0.0,0.0,1.0,upcast concurrenthashmap to map to avoid compatibility issue
+4680.0,4681,1.0,0.0,0.0,1.0,1.0,fix flowable single elementat and elementatorerror operators on empty sources
+4683.0,4687,1.0,0.0,0.0,1.0,1.0,add observablerangelong & flowablerangelong
+4688.0,4690,1.0,0.0,0.0,1.0,1.0,basetestconsumer add assertvalueat index predicate
+4709.0,4710,1.0,0.0,1.0,1.0,1.0,remove checked exceptions from transformer interfaces
+4727.0,4729,1.0,0.0,0.0,1.0,1.0,merge flowableemitterbackpressuremode into backpressurestrategy
+4620.0,4751,1.0,1.0,1.0,1.0,1.0,fix flowableconcatmapeager hang due to bad request management
+4702.0,4757,1.0,0.0,0.0,0.0,1.0,add cache to single
+4809.0,4810,1.0,0.0,0.0,0.0,1.0,subtle change in completables documentation for retrywhen
+482.0,4828,1.0,0.0,0.0,0.0,1.0,changing inner classes to package private
+482.0,4830,1.0,0.0,0.0,1.0,1.0,completabledoafterterminate to run after onerror as well
+485.0,4858,1.0,0.0,0.0,1.0,1.0,add maybeflatmapsingleelement returning maybe
+4872.0,4873,1.0,0.0,0.0,1.0,1.0,testobserver shouldnt clear the upstream disposable on terminated
+488.0,4884,1.0,0.0,0.0,1.0,1.0,enable testscheduler with osecond periodic scheduling
+490.0,4911,1.0,0.0,0.0,1.0,1.0,fix & update observablerepeatwhen and retrywhen again
+4920.0,4921,1.0,0.0,0.0,0.0,1.0,fix testsubscriber observer message texts
+4923.0,4924,1.0,0.0,0.0,0.0,1.0,change completable to completablesource
+4926.0,4927,1.0,0.0,0.0,1.0,1.0,fix timer ise due to bad resource mgmt
+493.0,4932,1.0,0.0,0.0,1.0,1.0,add safeguards to generate
+4902.0,4943,1.0,0.0,0.0,1.0,1.0,fix publish function not replenishing its queue
+4961.0,4962,1.0,0.0,0.0,1.0,1.0,fix singletakeuntil other triggering twice
+4993.0,5002,1.0,0.0,1.0,1.0,1.0,add scheduler creation factories
+5004.0,5005,1.0,0.0,1.0,1.0,1.0,executorschedulerscheduledirect to report isdisposed on complete
+5024.0,5027,1.0,0.0,1.0,1.0,1.0,dedicated singlezip implementation no dispose on all success
+5045.0,5049,1.0,0.0,1.0,1.0,1.0,use bounded wildcards for errorhandler
+5053.0,5054,1.0,0.0,0.0,1.0,1.0,add nullable annotation to simple queue
+5045.0,5058,1.0,0.0,1.0,1.0,1.0,feature more generics in rxjavaplugins
+5060.0,5064,1.0,0.0,1.0,1.0,1.0,fix replay cancel dispose npe
+4253.0,5086,1.0,0.0,0.0,1.0,1.0,deprecate create add alternatives
+5089.0,5090,1.0,0.0,0.0,1.0,1.0,fix scan seed f to emit accumulated values asap
+4735.0,5091,1.0,0.0,0.0,0.0,1.0,create subscribeon avoid same pool deadlock
+5111.0,5114,1.0,0.0,1.0,1.0,1.0,fix observablecombinelatest to dispose eagerly
+5108.0,5117,1.0,0.0,1.0,1.0,1.0,add parallelflowablesequentialdelayerror
+5111.0,5121,1.0,0.0,0.0,1.0,1.0,fix observablezip to dispose eagerly
+5132.0,5133,1.0,0.0,0.0,1.0,1.0,fix flatmap not cancelling the upstream eagerly
+5135.0,5136,1.0,0.0,0.0,0.0,1.0,fix repeatwhen and retrywhen signatures
+5138.0,5146,1.0,0.0,0.0,1.0,1.0,add unsubscribeon to single type
+4853.0,5161,1.0,0.0,0.0,1.0,1.0,add observableswitchmapsingle and switchmapsingledelayerror
+5172.0,5182,1.0,0.0,1.0,1.0,1.0,fix replay refcount leaking items between connections
+5185.0,5189,1.0,0.0,1.0,1.0,1.0,fix concatmapeager should accept for prefetch
+5154.0,5199,1.0,0.0,0.0,1.0,1.0,increase timeout on parallel & completable tests
+5179.0,5199,1.0,0.0,0.0,1.0,1.0,increase timeout on parallel & completable tests
+5128.0,5202,1.0,1.0,1.0,1.0,1.0,add resilient versions of parallel map filter & doonnext
+5203.0,5207,1.0,0.0,1.0,1.0,1.0,prevent tasks to self interrupt on the standard schedulers
+5130.0,5208,1.0,0.0,0.0,0.0,1.0,fix images of firstelement flattenasx flatmapiterable
+5148.0,5210,1.0,0.0,0.0,0.0,1.0,better documentation on the abstract consumer classes
+5145.0,5223,1.0,0.0,1.0,0.0,1.0,improve the documentation of schedulers utility class
+5246.0,5247,1.0,0.0,0.0,1.0,1.0,fix flowabletolist onnext cancel race
+5300.0,5302,1.0,0.0,0.0,0.0,1.0,add singleunsubscribeon
+5243.0,5307,1.0,0.0,1.0,0.0,1.0,apply promotions for v
+5201.0,5318,1.0,0.0,0.0,0.0,1.0,apply api promotions for
+5382.0,5409,1.0,0.0,0.0,0.0,1.0,corrected singledelay documentation
+5426.0,5427,1.0,0.0,0.0,1.0,1.0,fix buffer time maxsize duplicating buffers on time size race
+5461.0,5466,1.0,0.0,0.0,0.0,1.0,flowabletimeouttimed replace atomicreference with mutable field
+5480.0,5486,1.0,0.0,0.0,1.0,1.0,small note on maybedefaultifempty regarding tosingle
+5485.0,5486,1.0,0.0,0.0,1.0,1.0,small note on maybedefaultifempty regarding tosingle
+3794.0,5507,1.0,0.0,1.0,1.0,1.0,fix spsclaq nepotism flowablerefcounttesttestrefcountasync flaky
+5506.0,5507,1.0,0.0,1.0,1.0,1.0,fix spsclaq nepotism flowablerefcounttesttestrefcountasync flaky
+5319.0,5524,1.0,0.0,0.0,0.0,1.0,add update observable marbles
+5555.0,5568,1.0,0.0,0.0,1.0,1.0,add assertvaluesonly to basetestconsumer
+4544.0,5582,1.0,0.0,0.0,0.0,1.0,implement maybeswitchifempty single
+5382.0,5616,1.0,0.0,1.0,1.0,1.0,add singledelay overload that delays errors
+5642.0,5647,1.0,0.0,0.0,0.0,1.0,fix subscribewith documentation examples
+4853.0,5649,1.0,0.0,0.0,0.0,1.0,add concatmapcompletable to observable
+5545.0,5669,1.0,0.0,0.0,1.0,1.0,fix publishprocessor cancel emission overflow bug
+5698.0,5705,1.0,0.0,0.0,1.0,1.0,moved tests to fromcallabletest from fromcompletabletest
+5319.0,5740,1.0,0.0,0.0,0.0,1.0,marbles for observable all frompublisher ziparray
+5742.0,5743,1.0,0.0,0.0,1.0,1.0,check isdisposed before emitting in singlefromcallable
+5319.0,5745,1.0,0.0,0.0,0.0,1.0,add update observable marbles
+5319.0,5755,1.0,0.0,0.0,0.0,1.0,add marbles for observable
+5762.0,5766,0.0,0.0,0.0,0.0,1.0,rename interface parameters
+578.0,5781,1.0,0.0,0.0,0.0,1.0,describe merge error handling
+579.0,5792,1.0,0.0,0.0,1.0,1.0,fix flatmap inner fused poll crash not cancelling the upstream
+5319.0,5805,1.0,0.0,0.0,0.0,1.0,final planned observable marble additions fixes
+580.0,5811,1.0,0.0,0.0,1.0,1.0,fix buffer open close not disposing indicators properly
+5827.0,5828,1.0,0.0,1.0,0.0,1.0,document replay n emission retention caveat
+5832.0,5833,1.0,0.0,0.0,1.0,1.0,fix observableswitchmap main onerror not disposing the current inner source
+5350.0,5845,1.0,0.0,0.0,0.0,1.0,add efficient concatwith singlemaybecompletable overloads
+5350.0,5847,1.0,0.0,1.0,1.0,1.0,add efficient mergewith singlemaybecompletable overloads
+4853.0,5870,1.0,0.0,0.0,1.0,1.0,add flowableswitchmapcompletable{delayerror} operator
+4853.0,5871,1.0,0.0,0.0,1.0,1.0,add flowableconcatmapcompletable{delayerror} operator
+4853.0,5872,1.0,0.0,0.0,0.0,1.0,add flowableconcatmap{maybesingle}{delayerror} operators
+4853.0,5873,1.0,0.0,0.0,1.0,1.0,add flowableswitchmap{maybesingle}{delayerror} operators
+4853.0,5875,1.0,0.0,0.0,1.0,1.0,add observable switchmapx and concatmapx operators
+5882.0,5886,1.0,0.0,0.0,1.0,1.0,upgrade the algorithm of observabletimeout timeselector operators
+5881.0,5887,1.0,0.0,0.0,1.0,1.0,fix window observablecallable upstream handling
+5881.0,5888,1.0,0.0,0.0,1.0,1.0,fix flowablewindow publishercallable upstream handling
+5894.0,5895,1.0,0.0,0.0,0.0,1.0,fix buffer documentation to correctly describe onerror behaviour
+5903.0,5904,1.0,0.0,0.0,1.0,1.0,fix flowablesingleorerror toflowable not signalling nosuchelementexception
+590.0,5906,1.0,0.0,0.0,0.0,1.0,add public constructor for testscheduler that takes the time
+5916.0,5923,1.0,0.0,0.0,0.0,1.0,fix javadoc warnings of buffer publishercallable
+5788.0,5924,1.0,0.0,0.0,0.0,1.0,update singleflatmappublisher marble
+592.0,5928,1.0,0.0,0.0,1.0,1.0,fix concatmapsingle & concatmapmaybe dispose cleanup crash
+5971.0,5972,1.0,0.0,0.0,1.0,1.0,fix observableconcatmapsingle dropping upstream items
+6012.0,6014,1.0,0.0,0.0,1.0,1.0,fix & prevent null checks on primitives
+6015.0,6021,1.0,0.0,0.0,1.0,1.0,singleflatmappublisher full implementation
+5988.0,6026,1.0,0.0,0.0,1.0,1.0,fix flowableblockingsubscribe is unbounded and can lead to oome
+5980.0,6052,1.0,0.0,0.0,0.0,1.0,made subscribeactual protected
+5806.0,6053,1.0,0.0,0.0,0.0,1.0,add maybe marble diagrams a
+5788.0,6074,1.0,0.0,0.0,0.0,1.0,add marble diagram to the singlenever method
+5788.0,6075,1.0,0.0,0.0,0.0,1.0,add marble diagram to the singlefilter method
+5788.0,6076,1.0,0.0,0.0,0.0,1.0,add marble diagrams to the singledelay method
+5788.0,6077,1.0,0.0,0.0,0.0,1.0,add marble diagram for singlehide operator
+3708.0,6079,1.0,0.0,0.0,1.0,1.0,add completabletakeuntil completable operator
+5788.0,6081,1.0,0.0,0.0,0.0,1.0,add marble diagrams for singlerepeat operators
+5789.0,6083,1.0,0.0,0.0,0.0,1.0,add completable marble diagrams a
+5788.0,6084,1.0,0.0,0.0,0.0,1.0,add marble diagram for singlerepeatuntil operator
+5789.0,6085,1.0,0.0,0.0,1.0,1.0,more completable marbles add completablefrommaybe
+5788.0,6086,1.0,0.0,0.0,0.0,1.0,single error operators marbles
+5788.0,6087,1.0,0.0,0.0,0.0,1.0,add marbles for singlefrom operators
+5788.0,6091,1.0,0.0,0.0,0.0,1.0,add marbles for singleamb operators
+5788.0,6095,1.0,0.0,0.0,0.0,1.0,add marbles for singletimer singledefer and singletoxxx operators
+5789.0,6097,1.0,0.0,0.0,0.0,1.0,add missing completable marbles a
+5789.0,6098,1.0,0.0,0.0,0.0,1.0,several more completable marbles b
+5789.0,6101,1.0,0.0,0.0,0.0,1.0,final set of missing completable marbles
+5788.0,6137,1.0,0.0,0.0,0.0,1.0,add marbles for singleconcat operator
+5788.0,6141,1.0,0.0,0.0,0.0,1.0,add marble diagrams for various single operators
+614.0,6145,1.0,0.0,0.0,1.0,1.0,fix boundary fusion of concatmap and publish operator
+580.0,6155,1.0,0.0,0.0,0.0,1.0,fix marble of maybeflatmap events to maybesource
+614.0,6167,1.0,0.0,0.0,1.0,1.0,make observeon not let workerdispose called prematurely
+6196.0,6199,1.0,0.0,0.0,0.0,1.0,fix terminology of cancel dispose in the javadocs
+6198.0,6200,1.0,0.0,0.0,0.0,1.0,fix tofuture marbles and descriptions
+6253.0,6254,1.0,0.0,0.0,1.0,1.0,fix flaky sample backpressure test improve coverage
+6279.0,6287,1.0,0.0,0.0,0.0,1.0,expose the keep alive value of the io scheduler as system property
+629.0,6297,1.0,0.0,1.0,1.0,1.0,fix refcount eager disconnect not resetting the connection
+6302.0,6303,1.0,0.0,0.0,0.0,1.0,javadoc fix incorrect image placement
+6299.0,6305,1.0,0.0,0.0,0.0,1.0,javadoc explain explicitly about using emitter interface methods synchronously
+6289.0,6308,1.0,0.0,0.0,0.0,1.0,javadoc updates for rxjava issue
+6290.0,6311,1.0,0.0,0.0,1.0,1.0,javadoc explain that distinctuntilchanged requires non mutating data to work as expected
+630.0,6313,1.0,0.0,0.0,0.0,1.0,adding nonnull annotations to observable & single
+636.0,6364,1.0,0.0,0.0,1.0,1.0,fix publish not requesting upon client change
+636.0,6370,1.0,0.0,0.0,1.0,1.0,add interruptible mode to schedulersfrom
+6288.0,6377,1.0,0.0,0.0,0.0,1.0,expand observabledebounce and flowabledebounce javadoc
+6379.0,6386,1.0,0.0,0.0,1.0,1.0,add doonterminate to single maybe for consistency
+640.0,6405,1.0,0.0,1.0,1.0,1.0,fix concateager to dispose sources & clean up properly
+6451.0,6452,1.0,0.0,0.0,0.0,1.0,remove dependency of schedulers from observablerefcount
+646.0,6469,1.0,0.0,1.0,1.0,1.0,remove redundant methods from sample observable
+5628.0,6519,1.0,0.0,1.0,1.0,1.0,connectableflowable connetableobservabe redesign
+6518.0,6528,1.0,0.0,0.0,1.0,1.0,rename test methods and enable the check
+647.0,6532,1.0,0.0,1.0,1.0,1.0,add eager truncation to bounded replay to avoid item retention
+6543.0,6544,1.0,0.0,0.0,0.0,1.0,fixing version tag on schedulersfrom executor boolean
+655.0,6564,1.0,0.0,1.0,1.0,1.0,remove buffer window with supplier & onexceptionresumenext
+6554.0,6564,1.0,0.0,1.0,1.0,1.0,remove buffer window with supplier & onexceptionresumenext
+6576.0,6577,1.0,0.0,0.0,0.0,1.0,observableblockingsubscribe compares blockingobserverterminated with wrong object
+658.0,6589,1.0,0.0,0.0,1.0,1.0,create a base test class and have all unit tests extend it
+658.0,6594,1.0,0.0,1.0,1.0,1.0,have unit tests extends rxjavatest
+658.0,6595,1.0,0.0,1.0,1.0,1.0,have unit tests extends rxjavatest
+6576.0,6601,1.0,0.0,0.0,0.0,1.0,observableblockingsubscribe compares with wrong object
+658.0,6602,1.0,0.0,1.0,1.0,1.0,fix truncation bugs in replay and replaysubject processor
+658.0,6604,1.0,0.0,1.0,1.0,1.0,have unit tests extends rxjavatest
+658.0,6607,1.0,0.0,1.0,1.0,1.0,have internaloperatorobservable unit tests extends rxjavatest
+658.0,6612,1.0,0.0,0.0,1.0,1.0,fix many operators swallowing undeliverable exceptions
+6611.0,6612,1.0,0.0,0.0,1.0,1.0,fix many operators swallowing undeliverable exceptions
+6569.0,6620,1.0,0.0,0.0,0.0,1.0,elementat first constrain upstream requests
+6608.0,6629,1.0,0.0,1.0,1.0,1.0,fix refcount not resetting when cross canceled
+663.0,6635,1.0,0.0,1.0,1.0,1.0,remove vararg overloads for combinelatest in observable flowable
+663.0,6637,1.0,0.0,0.0,1.0,1.0,avoid using systemgetproperties due to security restrictions
+6569.0,6650,1.0,0.0,1.0,1.0,1.0,constrain upstream requests from take remove limit operator
+5788.0,6668,1.0,0.0,0.0,0.0,1.0,add missing marble diagams to single
+671.0,6714,1.0,0.0,0.0,1.0,1.0,fix multicastprocessor not requesting more after limit is reached
+671.0,6715,1.0,0.0,0.0,1.0,1.0,fix multicastprocessor not requesting more after limit is reached
+672.0,6729,1.0,0.0,0.0,0.0,1.0,fix self see references some comments
+6728.0,6729,1.0,0.0,0.0,0.0,1.0,fix self see references some comments
+5806.0,6730,1.0,0.0,0.0,0.0,1.0,add maybe marble diagrams cases
+5788.0,6732,1.0,0.0,0.0,0.0,1.0,update singlezip marble diagrams cases
+674.0,6745,1.0,0.0,0.0,0.0,1.0,make disposablecontainer public api
+674.0,6748,1.0,0.0,0.0,1.0,1.0,change how the cause of compositeexception is generated
+675.0,6754,1.0,0.0,0.0,1.0,1.0,zip combinelatest and amb operators throw when supplied with observablesource implementation that doesnt subclass observable
+675.0,6756,1.0,0.0,1.0,1.0,1.0,fix observable amb combinelatest & zip arraystoreexception
+6776.0,6779,1.0,1.0,1.0,1.0,1.0,java add blockingstream & flatmapstream to flowable
+6772.0,6780,1.0,0.0,0.0,0.0,1.0,java add autocloseable disposable conversions nicen docs
+6776.0,6783,1.0,0.0,1.0,1.0,1.0,java add fromopt stage mapoptional tocompletionstage to m s c
+6767.0,6786,1.0,0.0,1.0,1.0,1.0,diamond operators in unit tests observable package
+6767.0,6787,1.0,0.0,1.0,1.0,1.0,diamond operators in unit tests flowable package
+6767.0,6788,1.0,0.0,1.0,1.0,1.0,diamond operators in tests
+6767.0,6789,1.0,1.0,1.0,1.0,1.0,diamond operators in tests small packages
+6794.0,6799,1.0,0.0,0.0,1.0,1.0,xprocessoroffer to throw npe immediately
+6776.0,6805,1.0,0.0,0.0,1.0,1.0,java add flattenstreamasx to maybe single
+681.0,6814,1.0,0.0,1.0,1.0,1.0,remove fromfuture scheduler overloads
+681.0,6817,1.0,0.0,0.0,0.0,1.0,deleted functionsnaturalorder
+6828.0,6837,1.0,0.0,0.0,1.0,1.0,remove a pointless observableconcatmapiterable overload
+683.0,6839,0.0,0.0,0.0,1.0,0.0,enable javac parameter saving in class files
+684.0,6844,1.0,0.0,0.0,1.0,1.0,remove maybeonexceptionresumenext
+683.0,6847,1.0,0.0,0.0,1.0,1.0,simplify return sentences in flowable javadocs
+6852.0,6857,1.0,0.0,1.0,0.0,1.0,wiki improve operator matrix with links and notes
+6855.0,6857,1.0,0.0,1.0,0.0,1.0,wiki improve operator matrix with links and notes
+6852.0,6862,1.0,0.0,0.0,0.0,1.0,add maybe single completable blockingsubscribe
+6863.0,6864,1.0,0.0,1.0,1.0,1.0,adding delayerror to maybedelay
+5806.0,6867,1.0,0.0,0.0,0.0,1.0,add onerrorcomplete to flowable observable and single
+6852.0,6867,1.0,0.0,0.0,0.0,1.0,add onerrorcomplete to flowable observable and single
+5806.0,6868,1.0,0.0,0.0,1.0,1.0,add completableonerrorresumewith
+6852.0,6868,1.0,0.0,0.0,1.0,1.0,add completableonerrorresumewith
+5806.0,6869,1.0,0.0,0.0,1.0,1.0,add single completable retryuntil marbles
+6852.0,6869,1.0,0.0,0.0,1.0,1.0,add single completable retryuntil marbles
+6852.0,6870,1.0,0.0,0.0,0.0,1.0,add maybe single completable switchonnext & switchonnextdelayerror
+6852.0,6871,1.0,0.0,0.0,1.0,1.0,add maybedematerialize
+6852.0,6873,1.0,0.0,1.0,1.0,1.0,add many fromx operators marbles
+6852.0,6874,1.0,0.0,0.0,0.0,1.0,add timeinterval & timestamp to m s
+6852.0,6875,1.0,0.0,0.0,0.0,1.0,add maybe completable tofuture
+580.0,6876,1.0,1.0,1.0,1.0,1.0,add singleoftype
+6852.0,6876,1.0,1.0,1.0,1.0,1.0,add singleoftype
+6852.0,6877,1.0,0.0,0.0,1.0,1.0,add doonlifecycle to maybe single & completable
+6852.0,6879,1.0,0.0,1.0,1.0,1.0,add concatmapx operators aliases
+6852.0,6881,1.0,0.0,1.0,1.0,1.0,add various concatxdelayerror operators
+6852.0,6882,1.0,0.0,0.0,0.0,1.0,add singlemergearray & mergearraydelayerror
+6852.0,6884,1.0,0.0,0.0,1.0,1.0,add completablesequenceequal
+6852.0,6885,1.0,0.0,0.0,0.0,1.0,add missing startwith overloads
+5806.0,6886,1.0,0.0,0.0,1.0,1.0,add completableonerrorreturn item
+6852.0,6886,1.0,0.0,0.0,1.0,1.0,add completableonerrorreturn item
+6878.0,6891,1.0,0.0,0.0,1.0,1.0,swap maybeflatmapsingle and maybeflatmapsingleelement
+5806.0,6893,1.0,0.0,0.0,1.0,1.0,reenable xflatmaptestmaybesingle add missing single operators
+6892.0,6893,1.0,0.0,0.0,1.0,1.0,reenable xflatmaptestmaybesingle add missing single operators
+5806.0,6897,1.0,0.0,0.0,0.0,1.0,add remaining maybe marbles
+6880.0,6899,1.0,0.0,0.0,0.0,1.0,add concateagerdelayerror across
+6947.0,6960,1.0,0.0,0.0,1.0,1.0,fix observableflatmap with maxconcurrency hangs
+696.0,6969,1.0,0.0,1.0,1.0,1.0,allow setting the drift tolerance timeunit via system property
+6987.0,6996,1.0,0.0,1.0,1.0,1.0,suppress undeliverableexception handling in tests
+7001.0,7028,1.0,0.0,0.0,1.0,1.0,allow mbe in flowablegroupbytestissue runpart noevict
+711.0,7163,1.0,0.0,0.0,1.0,1.0,testscheduler option to use onschedule hook
+716.0,7164,1.0,0.0,0.0,0.0,1.0,updating documentation for scheduleactual method
+706.0,7165,1.0,1.0,1.0,1.0,1.0,add fusion support to concatmap{maybesinglecompletable}
