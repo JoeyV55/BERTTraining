@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+from bertUtils import *
 import pandas as pd
 import numpy as np
 import csv 
@@ -38,7 +39,7 @@ import sys
 import random
 import numpy as np
 import apex
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, ShuffleSplit
 
 import datetime
 
@@ -47,6 +48,7 @@ from fast_bert.data_cls import BertDataBunch, InputExample, InputFeatures, Multi
 from fast_bert.learner_cls import BertLearner
 from fast_bert.metrics import accuracy_multilabel, accuracy_thresh, fbeta, roc_auc, F1, Hamming_loss
 
+
 #threshold:float = 0.5 # Best keep it in [0.0, 1.0] range
 #labels = ["Util", "NLP", "APM", "Network", "DB", "Interpreter", "Error Handling", "Logging", "Lang", 
 #    "Data Structure", "DevOps", "i18n", "Setup", "Logic", "Microservices", "ML", "Test", "Search",
@@ -54,20 +56,25 @@ from fast_bert.metrics import accuracy_multilabel, accuracy_thresh, fbeta, roc_a
 
 experimentList = ["someClean_NoSMOTE","someClean_SMOTE","UNCLEAN","UNCLEAN_SMOTE", "newClean_NoSMOTE", "newClean_SMOTE"]
 hypothesis = "H3"
+config = "H6"
 filteringType = "UNFILTERED"
-proj_title = "powertoys"
-runCount = 3
+proj_title = "all"
+runCount = 10
 validatePerEpoch = False
-shouldMakeTrainTest = True
-split_percent = .7
+shouldMakeTrainTest = False
+crossValidating = True
+split_percent = .8
+split_percent_display = str(split_percent*100) + "%"
 experiment = experimentList[3]
 datapath =  "/scratch/jrv233/BERTWORK/" + filteringType + "/" + experiment
 projectFolder = proj_title + "Bert/"
 proj_name = proj_title
+#70% train, 30% test default, change to swap to other configs.
+size_test = .4
 UNDEFINED_VAL = -9999
 
 #Check if its a second version project (i.e. the original projects that were expanded)
-if proj_title in ["jabRef", "guava", "rxjava", "mockito"]:
+if proj_title in ["jabRef", "guava", "rxjava", "mockito","all"]:
     proj_name += "_2"
 
 metricspath = datapath + "/" + projectFolder 
@@ -88,125 +95,34 @@ threshold = 0.5
 
 labels = []
 
-def choose_labels():
-    labels = []
-    if proj_name == "jabRef_2":
-        #Unclean_SMOTE jabref2?
-        """labels = ["Util",
-        "NLP",
-        "APM",
-        "Network",
-        "DB",
-        "Interpreter",
-        "Logging",
-        "i18n",
-        "DevOps",
-        "Logic",
-        "Test",
-        "IO",
-        "UI",
-        "Security",
-        "App"]"""
-        #Nofilter: someClean_NOSMOTE, UNCLEAN
-        #Filter: 
-        """labels = ["Util",
-            "NLP",
-            "APM",
-            "Network",
-            "DB",
-            "Interpreter",
-            "Logging",
-            "DataStructure",
-            "i18n",
-            "DevOps",
-            "Logic",
-            "Microservices",
-            "ML",
-            "Test",
-            "Search",
-            "IO",
-            "UI",
-            "Parser",
-            "Security",
-            "Cloud",
-            "BigData",
-            "App",
-            "GIS"]"""
-        #someclean_SMOTE, unclean_SMOTE
-        labels = ["Util","NLP","APM","Network","DB","Interpreter","Logging","DataStructure","i18n","DevOps",
-        "Logic","Microservices","Test","Search","IO","UI","Parser","Security","App"]
-    elif proj_name == "guava_2":
-        #Nofilter: someClean_NOSMOTE, UNCLEAN
-        #Filter: 
-        """ labels = ["Util",
-        "NLP",
-        "APM",
-        "Network",
-        "DB",
-        "Interpreter",
-        "Logging",
-        "DataStructure",
-        "i18n",
-        "DevOps",
-        "Logic",
-        "Microservices",
-        "ML",
-        "Test",
-        "Search",
-        "IO",
-        "UI",
-        "Parser",
-        "Security",
-        "Cloud",
-        "BigData",
-        "App",
-        "GIS"]"""
-        #someCleanSmote, uncleanSMOTE
-        labels = ["Util","Network","DB","Interpreter","i18n","Logic","Test","IO","UI","Security","App"]
 
-    elif proj_name == "mockito_2":
-        #someClean_NOSMOTE? Everything else besides SMOTE?
-        """ labels = ["Util", "NLP", "APM", "Network", "DB","Interpreter", "Logging", "DataStructure", 
-        "i18n","DevOps", "Logic", "Microservices", "ML", "Test", "Search", "IO", "UI", 
-        "Parser", "Security", "Cloud", "BigData", "App", "GIS"]"""
-        
-        #someClean_SMOTE
-        labels = ["Util","Network","Interpreter","i18n","Logic","Test","IO","Security"]
-    elif proj_name == "rxjava_2":
-        #someClean_NOSMOTE?
-        #labels = ["Util", "NLP", "APM", "Network", "DB", "Interpreter", "Logging", "DataStructure", "i18n", "DevOps", "Logic", "Microservices", "ML",
-        # "Test", "Search", "IO", "UI", "Parser", "Security", "Cloud", "BigData", "App", "GIS"]
-        
-        #SomeCLean_SMOTE, UNCLEAN_SMOTE
-        #Normal labels
-        labels = ["Util","Network","Interpreter","i18n","Logic","Test","IO","App"]
-        #Letter Labels
-        #labels = ["A", "B", "C", "D", "E", "F","G","H"]
-        #Full word labels
-        #labels = ["Utility", "Network", "Interpreter","Internationalization","Logic","Test","Input and Output","Application"]
-    elif proj_name == "audacity":
-        labels = ["Util","APM","Network","DB","Error.Handling","Logging",
-        "Lang","Data.Structure","i18n","Setup","Logic","IO","UI","Parser",
-        "Event.Handling","App","GIS","Multimedia","CG"]
-    elif proj_name == "powertoys":
-        labels = ["APM","Interpreter","Logging","Data.Structure","i18n","Setup","Logic","Microservices",
-        "Test","Search","UI","Parser","App"]
-    print("Labels selected: ", labels)
-    return labels
 
-def prec_rec_fscore_support_wrapper(y_pred:Tensor, y_true:Tensor, sigmoid:bool = True, thresh:float = threshold, average = 'micro', sample_weight = None, **kwargs):
-    if sigmoid: y_pred = y_pred.sigmoid()
-    y_pred = (y_pred > thresh).float()
-    y_pred = y_pred.detach().cpu().numpy()
-    y_true = y_true.detach().cpu().numpy()
-    return precision_recall_fscore_support(y_true, y_pred, average=average)
+"""
+    Experiment methods (if needed)
+"""
+#TODO: Validate after logic and see if metrics are truely impossible to extract from fast bert
+"""def runH10():
+    print("\n=====================\nRUNNING H10 TEST ON POWERTOYS AFTER TRAINING WITH COMBINED MODEL\n================================")
+    texts = ["fix editor cli parsing if comma is decimal sep in locale <!-- enter a brief description/summary of your pr here what does it fix/what does it change/how was it tested (even manually if necessary)? -->fix fancyzoneseditor cli parsing of dpi on locales with comma as decimal separator<!-- other than the issue solved is this relevant to any other issues/existing prs? --> related existing issue #449<!-- provide a more detailed description of the pr other things fixed or any additional comments/features here -->although the cli should be constructed with c locale (c/c++ invariant in c#) by the fancyzones application i wasnt completely certain about that so i resorted to using a fallback mechanism of trying both invariant and current cultures for float parsing<!-- describe how you validated the behavior add automated tests wherever possible but list manual validation steps taken as well -->## validation steps performedtested manually by setting computer language eg to finnish (comma as decimal separator) and regression tested with en-us as computer culture as well as finnish with forced period as decimal separator hi @mickutthank you for fixing this!",
+    "fixes for zone resize <!-- enter a brief description/summary of your pr here what does it fix/what does it change/how was it tested (even manually if necessary)? -->## summary of the pull requestresizing zones was not working in some cases<!-- please review the items on the pr checklist before submitting-->## pr checklist* [x] closes #257 #409 #427 <!-- provide a more detailed description of the pr other things fixed or any additional comments/features here -->## detailed description of the pull request / additional commentsthe logic used by `move()` works only for dragging the entire zone but it fails when dragging a top/left edge if the right/bottom edge is on the working area edgeit was also causing the zone to drift right/bottom when resized to its minimum width/heighti split the methods to simplify the logic: - `move()` is used only to move the zone - `sizemove()` (fell free to suggest a better name) is used when dragging the left/top edge - `size()` is used when dragging the right/bottom edge also set `c_minzonewidth` to 64 and `c_minzoneheight` to 72 to reflect the actual minimum dimensions<!-- describe how you validated the behavior add automated tests wherever possible but list manual validation steps taken as well -->## validation steps performedmanual test"]
+    res = learner.predict_batch(texts)
+    print("type of res: ", type(res))
+    print(res)"""
 
-def F1_micro(y_pred:Tensor, y_true:Tensor, sigmoid:bool = True, thresh:float = threshold, average = 'micro', sample_weight = None, **kwargs):
-    if sigmoid: y_pred = y_pred.sigmoid()
-    y_pred = (y_pred > thresh).float()
-    y_pred = y_pred.detach().cpu().numpy()
-    y_true = y_true.detach().cpu().numpy()
-    return f1_score(y_true, y_pred, average = average, sample_weight = sample_weight)
+print("Started fast-bert, emptying cache")
+torch.cuda.empty_cache()
+
+
+DATA_PATH = './data/'
+LABEL_PATH = './data/'
+OUTPUT_PATH = './output/'
+
+labels = choose_labels(proj_name)
+if len(labels) == 0:
+    sys.exit("No labels found for projectname inputted: " + proj_name)
+
+testSize = split_percent
+
 
 def F1_by_label(y_pred:Tensor, y_true:Tensor, sigmoid:bool = True, thresh:float = threshold, sample_weight = None, labels:list = labels, **kwargs):
     if sigmoid: y_pred = y_pred.sigmoid()
@@ -233,19 +149,6 @@ def accuracy_by_label(y_pred: Tensor, y_true: Tensor, sigmoid:bool = True, thres
         accuracies[labels[i]] = accuracy_score(y_true[:, i], y_pred[:, i], normalize = normalize, sample_weight = sample_weight)
     return accuracies
 
-def Hamming_loss_mod(
-    y_pred: Tensor,
-    y_true: Tensor,
-    sigmoid: bool = True,
-    thresh: float = 0.5,
-    sample_weight=None,
-    **kwargs):
-    if sigmoid:
-        y_pred = y_pred.sigmoid()
-    y_pred = (y_pred > thresh).float()
-    y_true = y_true.detach().cpu().numpy()
-    y_pred = y_pred.detach().cpu().numpy()
-    return hamming_loss(y_true, y_pred, sample_weight=sample_weight)
 
 def findHammingLossByLabel(accuracyDict):
     hammingLossDict = {}
@@ -253,200 +156,79 @@ def findHammingLossByLabel(accuracyDict):
         hammingLossDict[label] = 1-accuracyDict[label]
     return hammingLossDict
 
-def findPrecisionByLabel(confMatrixList, validLabels):
-    precisionDict = {}
-    index = 0
-    validIndicies = []
-    print("ConfList: ", confMatrixList)
-    originalLabels = copy.deepcopy(validLabels)
-    for label in originalLabels:
-        print("Prec curr label: ", label)
-        print("prec index", index, " valid labels:",validLabels)
-        print("prec index", index, " original labels:",originalLabels)
-        print("prec index", index, " valid indicies:",validIndicies)
-        currMatrix = confMatrixList[index]
-        print("CurrMatrix[0]: ", currMatrix[0])
-        TP = currMatrix[1][1]
-        FP = currMatrix[0][1]
-        precision = findPrecision(TP,FP)
-        if precision == UNDEFINED_VAL:
-            print("UNDEFINED PRECISION FOR LABEL: ", label)
-            validLabels = removeLabel(validLabels, label)
-        else:
-            precisionDict[label] = precision
-            validIndicies.append(index)
-        index += 1
-
-    print("PrecDict", precisionDict)
-    return confMatrixList, precisionDict, validLabels, validIndicies
-
-def removeLabel(labelList, targetLabel):
-    index = 0
-    for label in labelList:
-        if label == targetLabel:
-            del labelList[index]
-            print("RemoveLabel deleted label: ", label)
-            return labelList
-        index+=1
-    print("Couldnt find label: ", targetLabel, " in list: ", labelList)
-    return labelList
-
-
-def findRecallByLabel(confMatrixList, validLabels, validIndicies):
-    recallDict = {}
-    index = 0
-    print("ValidIndicies:", validIndicies)
-    print("ValidLabels:", validLabels)
-    for label in validLabels:
-        print("REcall index:", index)
-        validIndex = validIndicies[index]
-        currMatrix = confMatrixList[validIndex]
-        print("Recall validInd:", validIndex)
-        print("Recall currMatrix[0]: ", currMatrix[0])
-        TP = currMatrix[1][1]
-        FN = currMatrix[1][0]
-        recall = findRecall(TP,FN)
-        if not recall == UNDEFINED_VAL:
-            recallDict[label] = recall    
-        index += 1
-    return confMatrixList, recallDict, validLabels
-
-def findFmeasureByLabel(precisionDict, recallDict):
-     print("Finding fmeasure with precisionDict: ", precisionDict, "and recall dict: ", recallDict)
-     labels = list(precisionDict.keys())
-     fmeasureDict = {}
-     for label in labels:
-         fmeasureDict[label] = findFmeasureFromPrecRec(precisionDict[label], recallDict[label])
-     return fmeasureDict
-     
-def findFmeasureFromPrecRec(prec, rec):
-    return (2*prec*rec)/(prec + rec)
-
-def findFmeasure(TP, FP, FN):
-    return TP/(TP + .5*(FP+FN))
-
-def findPrecision(TP, FP):
-    #print("Finding precision: TP: ", TP, " FP: ", FP, " TP/(TP+FP) = ", TP/(TP+FP))
-    if(TP + FP) == 0:
-        return UNDEFINED_VAL
-    return TP/(TP+FP)
-
-def findRecall(TP, FN):
-    #print("Finding recall: TP: ", TP, " FP: ", FN, " TP/(TP + FN) = ", TP/(TP+FN))
-    if(TP + FN) == 0:
-        return UNDEFINED_VAL
-    return TP/(TP+FN)
-
-def computeFMetrics(inputMatrixList, validLabels):
-    #First attempt to find precision, removing labels that cannot be defined
-    print("VALID LABELS BEFORE PRECISION", validLabels)
-    inputMatrixList, precisionDict, validLabels, validIndicies = findPrecisionByLabel(inputMatrixList, validLabels) 
-    print("PRECISION DICT: ", precisionDict)
-    print("VALID LABELS AFTER PRECISION: ", validLabels)
-    #Then attempt to find recall, removing labels that cannot be defined again
-    inputMatrixList, recallDict, validLabels  = findRecallByLabel(inputMatrixList, validLabels, validIndicies)
-    print("RECALL DICT: ", recallDict)
-    print("VALID LABELS AFTER RECALL: ", validLabels)
-    #Then see if any more labels were removed. If so, remove them from the precall dictionary as well.
-    precisionDict = removeInvalidPrecisionLabels(precisionDict, recallDict)
-    print("PRECISION DICT AFTER PRECISION REMOVAL: ", precisionDict)
-    print("VALID LABELS AFTER PRECISION REMOVAL: ", validLabels)
-
-    #Finally compute fmeasure with both dictionaries, by label.
-    fmeasureDict = findFmeasureByLabel(precisionDict, recallDict)
-    print("FMEASURE DICT: ", fmeasureDict)
-    #Compute the averages of each value
-    avgPrecision, avgRecall, avgFmeasure = findFmetricAverages(precisionDict, recallDict, fmeasureDict)
-    print("AvgPrecision: ", avgPrecision)
-    print("AvgRecall: ", avgRecall)
-    print("AvgdFmeasure: ", avgFmeasure)
-    finalFmeasure = findFmeasureFromPrecRec(avgPrecision, avgRecall)
-    print("FMEASURE FROM FINAL PRECISION AND RECALL: ", finalFmeasure)
-    return avgPrecision, avgRecall, finalFmeasure
-
-def removeInvalidPrecisionLabels(precisionDict, recallDict):
-    precKeys = copy.deepcopy(list(precisionDict.keys()))
-    for label in precKeys:
-        if label not in recallDict:
-            del precisionDict[label]
-    return precisionDict 
-
-def findFmetricAverages(precisionDict, recallDict, fmeasureDict):
-    labels = list(precisionDict.keys())
-    sumPrecision = 0.0
-    sumRecall = 0.0
-    sumFmeasure = 0.0
-    avgPrecision = 0.0
-    avgRecall = 0.0
-    avgFmeasure = 0.0
-    labelCount = len(labels)
-    for label in labels:
-        sumPrecision += precisionDict[label]
-        sumRecall += recallDict[label]
-        sumFmeasure += fmeasureDict[label]
-    avgPrecision = sumPrecision/labelCount
-    avgRecall = sumRecall/labelCount
-    avgFmeasure = sumFmeasure/labelCount
-    return avgPrecision, avgRecall, avgFmeasure
-
-#Computes the overall metric score for validation of by label values
-def sanityCheck(metricDict):
-    total = 0
-    for label in labels:
-        total += metricDict[label]
-    return total / len(labels)
-
-def averageNonZeros(metricDict):
-    total = 0
-    count = 0
-    for label in labels:
-        if(metricDict[label] == 2.0):
-            continue
-        count+=1
-        total += metricDict[label]
-    return total / count
-
-"""
-Used to find the total True Positives, False Positives, and False Negatives for use in computing the micro fmeasure.
-
-    'micro':
-            Calculate metrics globally by counting the total true positives,
-            false negatives and false positives.
-"""
-def findTPFNFP(confMatrixList):
-    totalTP = 0
-    totalFP = 0
-    totalFN = 0
-    for matrix in confMatrixList:
-        print("First matrix: ", matrix)
-
-
-
-
-
-print("Started fast-bert, emptying cache")
-torch.cuda.empty_cache()
-
-
-DATA_PATH = './data/'
-LABEL_PATH = './data/'
-OUTPUT_PATH = './output/'
-
-labels = choose_labels()
-if len(labels) == 0:
-    sys.exit("No labels found for projectname inputted: " + proj_name)
-
-testSize = split_percent
-
-
 print("Building Box")
 currRun = 0
+#Read whole binary to csv.
+dataset_smote = pd.read_csv('./data/binaryNew.csv')
+print("dataset_smote COLUMNS: ", dataset_smote.columns)
+X = dataset_smote['corpus']
+
+#SHUFFLE SPLIT SECTION
+#Run the shuffle split and init vars for it
+train = []
+test = []
+
+splits = 10
+
+rs = ShuffleSplit(n_splits = splits, test_size = size_test, random_state=52)
+#print("\n============================\nShuffleSPLITS\n=========================================\n")
+#print(rs.get_n_splits(X))
+
+for train_index, test_index in rs.split(X):
+    #print("%s %s" % (train_index, test_index))
+    train.append(train_index)
+    test.append(test_index)    
+#print("Train 0:", train[0])
+
+train_test_splits = []
+
+for i in range(0, len(train)):
+    train_test_pair = [0,0]
+
+    num_columns = len(dataset_smote.columns)
+
+    data = dataset_smote.iloc[train[i]]
+
+
+
+    #data.to_csv(classifierFeatureInput+'train'+str(i)+'.csv', encoding='utf-8', sep=',')
+
+    train_data = data.iloc[:,1:num_columns] # all
+    #print("train_data: \n", train_data.head())
+
+    data = dataset_smote.iloc[test[i]]
+
+    #data.to_csv(classifierFeatureInput+'test'+str(i)+'.csv', encoding='utf-8', sep=',')
+
+    test_data = data.iloc[:,1:num_columns] # all
+    #print("test_data: \n", test_data.head())
+    
+    train_test_pair[0] = train_data
+    train_test_pair[1] = test_data
+
+    train_test_splits.append(train_test_pair)
+
+
+
+
+
+#BEGIN RUNNING BERT
 while currRun < runCount:
     print('===============\n\nCURR RUN\n\n====================', currRun)
+    if crossValidating:
+        curr_split = train_test_splits[currRun]
+        curr_train = curr_split[0]
+        curr_test = curr_split[1]
+        #Check to see if we are overwriting the files.
+        curr_train.to_csv('data/binaryTrain.csv', index=False) 
+        curr_test.to_csv('data/binaryTest.csv', index=False)
+        print("CURR TRAIN ", currRun, curr_train.head())
+        print("CURR TEST ", currRun, curr_test.head()) 
     currRun += 1
+    
 
     #Build train and test csvs if desired.
-    if shouldMakeTrainTest:
+    """if shouldMakeTrainTest:
         df = pd.read_csv('./data/binaryNew.csv')
         df['split'] = np.random.randn(df.shape[0], 1)
 
@@ -468,7 +250,9 @@ while currRun < runCount:
         print(test.head())
         #print(type(train["issueNumber"][1]))
         train.to_csv('./data/binaryTrain.csv', index=False)
-        test.to_csv('./data/binaryTest.csv', index=False)
+        test.to_csv('./data/binaryTest.csv', index=False)"""
+    
+
 
     args = Box({
         "run_text": "multilabel toxic comments with freezable layers",
@@ -611,7 +395,7 @@ while currRun < runCount:
     dataDict = {"Hypothesis" : [hypothesis], "Precision" : microPrec, "Recall": microRec, "Fmeasure_score": microFmeas, "hamming_loss": [resultsVals["Hammingloss"]], "Accuracy_Score": [accuracyScore], "Train/Test_Size" : [testSize], "Project": [proj_name]}
 
     metricsdf = pd.DataFrame.from_dict(dataDict)
-    metricsFile = metricspath + proj_name + "_" + hypothesis + "_" + filteringType + "_bertMetrics.csv"
+    metricsFile = metricspath + proj_name + "_" + hypothesis + "_" + filteringType + str(split_percent_display) +  "_bertMetrics.csv"
     if not os.path.exists(metricsFile):
         metricsdf.to_csv(metricsFile, index=False)
     else:
@@ -625,11 +409,17 @@ while currRun < runCount:
 
 sys.stdout = open(metricspath + "resultsVals.txt", 'a')
 #Write all the metrics to a file in metricsPath
-
 if runCount > 0:
     print("Run: ", runCount, resultsVals)
 
     metricsDf = pd.read_csv(metricsFile)
     print(metricsDf.head())
-print("Mean vals: ", metricsDf.mean(axis=0))
-print("Model saved")
+    print("Mean vals: ", metricsDf.mean(axis=0))
+    print("Model saved")
+
+
+#if proj_name in ["powertoys_rmca", "rmca","powertoys"]:
+ #   runH10()
+
+
+
