@@ -1,0 +1,42 @@
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0   Baseline   0.418842  0.468869        0.442446      0.457452        0.542548              0.4  audacity
+1   Baseline   0.420264  0.606099        0.496358      0.476144        0.523856              0.4  audacity
+2   Baseline   0.539474  0.416773        0.470251      0.363502        0.636498              0.4  audacity
+3   Baseline   0.382593  0.536213        0.446561      0.514511        0.485489              0.4  audacity
+4   Baseline   0.450339  0.506989        0.476987      0.430398        0.569602              0.4  audacity
+Mean vals:  Precision          0.442811
+Recall             0.522618
+Fmeasure_score     0.473455
+hamming_loss       0.447565
+Accuracy_Score     0.552435
+Train/Test_Size    0.400000
+dtype: float64
+Model saved
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0   Baseline   0.517207  0.668361        0.583149      0.369897        0.630103              0.3  audacity
+1   Baseline   0.523302  0.499365        0.511053      0.369897        0.630103              0.3  audacity
+2   Baseline   0.464183  0.411690        0.436364      0.411707        0.588293              0.3  audacity
+3   Baseline   0.412272  0.546379        0.469945      0.477127        0.522873              0.3  audacity
+4   Baseline   0.444139  0.616264        0.516232      0.447122        0.552878              0.3  audacity
+Mean vals:  Precision          0.456917
+Recall             0.518424
+Fmeasure_score     0.483170
+hamming_loss       0.426414
+Accuracy_Score     0.573586
+Train/Test_Size    0.300000
+dtype: float64
+Model saved
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0   Baseline   0.444223  0.566709        0.498046      0.442204        0.557796              0.2  audacity
+1   Baseline   0.521048  0.833545        0.641251      0.361043        0.638957              0.2  audacity
+2   Baseline   0.581579  0.561626        0.571429      0.326119        0.673881              0.2  audacity
+3   Baseline   0.392385  0.641677        0.486982      0.523364        0.476636              0.2  audacity
+4   Baseline   0.549933  0.524778        0.537061      0.350221        0.649779              0.2  audacity
+Mean vals:  Precision          0.471308
+Recall             0.578653
+Fmeasure_score     0.512030
+hamming_loss       0.419970
+Accuracy_Score     0.580030
+Train/Test_Size    0.200000
+dtype: float64
+Model saved

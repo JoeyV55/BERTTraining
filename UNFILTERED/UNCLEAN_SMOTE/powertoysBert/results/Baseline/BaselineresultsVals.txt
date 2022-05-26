@@ -1,0 +1,42 @@
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size    Project
+0   Baseline   0.614887  0.657439        0.635452      0.190559        0.809441              0.4  powertoys
+1   Baseline   0.611727  0.667820        0.638544      0.190997        0.809003              0.4  powertoys
+2   Baseline   0.617880  0.675606        0.645455      0.187500        0.812500              0.4  powertoys
+3   Baseline   0.574814  0.734429        0.644892      0.204327        0.795673              0.4  powertoys
+4   Baseline   0.649141  0.555363        0.598601      0.188156        0.811844              0.4  powertoys
+Mean vals:  Precision          0.622991
+Recall             0.640657
+Fmeasure_score     0.629268
+hamming_loss       0.189838
+Accuracy_Score     0.810162
+Train/Test_Size    0.400000
+dtype: float64
+Model saved
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size    Project
+0   Baseline   0.607531  0.725779        0.661411      0.187719        0.812281              0.3  powertoys
+1   Baseline   0.645315  0.583910        0.613079      0.186189        0.813811              0.3  powertoys
+2   Baseline   0.682893  0.424740        0.523733      0.195149        0.804851              0.3  powertoys
+3   Baseline   0.659016  0.521626        0.582327      0.189030        0.810970              0.3  powertoys
+4   Baseline   0.639437  0.589100        0.613237      0.187719        0.812281              0.3  powertoys
+Mean vals:  Precision          0.637477
+Recall             0.571453
+Fmeasure_score     0.589084
+hamming_loss       0.192286
+Accuracy_Score     0.807714
+Train/Test_Size    0.300000
+dtype: float64
+Model saved
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size    Project
+0   Baseline   0.605491  0.724913        0.659843      0.188811        0.811189              0.2  powertoys
+1   Baseline   0.638837  0.589100        0.612961      0.187937        0.812063              0.2  powertoys
+2   Baseline   0.636600  0.634948        0.635773      0.183785        0.816215              0.2  powertoys
+3   Baseline   0.602273  0.733564        0.661466      0.189685        0.810315              0.2  powertoys
+4   Baseline   0.653017  0.524221        0.581574      0.190559        0.809441              0.2  powertoys
+Mean vals:  Precision          0.630161
+Recall             0.623010
+Fmeasure_score     0.619689
+hamming_loss       0.189532
+Accuracy_Score     0.810468
+Train/Test_Size    0.200000
+dtype: float64
+Model saved

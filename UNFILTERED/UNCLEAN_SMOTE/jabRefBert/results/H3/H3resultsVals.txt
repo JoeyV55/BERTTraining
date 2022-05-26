@@ -1,0 +1,42 @@
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0         H3   0.789540  0.611273        0.689063      0.191520        0.808480              0.4  jabRef_2
+1         H3   0.793015  0.603175        0.685189      0.192420        0.807580              0.4  jabRef_2
+2         H3   0.790363  0.605766        0.685861      0.192645        0.807355              0.4  jabRef_2
+3         H3   0.793854  0.602527        0.685083      0.192308        0.807692              0.4  jabRef_2
+4         H3   0.791102  0.604794        0.685515      0.192645        0.807355              0.4  jabRef_2
+Mean vals:  Precision          0.791598
+Recall             0.606511
+Fmeasure_score     0.686775
+hamming_loss       0.192049
+Accuracy_Score     0.807951
+Train/Test_Size    0.400000
+dtype: float64
+Model saved
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0         H3   0.794017  0.601879        0.684725      0.192420        0.807580              0.3  jabRef_2
+1         H3   0.793603  0.602851        0.685199      0.192308        0.807692              0.3  jabRef_2
+2         H3   0.739192  0.681244        0.709036      0.194107        0.805893              0.3  jabRef_2
+3         H3   0.739389  0.643343        0.688030      0.202542        0.797458              0.3  jabRef_2
+4         H3   0.795269  0.598963        0.683296      0.192758        0.807242              0.3  jabRef_2
+Mean vals:  Precision          0.772189
+Recall             0.628409
+Fmeasure_score     0.691630
+hamming_loss       0.194130
+Accuracy_Score     0.805870
+Train/Test_Size    0.300000
+dtype: float64
+Model saved
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0         H3   0.793841  0.601231        0.684240      0.192645        0.807355              0.2  jabRef_2
+1         H3   0.745811  0.677681        0.710115      0.192083        0.807917              0.2  jabRef_2
+2         H3   0.792766  0.603499        0.685304      0.192420        0.807580              0.2  jabRef_2
+3         H3   0.793603  0.602851        0.685199      0.192308        0.807692              0.2  jabRef_2
+4         H3   0.792927  0.602851        0.684947      0.192533        0.807467              0.2  jabRef_2
+Mean vals:  Precision          0.780434
+Recall             0.617460
+Fmeasure_score     0.687662
+hamming_loss       0.194062
+Accuracy_Score     0.805938
+Train/Test_Size    0.200000
+dtype: float64
+Model saved

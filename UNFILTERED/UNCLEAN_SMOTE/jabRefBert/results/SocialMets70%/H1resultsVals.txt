@@ -1,0 +1,14 @@
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0         H1   0.349727  0.576577        0.435374      0.582456        0.417544              0.3  jabRef_2
+1         H1   0.491379  0.513514        0.502203      0.396491        0.603509              0.3  jabRef_2
+2         H1   0.461078  0.693694        0.553957      0.435088        0.564912              0.3  jabRef_2
+3         H1   0.385093  0.558559        0.455882      0.519298        0.480702              0.3  jabRef_2
+4         H1   0.374233  0.549550        0.445255      0.533333        0.466667              0.3  jabRef_2
+Mean vals:  Precision          0.404376
+Recall             0.515315
+Fmeasure_score     0.447531
+hamming_loss       0.489474
+Accuracy_Score     0.510526
+Train/Test_Size    0.300000
+dtype: float64
+Model saved

@@ -1,0 +1,881 @@
+prNumber,APM,Interpreter,Logging,Data.Structure,i18n,Setup,Logic,Microservices,Test,Search,UI,Parser,App,corpus
+488,1,0,0,0,0,1,0,0,0,1,1,0,1,fix editor cli parsing if comma is decimal sep in locale
+488,1,1,0,0,0,1,0,1,1,1,1,1,1,fix editor cli parsing if comma is decimal sep in locale
+488,0,0,0,0,0,1,0,0,0,0,0,0,0,fix editor cli parsing if comma is decimal sep in locale
+510,0,0,0,0,0,1,0,0,0,0,0,0,0,fixes for zone resize
+510,1,1,0,1,0,1,0,1,0,1,1,1,1,fixes for zone resize
+510,1,0,0,0,0,1,1,1,0,1,1,0,1,fixes for zone resize
+510,0,0,0,0,0,1,0,0,0,0,0,0,0,fixes for zone resize
+510,1,1,0,1,0,1,0,1,0,1,1,1,1,fixes for zone resize
+510,0,0,0,0,0,0,0,0,0,0,0,0,1,fixes for zone resize
+510,0,0,0,0,0,1,0,0,0,0,0,0,0,fixes for zone resize
+510,1,0,0,1,0,1,0,1,0,1,1,1,1,fixes for zone resize
+510,0,0,0,0,0,0,0,0,0,0,0,0,1,fixes for zone resize
+548,1,0,0,0,0,1,0,1,0,1,1,0,1,fix for issue 448
+548,1,0,0,1,0,1,0,1,0,1,1,1,1,fix for issue 448
+548,0,0,0,0,0,0,0,0,0,1,0,0,1,fix for issue 448
+657,1,0,0,0,0,1,0,1,0,1,1,0,1,fix for different per-monitor scaling
+657,1,1,0,1,0,1,0,1,0,1,1,1,1,fix for different per-monitor scaling
+657,1,0,0,0,0,1,0,0,0,1,1,0,1,fix for different per-monitor scaling
+657,1,0,0,0,0,1,0,1,0,1,1,0,1,fix for different per-monitor scaling
+657,1,1,0,1,0,1,0,1,0,1,1,1,1,fix for different per-monitor scaling
+657,0,0,0,0,0,0,0,0,0,0,0,0,1,fix for different per-monitor scaling
+715,1,0,0,0,0,1,0,1,0,1,1,0,1,fancyzoneseditor: open a tab with the selected layout on startup
+715,1,0,0,1,0,1,0,0,0,1,1,0,1,fancyzoneseditor: open a tab with the selected layout on startup
+715,0,0,0,0,0,0,0,1,0,1,1,0,1,fancyzoneseditor: open a tab with the selected layout on startup
+927,1,0,0,0,0,1,0,1,0,1,1,0,1,code analysis / style cop adjustments for net
+927,1,0,0,0,0,1,1,1,0,1,1,0,1,code analysis / style cop adjustments for net
+927,1,0,0,0,0,1,1,1,0,1,1,0,1,code analysis / style cop adjustments for net
+927,1,0,0,0,0,1,0,1,0,1,1,0,1,code analysis / style cop adjustments for net
+927,1,0,0,0,0,1,1,1,0,1,1,0,1,code analysis / style cop adjustments for net
+927,0,0,0,0,0,0,0,0,0,1,1,0,1,code analysis / style cop adjustments for net
+994,0,0,0,0,0,1,0,0,0,0,0,0,0,when spacing is set to 0 or turned off display 1px border so user can  distinguish zone edges
+994,1,0,0,0,0,1,1,1,0,1,1,0,1,when spacing is set to 0 or turned off display 1px border so user can  distinguish zone edges
+994,0,0,0,0,0,0,0,0,0,0,0,0,1,when spacing is set to 0 or turned off display 1px border so user can  distinguish zone edges
+1000,0,0,0,0,0,1,0,0,0,0,0,0,0,fix for #923
+1000,1,0,0,0,0,1,1,1,0,1,1,0,1,fix for #923
+1000,1,0,0,0,0,1,0,1,0,1,1,0,1,fix for #923
+1009,1,1,0,0,0,1,0,1,1,1,1,1,1,🎁 import image resizer for windows
+1009,1,0,0,0,0,1,1,1,0,1,1,0,1,🎁 import image resizer for windows
+1009,1,0,0,0,0,1,1,1,0,1,1,0,1,🎁 import image resizer for windows
+1072,0,0,0,0,0,0,0,0,0,0,0,0,0,implement common library interfaces for preview pane
+1072,1,0,0,0,0,1,1,1,0,1,1,0,1,implement common library interfaces for preview pane
+1072,1,0,0,0,0,1,1,1,0,1,1,0,1,implement common library interfaces for preview pane
+1072,0,0,0,0,0,0,0,0,0,0,0,0,0,implement common library interfaces for preview pane
+1072,1,0,0,0,0,1,1,1,0,1,1,0,1,implement common library interfaces for preview pane
+1072,1,0,0,0,0,1,1,1,0,1,1,0,1,implement common library interfaces for preview pane
+1075,0,0,0,0,0,0,0,1,0,0,1,0,1,user/lamotile/add_powerpreviewsettings
+1075,1,0,0,0,0,1,1,0,0,1,1,0,1,user/lamotile/add_powerpreviewsettings
+1075,1,0,0,0,0,1,1,1,0,1,1,0,1,user/lamotile/add_powerpreviewsettings
+1075,0,0,0,0,0,0,0,1,0,0,1,0,1,user/lamotile/add_powerpreviewsettings
+1075,0,0,0,0,0,0,1,0,0,0,0,0,1,user/lamotile/add_powerpreviewsettings
+1075,0,0,0,0,0,0,0,0,0,0,0,0,1,user/lamotile/add_powerpreviewsettings
+1122,0,0,0,0,0,1,0,1,0,1,1,0,1,localizing c# project of fancyzones (fancyzoneseditor) (#199)
+1122,1,1,0,1,0,1,0,1,0,1,1,0,1,localizing c# project of fancyzones (fancyzoneseditor) (#199)
+1122,1,0,0,0,0,1,0,1,0,1,1,0,1,localizing c# project of fancyzones (fancyzoneseditor) (#199)
+1123,0,0,0,0,0,0,0,0,0,0,0,0,0,renamed advanced options to settings and removed about tab (dev/imageresizer)
+1123,1,0,1,0,0,1,0,0,0,1,1,0,1,renamed advanced options to settings and removed about tab (dev/imageresizer)
+1123,1,0,0,0,0,1,1,1,0,1,1,0,1,renamed advanced options to settings and removed about tab (dev/imageresizer)
+1128,0,0,0,0,0,0,0,0,0,0,0,0,0,markdown preview pane
+1128,0,0,0,1,0,0,0,0,0,1,1,0,1,markdown preview pane
+1128,1,0,0,0,0,1,0,1,0,1,1,0,1,markdown preview pane
+1129,0,0,0,0,0,0,0,1,0,0,1,0,1,add svg preview handler
+1129,0,0,1,0,0,0,0,0,0,1,0,0,1,add svg preview handler
+1129,0,0,0,0,0,1,0,0,0,0,0,0,0,add svg preview handler
+1195,0,0,0,0,0,1,0,0,0,0,0,0,0,sync with master (dev/imageresizer)
+1195,1,0,0,0,0,1,1,1,0,1,1,1,1,sync with master (dev/imageresizer)
+1195,1,0,0,0,0,1,0,0,0,1,1,0,1,sync with master (dev/imageresizer)
+1220,0,0,0,0,0,0,0,0,0,0,0,0,0,markdown preview pane
+1220,0,0,0,0,0,1,1,0,0,1,1,0,1,markdown preview pane
+1220,1,0,0,0,0,1,1,0,0,1,1,0,1,markdown preview pane
+1231,0,0,0,0,0,0,0,1,0,0,1,0,1,remove script and image element from svg
+1231,0,0,0,1,0,0,0,0,0,1,0,0,0,remove script and image element from svg
+1231,1,0,0,0,0,1,0,1,0,1,1,0,1,remove script and image element from svg
+1258,1,0,0,0,0,1,0,0,0,1,1,1,1,save imageresizer settings in json format
+1258,0,0,0,1,0,0,0,0,0,1,1,0,1,save imageresizer settings in json format
+1258,1,0,0,0,0,1,1,0,0,1,1,0,1,save imageresizer settings in json format
+1272,1,0,0,0,0,1,0,0,0,1,1,1,1,added telemetry to imageresizer shell extension code (dev/imageresizer)
+1272,1,0,0,0,0,1,0,1,1,1,1,1,1,added telemetry to imageresizer shell extension code (dev/imageresizer)
+1272,1,0,0,0,0,1,1,1,0,1,1,0,1,added telemetry to imageresizer shell extension code (dev/imageresizer)
+1299,0,0,0,0,0,0,0,0,0,0,0,0,0,preview pane telemetry
+1299,0,0,1,0,0,0,0,0,0,0,0,0,1,preview pane telemetry
+1299,1,0,0,0,0,1,0,0,0,1,1,0,1,preview pane telemetry
+1303,0,0,0,0,0,0,0,0,0,0,1,0,0,markdown image files display
+1303,1,1,0,0,0,1,0,1,1,1,1,1,1,markdown image files display
+1303,0,0,0,0,0,0,0,0,0,0,0,0,1,markdown image files display
+1308,0,0,0,0,0,1,0,0,0,0,0,0,0,fixed a grid editor issue
+1308,0,0,0,0,0,0,1,1,0,1,1,0,1,fixed a grid editor issue
+1308,1,0,0,0,0,1,1,1,0,1,1,0,1,fixed a grid editor issue
+1309,0,0,0,0,0,1,0,0,0,0,0,0,0,fixed resizer thumbs not being shown
+1309,1,0,1,0,0,1,0,1,0,1,1,0,1,fixed resizer thumbs not being shown
+1309,1,0,0,0,0,1,1,1,0,1,1,0,1,fixed resizer thumbs not being shown
+1368,0,0,0,0,0,0,0,1,0,0,1,0,1,svg preview handler block external component
+1368,1,1,0,1,0,1,0,1,0,1,1,0,1,svg preview handler block external component
+1368,0,0,0,0,0,0,0,0,0,0,0,0,1,svg preview handler block external component
+1421,1,0,0,0,0,1,0,0,0,1,1,0,1,sync changes from master (dev/imageresizer)
+1421,1,1,1,0,0,1,0,1,1,1,1,1,1,sync changes from master (dev/imageresizer)
+1421,0,0,0,0,0,0,0,0,0,0,0,0,1,sync changes from master (dev/imageresizer)
+1421,1,0,0,0,0,1,0,0,0,1,1,0,1,sync changes from master (dev/imageresizer)
+1421,0,0,1,0,0,0,0,0,0,1,0,0,1,sync changes from master (dev/imageresizer)
+1421,0,0,0,0,0,0,0,0,0,0,0,0,1,sync changes from master (dev/imageresizer)
+1430,0,0,0,0,0,0,0,0,0,0,0,0,0,handle exception while editor is parsing custom layouts
+1430,0,0,0,0,1,1,0,0,0,0,0,0,0,handle exception while editor is parsing custom layouts
+1430,1,0,0,0,0,1,0,1,0,1,1,0,1,handle exception while editor is parsing custom layouts
+1456,0,0,0,0,0,0,0,0,0,0,1,0,0,call gc on preview unloading
+1456,1,0,0,1,0,1,0,1,0,1,1,0,1,call gc on preview unloading
+1456,0,0,0,0,0,0,0,0,0,0,0,0,1,call gc on preview unloading
+1456,0,0,0,0,0,0,0,0,0,0,1,0,0,call gc on preview unloading
+1456,1,0,0,0,1,1,0,1,0,1,1,0,1,call gc on preview unloading
+1456,0,0,0,0,0,0,0,0,0,1,0,0,0,call gc on preview unloading
+1458,1,0,0,0,0,1,0,0,0,1,1,0,1,fixed an issue where zones do not fill up the whole screen
+1458,0,0,0,0,1,1,0,0,0,0,0,0,0,fixed an issue where zones do not fill up the whole screen
+1458,0,0,0,0,0,0,0,0,0,0,0,0,1,fixed an issue where zones do not fill up the whole screen
+1458,1,0,0,0,0,1,0,0,0,1,1,0,1,fixed an issue where zones do not fill up the whole screen
+1458,1,0,0,0,0,1,1,1,1,1,1,1,1,fixed an issue where zones do not fill up the whole screen
+1458,1,0,0,0,0,1,0,0,0,1,1,0,1,fixed an issue where zones do not fill up the whole screen
+1464,0,0,0,0,0,0,0,1,0,0,1,0,1,update web browser control for markdown previewer
+1464,0,0,0,0,0,0,1,0,1,1,1,1,1,update web browser control for markdown previewer
+1464,0,0,0,0,0,1,0,0,0,0,0,0,0,update web browser control for markdown previewer
+1503,0,0,0,0,0,1,0,0,0,0,0,0,0,fancyzones editor magnetic snapping effect
+1503,0,0,0,0,1,1,0,0,0,0,0,0,0,fancyzones editor magnetic snapping effect
+1503,1,0,0,0,0,1,1,1,0,1,1,0,1,fancyzones editor magnetic snapping effect
+1503,0,0,0,0,0,1,0,0,0,0,0,0,0,fancyzones editor magnetic snapping effect
+1503,1,0,0,0,0,1,0,0,0,1,1,0,1,fancyzones editor magnetic snapping effect
+1512,0,0,0,0,0,1,0,0,0,0,0,0,0,fix deleting custom layouts when closing on saveapply
+1512,0,0,0,0,0,0,0,0,0,0,0,0,1,fix deleting custom layouts when closing on saveapply
+1583,0,0,0,0,0,0,0,0,0,0,1,0,1,remove failing svg preview handler unit tests in ci
+1583,0,0,0,0,0,0,0,0,0,1,0,0,1,remove failing svg preview handler unit tests in ci
+1589,0,0,0,0,0,1,0,0,0,0,0,0,0,shortcuts guide powerrename imageresizer and powerlauncher settings pages
+1589,1,0,0,0,0,1,1,0,0,1,1,0,1,shortcuts guide powerrename imageresizer and powerlauncher settings pages
+1589,0,0,0,0,0,1,0,0,0,0,0,0,0,shortcuts guide powerrename imageresizer and powerlauncher settings pages
+1589,0,0,0,0,0,1,0,0,0,0,0,0,0,shortcuts guide powerrename imageresizer and powerlauncher settings pages
+1589,0,0,0,0,0,1,0,0,0,0,0,0,0,shortcuts guide powerrename imageresizer and powerlauncher settings pages
+1589,1,0,0,0,0,1,0,0,0,1,1,0,1,shortcuts guide powerrename imageresizer and powerlauncher settings pages
+1589,0,0,0,0,0,1,0,0,0,0,0,0,0,shortcuts guide powerrename imageresizer and powerlauncher settings pages
+1589,0,0,1,0,0,0,0,0,0,0,0,0,1,shortcuts guide powerrename imageresizer and powerlauncher settings pages
+1597,1,0,0,0,0,1,0,0,0,1,1,0,1,added ipc wrapper for c#
+1597,0,0,0,0,0,0,0,0,0,0,0,0,1,added ipc wrapper for c#
+1610,0,0,0,0,0,1,0,0,0,0,0,0,0,implement canceling edits in fze fix crashes related to canceling
+1610,1,0,0,0,0,1,0,0,0,1,1,0,1,implement canceling edits in fze fix crashes related to canceling
+1610,0,0,0,0,0,1,0,0,0,0,0,0,0,implement canceling edits in fze fix crashes related to canceling
+1610,0,0,0,0,0,1,0,0,0,0,0,0,0,implement canceling edits in fze fix crashes related to canceling
+1620,0,0,0,0,0,0,0,0,0,0,0,0,0,add info bar if blocked elements present in svg
+1620,0,0,0,0,0,1,0,0,0,0,0,0,0,add info bar if blocked elements present in svg
+1633,0,0,0,0,0,0,0,0,0,0,1,1,1,editor opening tests
+1633,0,0,0,0,0,1,0,0,0,0,0,0,0,editor opening tests
+1639,0,0,0,0,0,0,0,0,0,0,1,1,1,editor templates tests
+1639,0,0,0,1,0,0,0,0,0,1,0,0,0,editor templates tests
+1645,0,0,0,0,0,0,0,0,0,0,1,1,1,editor settings test
+1645,0,0,0,0,0,0,0,0,0,0,0,0,1,editor settings test
+1648,0,0,0,0,0,0,0,0,0,0,0,1,1,editor tests: apply templates
+1648,1,0,0,0,0,1,1,1,0,1,1,0,1,editor tests: apply templates
+1667,0,0,0,0,0,0,0,0,0,0,1,1,1,editor templates tests update
+1667,1,0,0,0,0,1,1,1,0,1,1,0,1,editor templates tests update
+1670,0,0,0,0,0,1,0,0,0,0,0,0,0,use jsonserializer instead of utf8writer
+1670,0,0,0,0,0,0,0,0,0,1,0,0,1,use jsonserializer instead of utf8writer
+1682,0,0,0,0,0,0,0,0,0,0,1,1,1,tests: editor settings tests
+1682,0,0,0,1,0,0,0,0,0,1,0,0,0,tests: editor settings tests
+1695,0,0,0,0,0,0,0,0,0,0,1,0,1,display infobar for blocked relative image path
+1695,1,0,0,0,0,1,1,1,0,1,1,0,1,display infobar for blocked relative image path
+1702,0,0,0,0,0,0,0,0,0,0,1,0,0,setting v2: added power preview settings
+1702,1,0,0,0,0,1,0,0,0,1,1,0,1,setting v2: added power preview settings
+1726,1,0,0,0,0,1,0,0,0,1,1,0,1,fancyzones editor display zone numbers & powerrename fix
+1726,1,0,0,0,0,1,1,1,0,1,1,0,1,fancyzones editor display zone numbers & powerrename fix
+1726,1,0,0,0,0,1,0,0,0,1,1,0,1,fancyzones editor display zone numbers & powerrename fix
+1726,1,0,0,0,0,1,0,1,0,1,1,0,1,fancyzones editor display zone numbers & powerrename fix
+1729,0,0,0,0,0,1,0,1,0,1,1,0,1,prevent window walker from having multiple running instances
+1729,0,0,0,0,0,0,0,0,0,0,0,0,1,prevent window walker from having multiple running instances
+1734,1,0,0,0,0,1,0,0,0,1,1,0,1,fixed some recent compiler warnings
+1734,0,0,0,0,0,0,0,0,0,0,0,0,1,fixed some recent compiler warnings
+1735,0,0,0,0,0,0,0,0,0,0,1,0,0,improvements to settings shellpage and added new xaml layouts for powerrename shortcut guide powerlauncher
+1735,0,0,0,0,0,0,0,0,0,0,0,0,1,improvements to settings shellpage and added new xaml layouts for powerrename shortcut guide powerlauncher
+1735,0,0,0,0,0,0,0,0,0,0,1,0,0,improvements to settings shellpage and added new xaml layouts for powerrename shortcut guide powerlauncher
+1735,0,0,0,0,0,0,0,0,0,0,0,0,1,improvements to settings shellpage and added new xaml layouts for powerrename shortcut guide powerlauncher
+1735,0,0,0,0,0,0,0,0,0,0,1,0,0,improvements to settings shellpage and added new xaml layouts for powerrename shortcut guide powerlauncher
+1735,0,0,0,0,0,0,0,0,0,1,0,0,1,improvements to settings shellpage and added new xaml layouts for powerrename shortcut guide powerlauncher
+1735,0,0,0,0,0,0,0,0,0,0,1,0,0,improvements to settings shellpage and added new xaml layouts for powerrename shortcut guide powerlauncher
+1735,0,0,0,0,0,1,0,0,0,0,0,0,0,improvements to settings shellpage and added new xaml layouts for powerrename shortcut guide powerlauncher
+1757,0,0,0,0,0,0,0,0,0,0,1,1,1,editor custom layouts tests
+1757,0,0,0,0,0,0,0,0,0,1,0,0,1,editor custom layouts tests
+1757,0,0,0,0,0,0,0,0,0,0,1,1,1,editor custom layouts tests
+1757,0,0,0,0,0,1,0,0,0,1,1,0,1,editor custom layouts tests
+1757,0,0,0,0,0,0,0,0,0,0,1,1,1,editor custom layouts tests
+1757,0,0,0,1,0,0,0,0,0,1,0,0,0,editor custom layouts tests
+1772,1,0,0,0,0,1,0,1,0,1,1,0,1,set window walker overview link
+1772,1,0,0,0,0,1,1,1,0,1,1,0,1,set window walker overview link
+1778,0,0,0,0,0,0,0,0,0,0,0,0,0,fz - styling updates to gridzone and canvaszone controls so they look more fluent
+1778,0,0,0,0,0,1,0,0,0,0,0,0,0,fz - styling updates to gridzone and canvaszone controls so they look more fluent
+1792,0,0,0,0,0,0,0,0,0,0,1,0,0,settings v2: new fancyzones imageresizer xaml sidepanels are now in the settings pages for more flexibility
+1792,0,0,0,0,1,1,0,0,0,0,0,0,0,settings v2: new fancyzones imageresizer xaml sidepanels are now in the settings pages for more flexibility
+1792,0,0,0,0,0,0,0,0,0,0,1,0,0,settings v2: new fancyzones imageresizer xaml sidepanels are now in the settings pages for more flexibility
+1792,1,0,0,0,0,1,0,1,0,1,1,0,1,settings v2: new fancyzones imageresizer xaml sidepanels are now in the settings pages for more flexibility
+1793,0,0,0,0,0,0,0,0,0,0,1,1,1,tests updates
+1793,0,0,0,0,0,0,0,1,0,1,1,0,1,tests updates
+1813,0,0,0,0,0,0,0,0,0,1,1,0,1,user/lamotile/add powerrename settings
+1813,0,0,0,0,0,0,0,0,0,0,0,0,1,user/lamotile/add powerrename settings
+1814,1,0,0,0,0,1,0,1,0,1,1,0,1,[window walker] enable tabbing to scroll
+1814,0,0,0,0,0,0,0,0,0,1,0,0,1,[window walker] enable tabbing to scroll
+1858,0,0,0,0,0,1,0,0,0,0,0,0,0,[window walker] handle uwp process names
+1858,0,0,0,0,1,1,0,0,0,0,0,0,0,[window walker] handle uwp process names
+1859,1,0,0,0,0,1,0,1,0,1,1,0,1,[window walker] set focus on text box control on hotkey invoke
+1859,0,0,0,0,0,1,0,0,0,0,0,0,0,[window walker] set focus on text box control on hotkey invoke
+1933,0,0,0,0,0,0,0,0,0,1,1,0,1,added stylecop
+1933,0,0,0,0,0,0,0,1,0,1,1,0,1,added stylecop
+1956,0,0,0,0,0,1,0,0,0,0,0,0,0,better app listing like alt-tab supports uwp apps and hidden apps running including in another virtual desktops
+1956,0,0,0,0,0,0,0,0,0,1,1,0,1,better app listing like alt-tab supports uwp apps and hidden apps running including in another virtual desktops
+2006,0,0,0,0,0,0,0,0,0,0,1,0,1,winappdriver tests fix
+2006,1,0,0,0,0,1,1,1,0,1,1,0,1,winappdriver tests fix
+2014,0,0,0,0,0,1,0,0,0,0,0,0,0,fixing a bunch of warnings from window walker
+2014,0,0,0,0,0,1,0,0,0,0,0,0,0,fixing a bunch of warnings from window walker
+2020,0,0,0,0,0,0,0,0,0,0,0,0,0,fz editor: splitter thickness set to 1px when space around zones is zero
+2020,0,0,0,0,0,0,0,0,0,1,0,0,1,fz editor: splitter thickness set to 1px when space around zones is zero
+2073,0,0,0,0,0,0,0,0,0,0,0,0,0,chore: fix remaining warnings
+2073,0,0,0,0,0,0,0,1,0,1,1,0,1,chore: fix remaining warnings
+2093,0,0,0,0,0,1,0,0,0,1,1,0,1,[window walker] migrate to launcher
+2093,0,0,0,0,0,0,0,0,0,0,0,0,1,[window walker] migrate to launcher
+2099,0,0,0,0,0,0,0,0,0,0,1,0,0,move markdown parsing logic outside control thread
+2099,1,0,0,0,0,1,0,1,0,1,1,0,1,move markdown parsing logic outside control thread
+2133,1,0,0,0,0,1,0,1,0,1,1,0,1,removing everything references
+2133,0,0,0,1,0,0,0,0,0,1,0,0,0,removing everything references
+2144,0,0,0,0,0,1,0,1,0,1,1,0,1,set mainwindow visibility to hidden on startup
+2144,0,0,1,0,0,0,0,0,0,0,0,0,1,set mainwindow visibility to hidden on startup
+2153,0,0,0,0,0,0,0,0,0,1,0,0,1,take subset of pr 2115 for issues 2042 2039
+2153,1,0,0,0,0,1,1,1,0,1,1,0,1,take subset of pr 2115 for issues 2042 2039
+2153,0,0,0,0,0,0,0,0,0,1,0,0,1,take subset of pr 2115 for issues 2042 2039
+2153,0,0,0,0,0,1,0,0,0,0,0,0,0,take subset of pr 2115 for issues 2042 2039
+2153,0,0,0,0,0,0,0,0,0,1,0,0,1,take subset of pr 2115 for issues 2042 2039
+2153,0,0,0,0,0,0,0,1,0,1,1,0,1,take subset of pr 2115 for issues 2042 2039
+2158,0,0,0,0,0,1,0,0,0,0,0,0,0,fz editor: splitted zones positioning
+2158,1,0,0,0,0,1,1,1,0,1,1,0,1,fz editor: splitted zones positioning
+2161,0,0,0,0,0,0,0,0,0,0,1,0,0,added fancy zones settings
+2161,1,0,0,0,0,1,1,1,0,1,1,0,1,added fancy zones settings
+2161,0,0,0,0,0,0,0,0,0,0,1,0,0,added fancy zones settings
+2161,1,0,0,0,0,1,0,1,0,1,1,0,1,added fancy zones settings
+2179,0,0,0,0,0,0,0,0,0,0,1,1,1,keyboard manager ui tweaks (dev/build-features)
+2179,1,0,0,0,0,1,1,1,0,1,1,0,1,keyboard manager ui tweaks (dev/build-features)
+2179,0,0,0,0,0,0,0,0,0,0,1,1,1,keyboard manager ui tweaks (dev/build-features)
+2179,0,0,0,0,0,0,0,0,0,1,0,0,1,keyboard manager ui tweaks (dev/build-features)
+2179,0,0,0,0,0,0,0,0,0,0,1,1,1,keyboard manager ui tweaks (dev/build-features)
+2179,0,0,0,0,0,1,0,0,0,0,0,0,0,keyboard manager ui tweaks (dev/build-features)
+2192,1,0,0,0,0,1,0,1,0,1,1,0,1,remove autosuggest box
+2192,1,0,0,0,0,1,1,1,0,1,1,0,1,remove autosuggest box
+2220,1,0,0,0,0,0,0,0,0,1,1,0,1,fixed kbm interaction with shortcut guide (dev/build-features)
+2235,1,0,0,0,0,1,0,1,0,1,1,0,1,launcher light/dark mode
+2237,1,0,0,0,0,0,0,0,0,1,1,0,1,move kbm warnings at apply to flyouts
+2247,0,0,0,0,0,0,0,0,0,0,1,0,0,added shortcut guide settings
+2248,0,0,0,0,0,0,0,0,0,1,1,0,1,deprecate atl based ipc wrapper library
+2250,0,0,0,0,0,1,0,0,0,1,1,0,1,win+r shouldnt launch windowwalker
+2272,0,0,0,0,0,0,0,0,0,0,0,0,0,fixed the selection highlight not visible issue
+2276,0,0,0,0,0,0,0,0,0,0,1,0,1,powerlaunchersettings unit tests
+2292,1,0,0,0,0,1,0,0,0,1,1,0,1,removed folder plugin
+2299,0,0,0,0,0,0,0,0,0,0,1,0,0,update the kbm ui to use a grid based layout rather than stack panels
+2299,0,0,0,0,0,0,0,0,0,0,1,0,0,update the kbm ui to use a grid based layout rather than stack panels
+2308,0,0,0,0,0,0,0,0,0,0,1,0,0,add support for common win key in kbm
+2314,0,0,0,0,0,0,0,0,0,0,1,0,0,display key mappings in settings
+2314,0,0,0,0,0,0,0,0,0,0,1,0,0,display key mappings in settings
+2315,1,0,0,0,0,1,0,1,0,1,1,0,1,select text whenever launcher is set to visible after being hidden
+2324,0,0,0,0,0,0,0,0,0,0,1,0,1,added image resizer settings
+2324,0,0,0,0,0,0,0,0,0,0,1,0,1,added image resizer settings
+2341,0,0,0,0,0,1,0,0,0,1,1,0,1,making shell plugin behave more like win+r
+2345,0,0,0,0,0,0,0,0,0,0,1,0,0,merge powerlauncher branch
+2361,0,0,0,0,0,0,0,0,0,0,0,0,0,modify scoring algorithm for fuzzy search
+2368,0,0,0,0,0,1,0,0,0,1,1,0,1,fix for 2363 - adding folder plugin back in and modifying text
+2370,0,0,0,0,0,0,0,0,0,1,1,0,1,push program execution to background thread
+2370,0,0,0,0,0,0,0,0,0,1,1,0,1,push program execution to background thread
+2372,1,0,0,0,0,1,0,1,0,1,1,0,1,folder plugin
+2380,1,0,0,0,0,1,0,1,0,1,1,0,1,fixes cursor jumping around issue
+2381,1,0,0,0,0,1,0,0,0,1,1,0,1,disabling winr
+2385,1,0,0,0,0,1,0,1,0,1,1,0,1,fix dll loading at runtime
+2392,0,0,0,0,0,0,0,0,0,1,1,0,1,issue 2383 update folder and selection behavior
+2404,0,0,0,0,0,1,0,0,0,1,1,0,1,reindex uwp apps when apps are installed or uninstalled
+2411,0,0,0,0,0,0,0,0,0,0,1,0,1,fix: start as admin error: unable to open app when running elevated
+2446,1,0,0,0,0,1,0,1,0,1,1,1,1,[launcher] location and multi monitor support
+2477,1,0,0,0,0,1,0,1,0,1,1,0,1,[launcher] fluent ux enhancements
+2477,1,0,0,0,0,1,0,1,0,1,1,0,1,[launcher] fluent ux enhancements
+2477,1,0,0,0,0,1,0,1,0,1,1,0,1,[launcher] fluent ux enhancements
+2593,0,0,0,0,0,1,0,0,0,1,1,0,1,updated file path/description of plugins
+2598,1,0,0,0,0,0,0,0,0,1,1,0,1,making teams launch not updater  this will also fix a lot of cmd st…
+2601,1,0,0,0,0,0,0,0,0,1,1,0,1,[settings] update version in general settings
+2607,1,0,0,0,0,1,0,1,0,1,1,0,1,poweranme tests
+2653,0,0,0,0,0,0,0,0,0,0,1,0,0,user/ryanbod/issue 2450 remove user facing file paths
+2664,1,0,0,0,0,1,0,1,0,1,1,0,1,remove ww module
+2673,1,0,0,0,0,1,0,0,0,1,1,0,1,handle file path similar to run
+2676,1,0,0,0,0,1,0,1,0,1,1,0,1,[settings ui] updated general settings
+2679,0,0,0,0,0,0,0,0,0,0,0,0,0,[fancyzoneseditor] make transforming struct field names to dash case region invariant
+2696,0,0,0,0,0,0,0,0,0,0,0,0,0,user/ryanbod/issue 2060 telemetry for build features
+2700,0,0,0,0,0,1,0,0,0,1,1,0,1,[settings v2] ux tweaks
+2700,0,0,0,0,0,1,0,0,0,1,1,0,1,[settings v2] ux tweaks
+2700,0,0,0,0,0,1,0,0,0,1,1,0,1,[settings v2] ux tweaks
+2702,0,0,0,0,0,1,0,0,0,1,1,0,1,fix for indexer symbol error
+2717,0,0,0,0,0,0,0,0,0,0,1,1,1,option to disable zones activation by mouse
+2759,0,0,0,0,0,0,0,0,0,0,1,0,0,fix double compile issue for launcher and settings
+2776,0,0,0,0,0,0,0,0,0,0,1,0,0,fancy zones settings - color pickers saved argb value fix (now saves rgb)
+2785,0,0,0,0,0,0,0,0,0,0,1,0,0,[settings v2] fancyzones settings checkboxes update
+2786,0,0,0,0,0,0,0,0,0,0,1,0,1,[settings v2] upated fancy zone and shortcut guid default values
+2786,0,0,0,0,0,0,0,0,0,0,1,0,1,[settings v2] upated fancy zone and shortcut guid default values
+2796,0,0,0,0,0,0,0,0,0,0,1,0,1,powerrename settings bugfix
+2798,1,0,0,0,0,1,0,1,0,1,1,0,1,kbm - ui tweaks
+2798,1,0,0,0,0,1,0,1,0,1,1,0,1,kbm - ui tweaks
+2798,1,0,0,0,0,1,0,1,0,1,1,0,1,kbm - ui tweaks
+2798,1,0,0,0,0,1,0,1,0,1,1,0,1,kbm - ui tweaks
+2798,1,0,0,0,0,1,0,1,0,1,1,0,1,kbm - ui tweaks
+2812,0,0,0,0,0,0,0,0,0,0,0,0,1,add support for win32 packaged apps to run as admin
+2814,0,0,0,0,0,0,0,0,0,0,1,0,0,adding telemetry events for svg and markdown enable/disable
+2814,0,0,0,0,0,0,0,0,0,0,1,0,0,adding telemetry events for svg and markdown enable/disable
+2816,0,0,0,0,0,1,0,1,0,1,1,0,1,change warnings from icon to flyouts but it no longer interrupts searching
+2816,0,0,0,0,0,1,0,1,0,1,1,0,1,change warnings from icon to flyouts but it no longer interrupts searching
+2868,1,0,0,0,0,0,0,0,0,1,1,0,1,[settings] add image resizer settings hyperlink on feature detection of older os versions
+2873,1,0,0,0,0,0,0,0,0,1,1,0,1,fixed kbm default window size not being dpi aware
+2879,1,0,0,0,0,0,0,0,0,0,0,0,0,adding privacy event tags to each telemetry event
+2879,1,0,0,0,0,0,0,0,0,0,0,0,0,adding privacy event tags to each telemetry event
+2883,0,0,0,0,0,0,0,0,0,0,1,0,0,fixed tables in markdown previews being displayed incorrectly
+2917,0,0,0,0,0,1,0,1,0,1,1,0,1,migrate search box to wpf control
+2929,0,0,0,0,0,1,0,0,0,1,1,0,1,[launcher] fix copying of calculator value
+2945,0,0,0,0,0,0,0,0,0,0,1,0,1,autoupdate option visible only for administrators group
+2969,1,0,0,0,0,1,0,1,0,1,1,0,1,kbm - auto scroll to bottom when adding a remap
+2972,0,0,0,0,0,0,0,0,0,0,1,0,1,[settings v2] updated default color values for fz
+2997,0,0,0,0,0,1,0,1,0,1,1,0,1,[intern] revert "[intern] gif recorder toolbar ui"
+3013,1,0,0,0,0,1,0,1,0,1,1,0,1,fix launcher height
+3048,0,0,0,0,0,0,0,0,0,0,1,0,0,setting ws_child on preview handler
+3053,0,0,0,0,0,0,0,0,0,0,1,0,0,fixed a crash in settings/imageresizer
+3123,0,0,0,0,0,0,0,0,0,0,0,0,1,fix for 3116 changing uwp to packaged
+3203,1,1,0,1,0,1,0,1,0,1,1,1,1,kbm - set treat warnings as errors and clean up the dllmaincpp file
+3203,1,1,0,1,0,1,0,1,0,1,1,1,1,kbm - set treat warnings as errors and clean up the dllmaincpp file
+3213,0,0,0,0,0,0,0,0,0,0,0,0,0,[launcher] - increase the score for exact matches in the name of the application
+3270,0,0,0,0,0,0,0,0,0,0,0,0,1,fix publish on local machines
+3349,0,0,0,0,0,0,0,0,0,0,0,0,0,disabling isrighttapenabled on all ui elements that steal focus
+3377,1,0,0,0,0,1,0,1,0,1,1,1,1,removed restrictions for image-resizer file format
+3418,1,0,0,1,0,1,0,1,0,1,1,1,1,[fancyzones] improve monitor work area handling
+3418,1,0,0,1,0,1,0,1,0,1,1,1,1,[fancyzones] improve monitor work area handling
+3457,0,0,0,0,0,0,0,0,0,1,0,0,1,launcher does not open files in system that are not in english
+3604,0,0,0,0,0,0,0,0,0,0,1,0,0,[powertoys run] add "ignore hotkeys in fullscreen" setting (#3262)
+3644,1,1,0,1,0,1,0,1,0,1,1,1,1,[fancyzones] custom canvas layouts scaling
+3644,1,1,0,1,0,1,0,1,0,1,1,1,1,[fancyzones] custom canvas layouts scaling
+3687,0,0,0,0,0,0,0,0,0,0,1,1,1,[fancyzones] remove "keep windows pinned to virtual desktop location"
+3750,0,0,0,0,0,1,0,0,0,1,1,0,1,spelling: calculator
+3751,1,0,0,1,0,1,0,0,0,1,1,0,1,spelling: separator
+3775,0,0,0,0,0,0,0,0,0,1,0,0,1,spelling:  wox
+3825,0,0,0,0,0,0,0,0,0,1,1,0,1,[settings/run] lowlevel keyboard hooking for hotkeys
+3840,1,0,0,0,0,1,0,1,0,1,1,0,1,somil55/merge wpf to master
+3840,1,0,0,0,0,1,0,1,0,1,1,0,1,somil55/merge wpf to master
+3840,1,0,0,0,0,1,0,1,0,1,1,0,1,somil55/merge wpf to master
+3840,1,0,0,0,0,1,0,1,0,1,1,0,1,somil55/merge wpf to master
+3840,1,0,0,0,0,1,0,1,0,1,1,0,1,somil55/merge wpf to master
+3840,1,0,0,0,0,1,0,1,0,1,1,0,1,somil55/merge wpf to master
+3840,1,0,0,0,0,1,0,1,0,1,1,0,1,somil55/merge wpf to master
+3840,1,0,0,0,0,1,0,1,0,1,1,0,1,somil55/merge wpf to master
+3842,0,0,0,0,0,0,0,0,0,0,0,0,1,fix for camera app not showing up
+3842,0,0,0,0,0,0,0,0,0,0,0,0,1,fix for camera app not showing up
+3853,0,0,0,0,0,1,0,1,0,1,1,0,1,[pt run] closing pt run and new settings app when powertoys is not running
+3874,0,0,0,0,0,0,0,0,0,0,0,0,0,fix for unexpected priority of search results for term
+3874,0,0,0,0,0,0,0,0,0,0,0,0,0,fix for unexpected priority of search results for term
+4007,0,0,0,0,0,0,0,0,0,0,0,0,0,theming for powertoys run
+4008,0,0,0,0,0,0,0,0,0,0,0,0,1,fix for uwp icons not showing up
+4023,0,0,0,0,0,0,0,0,0,1,1,0,1,making alt-f4 ignored
+4083,1,0,0,0,0,1,0,1,0,1,1,0,1,fix remapping from num lock
+4113,1,0,0,0,0,1,0,1,0,1,1,0,1,fixed initial focus on wpf issue
+4113,1,0,0,0,0,1,0,1,0,1,1,0,1,fixed initial focus on wpf issue
+4217,0,0,0,0,0,0,0,0,0,0,0,0,1,search packaged apps in development mode
+4224,0,0,0,0,0,1,0,0,0,1,1,0,1,fix launcher network path
+4279,1,0,0,0,0,1,0,0,0,1,1,0,1,[fancyzones] remove editor tmp files paths cmd args and make editor debugable easier
+4279,1,0,0,0,0,1,0,0,0,1,1,0,1,[fancyzones] remove editor tmp files paths cmd args and make editor debugable easier
+4325,0,0,0,0,0,0,0,0,0,1,0,0,1,remove hidden files from indexer results
+4343,0,0,0,0,0,1,0,1,0,1,1,0,1,[powertoys run] vertical scrollbar for results list
+4344,0,0,0,0,0,0,0,0,0,0,0,0,0,[settings][fix][image resizer ]  unused text box when selecting custom percent in new settings
+4382,0,0,0,0,0,0,0,0,0,0,0,0,0,fixed version property to pull from versionprops in c# projects
+4418,1,0,0,0,0,1,0,1,0,1,1,0,1,[pt run] find applications using the path env variable
+4423,1,0,0,0,0,1,0,1,0,1,1,0,1,enable code analysis on launcher project
+4423,1,0,0,0,0,1,0,1,0,1,1,0,1,enable code analysis on launcher project
+4428,1,0,0,0,0,1,0,1,0,1,1,0,1,hotfix for blank settings dialog
+4433,0,0,0,0,0,0,0,0,0,1,0,0,0,partial fix for memory issue - limiting the number of imagesources cached
+4449,0,0,0,0,0,0,0,0,0,0,0,0,0,dispose keyboard hook object in settings
+4457,0,0,0,0,0,1,0,0,0,0,0,0,0,[fancyzones editor] prevent new zones from being unreachable
+4479,0,0,0,0,0,0,0,0,0,0,0,0,0,[pt run] clear binary and json storage files on version upgrade
+4496,0,0,0,0,0,0,0,0,0,1,1,0,1,fix settings process not terminating on fz and pt run pages
+4496,0,0,0,0,0,0,0,0,0,1,1,0,1,fix settings process not terminating on fz and pt run pages
+4498,1,0,0,0,0,1,0,1,0,1,1,0,1,fixed hint text casing
+4499,0,0,0,0,0,1,0,1,0,1,1,0,1,theme aware plugin
+4519,0,0,0,0,0,0,0,0,0,0,0,0,1,scoring tweak - reduced the description weight by half
+4537,0,0,0,0,0,0,0,0,0,1,0,0,1,[run] fix for visual glitch
+4586,0,0,0,0,0,0,0,0,0,1,0,0,1,fixed null reference exception on context menu buttons
+4589,0,1,0,0,0,1,0,0,0,1,1,0,1,tooltip for indexer and program plugin
+4597,0,0,0,0,0,0,0,0,0,1,0,0,1,fix for memory issue with context menu items
+4626,1,0,0,0,0,1,0,1,0,1,1,0,1,added fix to update text on navigation using up/down arrow
+4710,0,0,0,0,0,0,0,0,0,1,1,0,1,rework the hotkeymanager and keyboardhook interop classes
+4721,0,0,0,0,0,0,0,0,0,0,0,0,0,added null value handle for image resizer size input
+4739,0,0,0,0,0,0,0,0,0,1,0,0,1,[run] open in console functionality
+4745,1,1,0,0,0,1,0,0,0,1,1,0,1,set the name(not the description) as the title of the result
+4745,1,1,0,0,0,1,0,0,0,1,1,0,1,set the name(not the description) as the title of the result
+4758,1,0,0,0,0,1,0,0,0,1,1,0,1,[fancyzones editor] fix odd-number zones grid layout difference between editor and engine
+4778,0,0,0,0,0,0,0,0,0,0,1,0,1,new color picker module - integrated from githubcom/martinchrzan/col…
+4807,0,0,0,0,0,0,0,0,0,1,0,0,1,add run as admin context menu item for application results returned by the indexer plugin
+4837,1,0,0,0,0,1,1,1,0,1,1,0,1,[settings]change text color for disabled controls
+4837,1,0,0,0,0,1,1,1,0,1,1,0,1,[settings]change text color for disabled controls
+4837,1,0,0,0,0,1,1,1,0,1,1,0,1,[settings]change text color for disabled controls
+4837,1,0,0,0,0,1,1,1,0,1,1,0,1,[settings]change text color for disabled controls
+4837,1,0,0,0,0,1,1,1,0,1,1,0,1,[settings]change text color for disabled controls
+4837,1,0,0,0,0,1,1,1,0,1,1,0,1,[settings]change text color for disabled controls
+4837,1,0,0,0,0,1,1,1,0,1,1,0,1,[settings]change text color for disabled controls
+4865,0,0,0,0,0,0,0,0,0,0,1,0,1,[fancyzones] fixes for unit tests
+4878,1,0,0,0,0,1,1,0,0,1,1,0,1,remove redundant code from wox project
+4921,0,0,0,0,0,0,1,0,0,0,0,0,1,packaged apps test
+4927,0,0,0,0,0,0,0,0,0,1,1,0,1,fix for result on empty query
+4960,0,0,0,0,0,0,0,0,0,1,0,0,1,functionality to detect win32 apps which are installed deleted or renamed while powertoys is running
+4971,0,0,0,0,0,0,0,0,0,1,0,0,1,fix for file not found exception while indexing invalid package app
+4995,0,0,0,0,0,0,0,0,0,1,1,0,1,[powertoys run] implemented setting to clear search query when powertoys run is launched
+5015,1,0,0,0,0,1,0,1,0,1,1,0,1,detect if all drives are indexed and show a warning if they arent
+5028,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones] split and reorganize fancyzonesdata and json helpers
+5028,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones] split and reorganize fancyzonesdata and json helpers
+5067,0,0,0,0,0,0,0,0,0,1,0,0,1,added functionality for left/right key navigation
+5109,1,0,0,0,0,1,0,1,0,1,1,0,1,fix for the issue where pt run was preventing uwp apps from building in vs
+5109,1,0,0,0,0,1,0,1,0,1,1,0,1,fix for the issue where pt run was preventing uwp apps from building in vs
+5111,0,0,0,0,0,1,0,0,0,1,1,0,1,update communitymd
+5120,0,0,0,0,0,0,0,0,0,0,0,0,1,move os detection to common and powertoysinterop
+5131,1,0,0,0,0,1,0,0,0,1,1,0,1,fix for internet shortcut app not showing up on installation
+5132,0,0,0,0,0,0,0,1,0,0,1,0,1,minor text refinement in drive detection
+5134,0,0,0,0,0,0,0,1,0,0,1,0,1,upgrading cppwinrt and adding in new packagesconfig
+5135,1,0,0,0,0,1,0,1,0,1,1,0,1,fix for left navview getting stuck
+5170,1,0,0,0,0,1,0,1,0,1,1,0,1,[pt run] resolve text alignment issues for rtl input languages (not for mixed strings)
+5173,0,0,0,0,0,0,0,0,0,0,0,0,0,[pt run] add additional checks in version info methods to avoid exceptions
+5199,0,0,0,0,0,0,0,0,0,1,0,0,1,fix for handling exceptions thrown by dispatcher which were crashing pt run
+5201,1,0,0,0,0,1,0,1,0,1,1,0,1,add telemetry event for measuring time taken to display pt run
+5203,0,0,0,0,0,0,0,0,0,0,1,0,0,prevent clicking through when selecting a color using color picker
+5206,0,0,0,0,0,0,0,0,0,0,0,0,0,set default shortcut for activating launcher creating settingsjson …
+5216,0,0,0,0,0,0,0,0,0,1,1,0,1,improving ui performance
+5216,0,0,0,0,0,0,0,0,0,1,1,0,1,improving ui performance
+5220,0,0,0,0,0,1,0,0,0,1,1,0,1,enabling static analysis on indexer plugin  and fixing errors
+5221,0,0,0,0,0,0,0,0,0,1,0,0,1,drive detection indexer warning refinement
+5248,0,0,0,0,0,0,0,0,0,0,0,0,0,[fancyzoneseditor] dont load malformed custom layout and show appropriate message
+5259,0,0,0,0,0,0,0,0,0,0,1,0,0,added telemetry for color picker module
+5283,0,0,0,0,0,0,0,0,0,0,0,0,0,removing hardcoded version numbers from c# telemetry events
+5296,1,0,0,0,0,0,0,0,0,0,0,0,0,adjusting interop tests
+5297,0,0,0,0,0,0,0,0,0,0,0,0,0,pointing toward linked global
+5299,0,0,0,0,0,0,0,0,0,0,0,0,0,set version for colorpicker
+5301,0,0,0,0,0,0,0,0,0,0,0,0,0,stylecop enabling for telem and managedcommon
+5304,0,0,0,0,0,0,0,0,0,0,0,0,0,upgrading all net assemblies
+5304,0,0,0,0,0,0,0,0,0,0,0,0,0,upgrading all net assemblies
+5334,0,0,0,0,0,1,0,0,0,1,1,0,1,last nuget packages and fixed small errors
+5336,0,0,0,0,0,0,0,0,0,0,1,0,0,enabling stylecop on colorpicker
+5339,0,0,0,0,0,0,0,0,0,0,1,0,1,stylecop for unittests-markdownpreviewhandler
+5340,0,0,0,0,0,0,0,1,0,0,0,0,1,stylecop for unittests-previewhandlercommon
+5341,0,0,0,0,0,0,0,0,0,0,1,0,1,stylecop for unittests-svgpreviewhandler
+5364,0,0,0,0,0,0,0,0,0,0,1,1,1,stylecop for microsoftpowertoyssettingsunittest
+5370,0,0,0,0,0,0,0,0,0,1,1,0,1,improve query cancellation and resultcollection performance
+5373,0,0,0,0,0,0,0,0,0,0,0,0,1,including valid package information when path is invalid
+5382,0,0,0,0,0,1,0,0,0,1,1,0,1,stylecop for window walker
+5434,0,0,0,0,0,0,0,0,0,0,1,0,0,[settings] updated adaptive trigger behavior
+5434,0,0,0,0,0,0,0,0,0,0,1,0,0,[settings] updated adaptive trigger behavior
+5434,0,0,0,0,0,0,0,0,0,0,1,0,0,[settings] updated adaptive trigger behavior
+5480,0,0,0,0,0,0,0,0,0,0,1,0,0,color picker respects right monitor side boundaries and does not go o…
+5483,0,0,0,0,0,0,0,0,0,0,1,0,0,color picker - fixed jerky zoom animation
+5500,0,0,0,0,0,0,0,0,0,1,0,0,1,[powertoys run] implemented "hidden files" flag in native windows search
+5500,0,0,0,0,0,0,0,0,0,1,0,0,1,[powertoys run] implemented "hidden files" flag in native windows search
+5530,0,0,0,0,0,0,0,0,0,0,1,0,0,trying to dispose mouse hook earlier to potentialy fix the lagging mo…
+5558,0,0,0,0,0,0,0,0,0,0,1,0,1,fixing potentially infinite loop with logs in color picker
+5560,1,0,0,0,0,1,0,1,0,1,1,0,1,possible fix for dispose timer bug
+5588,0,0,0,0,0,0,0,0,0,1,1,0,1,fixed launcher not exiting when pt is terminated
+5601,1,0,0,0,0,1,0,0,0,1,1,0,1,[fancyzones] focus layout zones mismatch in editor and applied layout
+5615,0,0,0,0,0,1,0,1,0,1,1,0,1,fixed exceptions in dispose not allowing pt run to terminate
+5620,1,0,0,0,0,1,0,0,0,1,1,0,1,getting shell plugin on stylecop
+5622,0,0,0,0,0,1,0,0,0,1,1,0,1,stylecop for pt run calculator plugin
+5629,0,0,0,0,0,1,0,0,0,1,1,0,1,style cop for indexer plugin
+5630,0,0,0,0,0,0,0,0,0,0,1,0,0,style cop for settingsui
+5677,1,1,0,1,0,1,0,1,0,1,1,0,1,stylecop - get whitespace / headers for pt run
+5685,0,0,0,0,0,0,0,0,0,1,1,0,1,url audit
+5729,0,0,0,0,0,0,0,0,0,1,0,0,1,incremental fix for stylecop on infra
+5742,0,0,0,0,0,1,0,0,0,1,1,0,1,unlinked the maxsearchcount value from indexer settings and set to fixed value of 30
+5743,0,0,0,0,0,1,0,0,0,1,1,0,1,reduce program plugin results
+5747,0,0,0,0,0,0,0,0,0,1,0,0,1,stylecop whitespace for woxtest
+5750,1,0,0,0,0,1,0,1,0,1,1,0,1,stylecop powerlauncher whitespace tweaks
+5786,0,0,0,0,0,0,0,0,0,1,0,0,1,fixing sa1649 file names
+5790,0,0,0,0,0,0,0,0,0,1,0,0,1,[launcher] reportwindow redesign and theming support
+5791,0,0,0,0,0,1,0,0,0,1,1,0,1,[powertoys run] add suport for commandline arguments in program plugin
+5796,0,0,0,0,0,0,0,0,0,1,1,0,1,remove all plugin results on query change
+5843,0,0,0,0,0,1,0,0,0,1,1,0,1,consolidate folder and shell plugin
+5843,0,0,0,0,0,1,0,0,0,1,1,0,1,consolidate folder and shell plugin
+5844,1,0,0,0,0,1,0,0,0,1,1,0,1,enabling stylecop for folder plugin
+5846,0,0,0,0,0,0,0,0,0,1,0,0,1,woxtest on stylecop
+5847,0,0,0,0,0,0,0,0,0,1,0,0,1,enable static analysis on programs plugin
+5847,0,0,0,0,0,0,0,0,0,1,0,0,1,enable static analysis on programs plugin
+5875,1,0,1,0,0,1,0,0,0,1,1,0,1,[stylecop] woxinfra - more left to do
+5877,0,0,0,0,0,0,0,0,0,1,0,0,1,[stylecop] woxcore - last amount needed to fully integrate
+5878,0,0,0,0,0,0,0,0,0,0,0,0,1,add microsoftpluginuriunittests to ci + fix tests
+5882,0,0,0,0,0,0,0,0,0,0,1,1,1,winappdriver tests update
+5885,0,0,0,0,0,0,0,0,0,0,0,0,1,[stylecop] uriunittests
+5886,0,0,0,1,0,0,0,0,0,1,1,0,1,attempting to run ci unittests for netcore and netframework projects
+5891,0,0,1,0,0,0,0,0,0,1,0,0,1,[stylecop] woxinfra final warning / info fixes
+5906,0,0,0,0,0,0,0,0,0,0,0,0,0,fix for powerlauncher crash - type load exception
+5908,0,0,0,0,0,1,0,0,0,1,1,0,1,[stylecop] program plugin/unit test first pass
+5909,1,0,0,0,0,1,0,1,0,1,1,0,1,[stylecop] powerlauncher project
+5917,0,0,0,0,0,1,0,0,0,1,1,0,1,[stylecop] runs program plugin - whitespace and type fixes
+5921,1,0,0,0,0,1,1,1,0,1,1,1,1,move hardcoded strings in keyboard manager projects to rc file
+5923,0,0,0,0,0,0,0,0,0,1,0,0,1,display colored icons for packaged apps
+5923,0,0,0,0,0,0,0,0,0,1,0,0,1,display colored icons for packaged apps
+5945,0,0,0,0,0,0,0,0,0,1,0,0,1,[stylecop] program plugin last needed pr
+5949,0,0,0,0,0,1,0,0,0,1,1,0,1,correcting floating point error on calculator
+5950,0,0,0,0,0,0,0,0,0,1,0,0,1,catch exception in save method for json class
+5951,0,0,0,0,0,1,0,0,0,1,1,0,1,[stylecop] program plugin - brace / whitespaces
+5952,1,0,0,0,0,1,0,1,0,1,1,0,1,[stylecop] launcher
+5960,1,0,0,0,0,1,0,1,0,1,1,0,1,[stylecop] launcher main project
+5964,0,0,0,0,0,1,1,0,0,1,1,0,1,[stylecop] runs program plugin
+6002,1,1,0,0,0,1,0,1,0,1,1,1,1,whitespace forced changes
+6003,0,0,0,0,0,0,0,0,0,1,0,0,1,to remove the condition that space is needed after the action keyword
+6006,0,0,0,0,0,0,0,0,0,0,1,0,0,[warningsaserrors] fixing color picker warnings and enabling warnings as errors
+6007,0,0,0,0,0,0,0,0,0,1,0,0,1,[warningsaserrors] woxtest
+6008,0,0,0,1,0,0,0,0,0,1,0,0,0,[warningsaserrors] woxcore
+6010,0,0,0,1,0,0,0,0,0,1,1,0,1,[warningsaserrors] woxplugin
+6011,0,0,0,0,0,0,0,0,0,0,0,0,0,[fancyzoneseditor] delete custom layout if it has malformed data
+6043,0,0,0,0,0,1,0,0,0,1,1,0,1,user/ryanbod/shell plugin fxcop
+6052,0,0,0,0,0,0,0,0,0,1,0,0,1,fix for crash due to systemaccessviolationexception when calling oledbsearch from multiple threads
+6053,0,0,0,0,0,0,0,0,0,0,0,0,0,[warningsaserrors] getting settings online
+6100,1,0,0,0,0,1,0,1,0,1,1,0,1,consolidating nuget packages
+6104,1,0,0,0,0,1,0,1,0,1,1,0,1,[localization] migrate resources to resx for shortcut guide
+6106,1,0,0,0,0,1,0,1,0,1,1,0,1,[localization] migrate resources to resx for fancyzones
+6107,0,0,0,0,0,1,0,0,0,1,1,0,1,remove the code for saving/loadingprogram plugin cache
+6107,0,0,0,0,0,1,0,0,0,1,1,0,1,remove the code for saving/loadingprogram plugin cache
+6107,0,0,0,0,0,1,0,0,0,1,1,0,1,remove the code for saving/loadingprogram plugin cache
+6111,0,0,0,0,0,0,0,1,0,0,1,0,1,adding in fxcop to svg tests
+6146,1,0,0,0,0,1,0,1,0,1,1,0,1,[pt run] narrator support for result view navigation
+6146,1,0,0,0,0,1,0,1,0,1,1,0,1,[pt run] narrator support for result view navigation
+6161,0,0,0,0,0,0,0,0,0,0,1,0,1,[settings] adding tests to verify backward compatibility
+6165,1,1,0,0,0,1,0,1,0,1,1,0,1,[localization] move powertoys run string resources from xaml files to resx
+6175,0,0,0,0,0,0,0,0,0,0,1,0,0,improved the kb hook in color picker
+6181,0,0,0,0,0,0,0,0,0,1,1,0,1,[powertoys run] remove unused wox resources and move hardcoded strings to resx file
+6188,0,0,0,0,0,0,0,0,0,0,1,1,1,user/ryanbod/mock settings disk access
+6254,0,0,0,0,0,0,0,0,0,0,1,0,0,[settings] temporary string showing latest available version
+6257,0,0,0,0,0,0,0,0,0,1,0,0,1,fix missing fragment portion of localpath
+6260,0,0,0,0,0,1,0,0,0,0,0,0,0,adding fxcop to microsoftpluginwindowwalker
+6269,1,0,0,0,0,1,0,1,0,1,1,0,1,[pt run] fix for argument out of range exception
+6277,0,0,0,0,0,0,0,0,0,0,1,0,0,[fancyzones] convert argb color values to rgb
+6299,0,0,0,0,0,0,0,0,0,0,0,0,0,[settings] changed imagesize class to parse as double instead of int
+6301,0,0,0,0,0,1,0,1,0,1,1,0,1,[pt run] show context menu for first folder plugin result
+6335,0,0,0,0,0,0,0,0,0,0,1,0,0,[fancyzones] fix span accross monitors feature
+6341,0,0,0,0,0,0,0,0,0,1,0,0,1,corrected querytext display on action keyword
+6348,0,0,0,0,0,0,0,0,0,1,0,0,1,[launcher] categorize lnk files in program plugin correctly as per the target file type
+6356,0,0,0,0,0,0,0,0,0,0,0,0,1,create unit tests for calculator plugin
+6356,0,0,0,0,0,0,0,0,0,0,0,0,1,create unit tests for calculator plugin
+6356,0,0,0,0,0,0,0,0,0,0,0,0,1,create unit tests for calculator plugin
+6393,0,0,0,0,0,1,0,1,0,1,1,0,1,add in missing telemetry for keyboard manager usage
+6456,0,0,0,0,0,0,0,0,0,1,0,0,1,fix for filenotfoundexception exception in win32 programs
+6456,0,0,0,0,0,0,0,0,0,1,0,0,1,fix for filenotfoundexception exception in win32 programs
+6456,0,0,0,0,0,0,0,0,0,1,0,0,1,fix for filenotfoundexception exception in win32 programs
+6464,0,0,0,0,0,0,0,0,0,0,1,0,0,fxcop with colorpicker
+6481,1,0,0,0,0,1,0,1,1,1,1,1,1,fxcop on image resizer tests
+6497,0,0,0,0,0,0,0,0,0,0,1,0,0,fix null reference exception in pt settings
+6547,0,0,0,0,0,1,0,0,0,1,1,0,1,fix for drive detection warning checkbox from settings was not reflecting changes in pt run
+6551,0,0,0,0,0,0,0,0,0,1,1,0,1,somil55/list view flickering
+6565,0,0,0,0,0,1,0,0,0,0,0,0,0,[fz editor] improved a function in griddatacs
+6580,0,0,0,0,0,0,0,0,0,1,0,0,1,to catch uri format exception in pt run
+6582,0,0,0,0,0,0,0,0,0,1,1,0,1,fix for argumentoutofrange exception in result list
+6584,0,0,0,0,0,0,0,0,0,0,1,0,0,fixing 0x00 file load issue
+6585,1,0,0,0,0,1,0,1,0,1,1,0,1,[powertoys run] fix mouse click handler for powertoys run results
+6588,1,0,0,0,0,1,0,1,0,1,1,0,1,fixed visibility onpropertychanged getting invoked on clicking away from pt run
+6589,0,0,0,0,0,1,0,1,0,1,1,0,1,fix for null reference exception
+6600,0,0,0,0,0,1,0,0,0,1,1,0,1,made plugin folder unit tests & expanding enviroment search
+6620,0,0,0,0,0,0,0,0,0,0,1,0,0,fix for settings crash on toggling enable button for any powertoy
+6620,0,0,0,0,0,0,0,0,0,0,1,0,0,fix for settings crash on toggling enable button for any powertoy
+6620,0,0,0,0,0,0,0,0,0,0,1,0,0,fix for settings crash on toggling enable button for any powertoy
+6626,1,0,0,0,0,1,0,1,0,1,1,0,1,[settings] fix settings process not terminating on closing settings while minimized
+6642,0,0,0,0,0,0,0,0,0,0,0,0,0,[fxcop] telemetrycsproj
+6646,0,0,0,0,0,0,0,0,0,0,1,0,1,fxcop markdown preview handler
+6647,0,0,0,0,0,0,0,1,0,0,1,0,0,[fxcop] svg preview handler
+6668,0,0,0,0,0,0,0,0,0,0,0,0,1,[fxcop] interop tests
+6674,0,0,0,0,0,0,0,0,0,0,0,0,1,handle exception in packaged program loading at startup
+6674,0,0,0,0,0,0,0,0,0,0,0,0,1,handle exception in packaged program loading at startup
+6688,0,0,0,0,0,0,0,0,0,0,0,0,1,pulling custom logger out of program plugin
+6708,0,0,0,0,0,0,0,0,0,1,0,0,1,fix logging string format
+6711,0,0,0,0,0,0,0,0,0,0,1,0,0,adding in frontmatter and latex
+6711,0,0,0,0,0,0,0,0,0,0,1,0,0,adding in frontmatter and latex
+6757,0,0,0,0,0,0,0,1,0,0,0,0,0,fxcop and stylecop for svg thumbnail
+6757,0,0,0,0,0,0,0,1,0,0,0,0,0,fxcop and stylecop for svg thumbnail
+6758,0,0,0,0,0,0,0,0,0,0,1,0,1,[fxcop] markdown preview pane unit tests
+6762,0,0,0,0,0,0,0,0,0,0,0,0,0,[fxcop] preview handler common
+6800,0,0,1,0,0,0,0,0,0,0,0,0,1,improve logging for pt run
+6815,0,0,0,0,0,1,0,0,0,0,0,0,0,[fancyzones editor] crash with big space around zones values
+6817,0,0,0,0,0,0,0,0,0,0,1,0,1,fix settings changes that were made in pr #6620
+6818,0,0,0,0,0,0,0,0,0,0,0,0,0,[settings] added recursive delete for ioprovider deletedirectory to prevent crash on non-empty directory
+6821,0,0,0,0,0,0,0,0,0,0,0,0,1,add delay to file system watchers to prevent calibre installation issue
+6832,0,0,0,0,0,0,0,0,0,0,1,0,1,changed default theme in settings to be consistent with that of shortcut guide
+6833,0,0,0,0,0,0,0,1,0,0,0,0,1,[fxcop] preview handler common
+6841,1,0,0,0,0,1,0,0,0,1,1,0,1,[fxcop] image resizer ui
+6874,1,1,0,0,0,1,0,1,1,1,1,1,1,keyboard disable
+6880,0,0,0,0,0,0,0,0,0,0,0,0,0,shift to controlzex hc code
+6882,0,0,0,0,0,0,0,0,0,1,0,0,0,fix docker desktop not found in program plugin issue
+6883,0,0,0,0,0,0,0,0,0,0,1,0,1,[file explorer] fix enable/disable for file explorer powertoy
+6923,0,1,0,0,0,1,0,0,0,1,1,0,1,enable starting apps with command line arguments when run as admin is selected
+6923,0,1,0,0,0,1,0,0,0,1,1,0,1,enable starting apps with command line arguments when run as admin is selected
+6924,0,0,0,0,0,0,0,0,0,1,0,0,0,matching exactname for known win32 programs
+6933,0,0,0,0,0,0,0,0,0,0,0,0,0,enumeratefilesysteminfos uses enumerationoptions
+6935,0,0,0,0,0,0,0,0,0,1,0,0,1,fixed the error that files were named folder
+6943,0,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones] localize strings in fancyzones editor
+6958,0,0,0,0,0,0,0,0,0,1,0,0,1,add exception handling in win32 program
+6975,0,0,0,0,0,0,0,0,0,0,1,0,1,[colorpicker] cmyk hsv and hsl color format
+6981,0,0,0,0,0,0,0,0,0,1,1,0,1,[run] fix for indexoutofbounds exception
+6987,0,0,0,0,0,0,0,0,0,0,1,0,1,[fxcop] settings ui unit tests
+6988,0,0,0,0,0,0,0,0,0,1,0,0,1,[run] fix autosuggest
+6997,0,1,0,0,0,0,0,0,0,0,0,0,1,detect potential errors copying metadata and avoid them (#2447)
+7139,0,0,0,0,0,0,0,0,0,1,0,0,1,[pt run] add null check in selectprevtabitem
+7142,0,0,0,0,0,0,1,1,0,1,1,0,1,assertareequal switched cases
+7164,0,0,0,0,0,1,0,0,0,1,1,1,1,adjusting to force all instances to use rounded vs result due to mage…
+7173,0,0,0,0,0,1,0,1,0,1,1,1,1,user/ryanbod/initialize allplugins
+7209,0,0,0,0,0,0,0,0,0,0,0,0,1,fxcopanalyzer fixes for woxcore
+7211,0,0,0,0,0,0,0,0,0,1,0,0,1,fxcopanalyzer fix for woxcore (pr#2of3) - removing unused jsonrpc files
+7223,0,0,0,0,0,0,0,0,0,1,0,0,1,[powertoys run] improve startup performance of pt runs programs (win32programrepository) plugin
+7257,0,0,0,0,0,0,0,0,0,0,1,0,0,[fxcop] settings ui library (part 2)
+7278,0,0,0,0,0,0,0,0,0,1,0,0,1,get rid of indexes in dropdowns
+7284,1,0,0,0,0,1,0,0,0,1,1,0,1,[fancyzones] allow negative spacing between zones up to -10
+7292,0,0,0,0,0,0,0,0,0,1,0,0,1,[pt run] open folder using shell instead of explorerexe
+7293,1,1,0,0,0,1,0,1,0,1,1,1,1,io abstraction
+7312,0,0,0,0,0,0,0,0,0,0,0,0,0,fxcopanalyzer fixes for woxtest
+7355,1,0,1,0,0,1,0,1,0,1,1,0,1,[pt run] option for override theme
+7385,0,0,0,0,0,0,0,0,0,0,1,0,1,[fxcop] settings ui library (part 3) - exception handling
+7392,1,0,0,0,0,1,0,1,0,1,1,0,1,fix autocomplete text issue on query change
+7401,0,0,0,0,0,0,0,0,0,1,0,0,1,use task delay instead of thread sleep
+7403,0,0,0,0,0,0,0,0,0,0,1,0,1,[fxcop] settings ui library (part 4) - project/namespace renames
+7426,1,0,0,0,0,1,0,1,0,1,1,0,1,[settings] add null check for windowsxamlhost_childchanged handler to prevent nullrefexception
+7438,0,0,0,0,0,0,0,0,0,0,0,0,0,fix exceptions and incorrect results within the calculator plugin
+7464,1,0,0,0,0,1,0,1,0,1,1,0,1,[fxcop] fixes for woxplugin (2of3) - moved logger interface to woxplugin
+7485,1,0,0,0,0,1,0,1,0,1,1,0,1,[fxcop] settings ui runner
+7505,0,0,0,0,0,0,0,0,0,0,1,0,0,[settings] switch focus to last image size listviewitem on adding new size
+7537,0,0,0,0,0,0,0,0,0,0,1,0,0,update string color represention when color format changed but mouse…
+7553,0,0,0,0,0,0,0,0,0,0,1,0,0,catch exceptions when settingsjson is corrupted
+7555,0,0,0,0,0,0,0,0,0,1,1,0,1,[colorpicker] add hsb hsi hwb and ncol color representation
+7559,0,0,0,0,0,0,0,0,0,0,1,0,0,[fxcop] settings ui
+7561,1,1,0,1,0,1,0,1,0,1,1,0,1,add help text to be read out before reading out the version number
+7563,0,0,0,0,0,0,0,0,0,0,0,0,1,handle error in fetching win32 program description
+7590,0,0,0,0,0,0,0,0,0,1,0,0,1,[fxcop] woxinfrastructure
+7591,0,0,0,0,0,0,0,0,0,0,0,0,0,[fxcop] removed woxcrashreporter
+7628,0,0,0,0,0,0,0,0,0,0,0,0,0,[powerlauncher] remove mahapps dependency and add own librarythemeprovider
+7643,0,0,0,0,0,1,0,0,0,0,0,0,0,[accessibility][fancyzones editor] close edit canvas layout and edit grid layout windows by pressing esc
+7644,0,0,0,0,0,0,0,0,0,0,1,0,1,add unit tests for incorrect settings json files
+7708,1,1,1,0,0,1,0,1,1,1,1,1,1,spelling
+7710,0,0,0,0,0,0,0,0,0,0,1,0,1,color picker v2
+7710,0,0,0,0,0,0,0,0,0,0,1,0,1,color picker v2
+7710,0,0,0,0,0,0,0,0,0,0,1,0,1,color picker v2
+7710,0,0,0,0,0,0,0,0,0,0,1,0,1,color picker v2
+7710,0,0,0,0,0,0,0,0,0,0,1,0,1,color picker v2
+7711,0,0,0,0,0,0,0,0,0,0,0,0,0,[pt run] folder path starting with backslash
+7719,0,0,0,0,0,0,0,0,0,0,0,0,0,imageresizer: skip settings tab focus when hidden
+7787,0,0,0,0,0,0,0,0,0,1,0,0,1,[kbm] added banded rows
+7826,1,0,0,0,0,1,0,1,0,1,1,0,1,[settings] added hyperlink button to wiki for keys that cant be remapped
+7826,1,0,0,0,0,1,0,1,0,1,1,0,1,[settings] added hyperlink button to wiki for keys that cant be remapped
+7827,1,0,0,0,0,1,0,1,0,1,1,0,1,[settings] added delete button tooltip to image resizer page
+7935,0,0,1,0,0,0,0,0,0,1,0,0,1,[pt run] log file not created
+7977,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones] enable keyboard accessibility for template and custom layout items
+8028,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor][accessibility] remove left/right window commands
+8095,0,0,0,0,0,0,0,0,0,0,1,0,1,stylecop microsoftpowertoyssettingsuiunittests
+8096,0,0,0,0,0,0,0,0,0,0,1,0,1,stylecop for unittest-colorpickerui
+8279,0,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor] hold-shift for rotating splitter fix
+8279,0,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor] hold-shift for rotating splitter fix
+8281,0,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor] hold-shift for rotating splitter fix [for stable branch]
+8281,0,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor] hold-shift for rotating splitter fix [for stable branch]
+8376,0,0,0,0,0,0,0,1,0,0,1,0,1,fixing issues when color picker freezes
+8386,0,0,0,0,0,0,0,0,0,0,1,0,1,fxcop to unittests for colorpicker
+8417,0,0,0,0,0,0,0,0,0,0,1,0,0,color picker netcore 31
+8553,0,0,0,0,0,0,0,0,0,0,1,0,0,color picker - show color name
+8567,0,0,0,0,0,0,0,0,0,0,0,0,1,[image resizer] handling percentage unit
+8615,0,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] serialize/deserialize settings
+8645,0,0,0,0,0,0,0,0,0,0,1,0,0,auto-updating: add text for "last checked"
+8667,0,0,0,0,0,0,0,0,0,0,0,0,0,[pt run] string with accented characters search
+8674,0,0,0,0,0,0,0,0,0,0,0,0,1,[image resizer] handling percentage unit fix
+8681,0,0,0,0,0,0,0,0,0,1,0,0,1,[run] fixing ui issues
+8681,0,0,0,0,0,0,0,0,0,1,0,0,1,[run] fixing ui issues
+8681,0,0,0,0,0,0,0,0,0,1,0,0,1,[run] fixing ui issues
+8681,0,0,0,0,0,0,0,0,0,1,0,0,1,[run] fixing ui issues
+8681,0,0,0,0,0,0,0,0,0,1,0,0,1,[run] fixing ui issues
+8707,0,0,0,0,1,1,0,0,0,0,0,0,0,[fz editor] serialize/deserialize settings fix
+8716,0,0,0,0,0,1,0,0,0,0,0,0,0,[fz editor] hide unsupported settings in custom layouts flyouts
+8718,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] duplicate custom layouts
+8720,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] duplicate layout behavior
+8742,0,0,0,0,0,0,0,0,0,0,1,0,0,[settings] reset scrollviewer on page change
+8776,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] do not close the editor after applying a layout in the single-monitor mode
+8835,0,0,0,0,0,1,0,1,0,1,1,0,1,moved thememanager in common project
+8852,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] disable layout preview
+8926,0,0,0,0,0,0,0,1,0,0,1,0,0,[file explorer] onedrive svg fix
+8928,0,0,0,0,0,0,0,0,0,0,1,0,0,added localization to default sizes
+8974,0,0,0,0,0,1,0,0,0,1,1,0,1,[pt run] sys plugin added to setup
+9038,0,0,0,0,0,0,0,0,0,0,1,0,0,updating: do not update update_check date when we couldnt do it
+9050,1,0,0,1,0,1,0,1,0,1,1,0,1,[run][new plugin] vscode workspaces/remote machines
+9066,0,0,0,0,0,1,0,0,0,0,0,0,0,[fz editor] move zones + and - buttons to the template layouts flyout
+9068,0,0,0,0,0,0,0,0,0,1,0,0,1,[run] fix exception
+9074,0,0,0,0,0,0,0,0,0,0,0,0,1,[run][calculator plugin] add number formatting for different locales
+9086,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] closing context menu after duplicate or delete button clicked
+9088,0,0,0,0,0,1,0,0,0,0,0,0,0,enable pdf files in preview pane
+9091,0,0,0,0,0,0,0,0,0,0,0,0,0,[pt run] black icons with light windows theme
+9120,0,0,0,0,0,0,0,0,0,1,1,0,1,delete fody and propertychangedfody
+9121,0,0,0,0,0,1,0,0,0,1,1,1,1,pt run plugin spec
+9124,0,0,0,0,0,0,0,0,0,0,0,1,0,add e to calculator
+9151,0,0,0,0,0,1,0,0,0,0,0,0,0,[fz editor] editor opening fix
+9199,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] bind dialog properties
+9203,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] resize editor window to fit the content in single-monitor mode
+9207,0,0,0,0,0,1,0,0,0,0,0,0,0,[fz editor] create new layout: editor opening crash fix
+9220,0,0,0,0,0,1,0,0,0,1,1,0,1,[pt run][service] improved shortcuts
+9233,0,0,0,0,0,1,0,0,0,0,0,0,0,[fz editor] changed edit dialog for template layouts
+9237,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] empty layout template
+9272,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] move "duplicate" and "delete" buttons to the edit dialog
+9277,0,0,0,0,0,0,0,0,0,0,1,0,0,[colorpicker] editor ui fixes
+9277,0,0,0,0,0,0,0,0,0,0,1,0,0,[colorpicker] editor ui fixes
+9278,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] preview the applied layout after editing another layout
+9286,0,0,0,0,0,1,0,0,0,0,0,0,0,[fz editor] fixed "save and apply" button behavior
+9291,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] added default custom layout name
+9301,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] pressing esc closes dialogues
+9302,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] open dialog after zones editing crash fix
+9315,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] reset applied layout to "no layout" if it was deleted
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9325,0,0,0,0,0,1,0,0,0,0,1,0,0,[fancyzones editor] new ux for the fz editor
+9364,0,0,0,0,0,1,0,0,0,0,0,0,0,[fz editor] limit zones number for custom layouts
+9389,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor] editor window size overflow
+9391,0,0,0,0,0,0,0,0,0,0,0,0,0,[fz editor] update the small layout preview after canceling zone editing
+9392,0,0,0,0,0,0,0,0,0,1,0,0,0,deleted unused resources
+9438,0,0,0,0,0,0,0,0,0,0,1,0,0,[fz settings] refactor "override windows snap shortcut (win + arrow) to move windows between zones" settings
+9440,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor] create new custom layout with one zone by default
+9538,1,0,0,0,0,1,0,0,0,1,1,0,1,[pt run] helper for execute shells process calls
+9538,1,0,0,0,0,1,0,0,0,1,1,0,1,[pt run] helper for execute shells process calls
+9576,0,0,0,0,0,0,0,0,0,0,0,0,0,[fanzyzones] common thememanager
+9579,0,0,0,0,0,0,0,0,0,0,0,0,0,[pt run] tilde as user home
+9589,0,0,0,0,0,0,0,0,0,0,1,0,0,[pt settings] opening windows color settings from inside pt
+9589,0,0,0,0,0,0,0,0,0,0,1,0,0,[pt settings] opening windows color settings from inside pt
+9589,0,0,0,0,0,0,0,0,0,0,1,0,0,[pt settings] opening windows color settings from inside pt
+9650,0,0,0,0,0,0,0,0,0,1,0,0,1,basic settings for plugin manager
+9685,0,0,0,0,0,1,0,0,0,1,1,0,1,localize name and description
+9691,0,0,0,0,0,0,0,0,0,1,1,0,1,possibility to use the same action keyword for more than one plugin
+9760,0,0,0,0,0,0,0,0,0,1,1,0,1,[settings] settings window arguments revision
+9772,0,0,0,0,0,0,0,1,0,1,1,0,1,[pt run] service notification improvements
+9772,0,0,0,0,0,0,0,1,0,1,1,0,1,[pt run] service notification improvements
+9781,0,0,0,0,0,0,0,0,0,0,1,0,0,move plugin specific options under pluigin settings
+9800,1,0,0,0,0,0,0,0,0,1,1,0,1,[pt run][new plugin] unit converter
+9833,0,0,0,0,0,1,0,0,0,1,1,0,1,fix indexer name
+9878,0,0,0,0,0,0,0,0,0,0,1,0,0,navigation from additional panel
+9880,0,0,0,0,0,0,0,0,0,0,1,0,0,disable plugin options when plugin is disabled
+9917,1,0,0,0,0,1,0,1,0,1,1,0,1,[oobe] telemetry: date/time of first-run
+9925,1,0,0,0,0,0,0,0,0,0,1,0,0,[oobe] telemetry
+9967,0,0,0,0,0,0,0,0,0,0,1,0,0,[oobe] add assets to the installer
+10000,0,0,0,0,0,1,0,0,0,1,1,0,1,[pt run] save raw command instead of resolved command in shell history
+10011,0,0,0,0,0,0,0,0,0,0,0,0,1,[fz editor] hide tool windows from alt-tab
+10020,0,0,0,0,0,0,0,0,0,0,1,0,0,[oobe] changed modules order
+10022,1,0,0,0,0,1,0,1,0,1,1,0,1,[settings oobe] set location to center screen
+10054,1,0,0,0,0,1,0,1,0,1,1,0,1,[pt settings] powertoys settings and oobe title hardcoded for localization
+10116,0,0,0,0,0,1,0,0,0,0,0,0,0,[fancyzones] rework grid editor
+10116,0,0,0,0,0,1,0,0,0,0,0,0,0,[fancyzones] rework grid editor
+10116,0,0,0,0,0,1,0,0,0,0,0,0,0,[fancyzones] rework grid editor
+10123,0,0,0,0,0,0,0,0,0,0,1,0,0,[shortcut guide] excluded apps
+10132,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] layout hotkeys: add the schema element to zones-settingsjson
+10163,0,0,0,0,0,1,0,0,0,0,0,0,0,[fancyzones editor] fix canvasrect not being initialized
+10200,1,0,0,0,1,1,0,1,0,1,1,0,1,[fz editor] layout hotkeys for quick swap ui
+10204,0,0,0,0,0,0,0,0,0,0,1,0,0,update powertoys run page on settingsjson change
+10220,0,0,0,0,0,0,0,0,0,0,1,0,0,[colorpicker] ux fixes
+10265,0,0,0,0,0,0,0,0,0,0,0,0,0,[fz settings] options for layout quick swap: on/off keyboard hook
+10291,0,0,0,0,0,0,0,0,0,1,1,0,1,"clear the previous query on launch" has a flicker
+10297,0,0,0,0,1,1,0,0,0,0,0,0,0,[fz editor] disable templates key assignment
+10325,0,0,0,0,0,0,0,1,0,0,1,0,0,[color picker] use escape key to exit colour editor ui
+10328,1,0,0,0,0,1,0,1,0,1,1,0,1,settings telemetry for pt run
+10348,0,0,0,0,0,1,0,0,0,1,1,0,1,[run plugin] add tooltips to vscode workspaces plugin
+10372,0,0,0,0,0,0,0,0,0,0,1,0,0,[color picker] fix null reference exception
+10375,0,0,0,0,0,0,0,0,0,0,0,0,1,color picker logs path
+10394,0,0,0,0,0,0,0,0,0,0,0,0,1,[pt run plugin] immediately releases appxmanifest stream objects
+10407,0,0,0,0,0,0,0,0,0,0,1,0,0,[run settings] dont update view if settings were not changed
+10413,1,0,0,0,0,0,0,0,0,0,1,0,0,add telemetry to colorpicker
+10417,1,0,0,0,0,0,0,0,0,1,1,0,1,settings telemetry for colorpicker
+10500,0,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] crash with malformed layout data fix
+10513,0,0,0,0,0,0,0,0,0,0,1,0,0,[colorpicker] disable forwarding the scroll event
+10515,0,0,0,0,0,1,0,1,0,1,1,0,1,do not load plugin when it is disabled
+10517,0,0,0,0,0,0,0,0,0,0,1,0,0,[settings] fix ui glitch
+10574,1,0,0,0,0,1,0,1,0,1,1,0,1,[oobe] bolded shortcuts / instructions
+10697,0,0,0,0,0,0,0,1,0,0,1,0,0,disable forwarding the escape event
+10705,0,0,0,0,0,0,0,0,0,1,1,0,1,[colorpicker] prevent creation of duplicate colors in history
+10837,0,0,0,0,0,0,0,0,0,0,0,0,1,[image resizer] remove old settings
+11097,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] accessibility fixes
+11097,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] accessibility fixes
+11098,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] double-click layout to close editor
+11143,0,0,0,0,0,0,0,0,0,1,1,0,1,espresso
+11195,0,0,0,0,0,0,0,0,0,0,1,0,1,[shortcut guide] drop win key long press support
+11202,0,0,0,0,0,0,0,0,0,0,1,0,1,[shortcut guide] save settings to file instead of sending to the runner
+11271,0,0,0,0,0,0,0,0,0,0,1,0,0,change markdown files to treat soft endings as hard
+11435,0,0,0,0,0,1,0,0,0,0,0,0,0,[fz editor] switch between zone and dialog with ctrl + tab
+11546,0,0,0,0,0,1,0,1,0,1,1,0,1,[oobe] open minimized settings
+11592,0,0,0,0,0,0,0,0,0,0,1,0,0,null checking the callbacks in settings to allow direct debug
+11593,0,1,0,0,0,1,0,0,0,1,1,0,1,🧼 powertoys awake
+11683,0,0,0,0,0,0,0,0,0,0,0,0,1,[pt run] improve the uwp program indexing speed
+11683,0,0,0,0,0,0,0,0,0,0,0,0,1,[pt run] improve the uwp program indexing speed
+11686,0,0,0,0,0,1,0,0,0,1,1,0,1,[pt run] uwp icons are not initialized
+11686,0,0,0,0,0,1,0,0,0,1,1,0,1,[pt run] uwp icons are not initialized
+11697,0,0,0,0,0,1,0,0,0,0,0,0,1,implement systemtextjson for communitypowertoysrunpluginvscodeworkspaces
+11697,0,0,0,0,0,1,0,0,0,0,0,0,1,implement systemtextjson for communitypowertoysrunpluginvscodeworkspaces
+11699,0,0,0,0,0,0,0,0,0,0,0,0,0,implement systemtextjson for powerlauncher
+11728,0,0,0,0,0,0,0,0,0,0,1,0,0,[awake] updated images + settings menu fix
+11789,0,0,0,0,0,0,0,0,0,1,1,0,1,[powertoys run] dont crash if `userselectedrecordjson` can not be updated
+11840,0,0,0,0,0,1,0,0,0,0,0,0,0,[fancyzones] "match not found" error fix
+11885,0,0,0,0,0,0,0,0,0,0,0,0,1,[powertoys run] uri plugin: handle numeric input
+12160,1,0,0,0,0,1,1,1,1,1,1,1,1,add powertoys awake to translation issue template
+12209,0,0,0,0,0,0,0,0,0,1,1,0,1,[run] viewmodels cleanup
+12209,0,0,0,0,0,0,0,0,0,1,1,0,1,[run] viewmodels cleanup
+12352,1,0,0,0,0,1,0,1,0,1,1,0,1,[pt run] improve first call performance
+12369,0,0,0,0,0,0,0,0,0,1,1,0,1,[colorpicker] accessibility: narrator announces color changes in main…
+12423,0,0,0,0,0,0,0,0,0,1,0,0,1,[powertoys run] obsolete apis and warnings introduced in net5
+12424,0,0,0,0,0,0,0,0,0,1,0,0,1,[powertoys run] fix corrupt/outdated plugins load crash
+12427,0,0,0,0,0,1,0,0,0,1,1,0,1,powertoyrun confirm
+12441,0,0,0,0,0,0,0,1,0,0,1,0,0,[colorpicker] accessibility: close only flyout with escape key
+12481,0,0,0,0,0,0,0,0,0,0,1,0,0,[vcm] fix issues on certain systems
+12504,0,0,0,0,0,1,0,1,0,1,1,0,1,[settings] accessibility improvements
+12504,0,0,0,0,0,1,0,1,0,1,1,0,1,[settings] accessibility improvements
+12510,0,0,0,0,0,1,0,1,0,1,1,0,1,[fze] send close signal to editor when the main app closes
+12529,0,0,0,0,0,1,0,1,0,1,1,0,1,[fzeditor] editor closing fix
+12543,0,0,0,0,0,1,0,1,0,1,1,0,1,revert "[powertoys run] update to net5 (#12434)"
+12543,0,0,0,0,0,1,0,1,0,1,1,0,1,revert "[powertoys run] update to net5 (#12434)"
+12560,0,0,0,0,0,0,0,0,0,0,1,0,0,[run plugin manager] plugin search
+12609,1,0,0,0,0,1,0,1,0,1,1,0,1,[fze] fix crash when double clicking edit layout
+12613,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor] reset layout shortcut key after canceling changes
+12648,0,0,0,0,0,0,0,0,0,0,1,0,0,[settings] announces open/close navigation pane
+12651,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] accessibility fixes
+12651,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] accessibility fixes
+12672,0,0,0,0,0,0,1,0,1,1,1,1,1,[test] test frameworks consolidated
+12689,1,0,0,0,0,1,0,1,0,1,1,0,1,update environment variables when changed
+12718,1,0,0,0,0,1,0,1,0,1,1,0,1,[fze] fix dialog number box input automation name
+12720,0,0,0,0,0,0,0,0,0,0,0,0,0,[powertoys run] keyboard shows command tooltips
+12763,0,0,0,0,0,1,0,0,0,0,0,0,1,fix crash with vs code plugin and c drive
+12805,0,0,0,0,0,1,0,0,0,0,1,1,1,standardize net json on systemtextjson
+12823,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones] focus layout type instead of activating it on enter press
+12876,0,0,0,0,0,1,0,0,0,0,0,0,0,[fancyzones editor] crash fix
+12911,0,0,0,0,0,0,0,1,0,1,1,0,1,[powertoys run] fix register notifications crash
+12920,0,0,0,0,0,0,0,1,0,1,1,0,1,[run plugin manager] update additional options
+12939,0,0,0,0,0,1,0,0,0,1,1,0,1,[pt run] option for system commands localization
+12942,1,0,0,0,0,1,0,0,0,1,1,0,1,[imageresizer] handling malformed json
+12969,0,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzoneseditor]: grid editor keyboard control
+13114,1,0,0,0,0,1,0,1,0,1,1,0,1,[powertoys run] use global hotkey instead of low level keyboard hook
+13128,0,0,0,0,0,0,0,0,0,0,1,0,0,fix typo #13117
+13205,0,0,0,0,0,0,0,0,0,0,0,0,1,[pt run] environmenthelper: adding logging and error handling
+13244,0,0,0,0,0,0,0,0,0,0,0,0,1,[pt run][registry] show no results on query fail
+13284,0,0,0,0,0,1,0,0,0,1,1,0,1,[pt run: registry] handle invalid base keys
+13285,0,0,0,0,0,0,0,0,0,0,1,0,1,[imageresizer] default values for new size
+13322,0,0,0,0,1,1,0,0,0,0,0,0,0,[fancyzones] reset zone settings after restart fix
+13363,1,1,0,0,0,1,0,1,0,1,1,0,1,[pt run] improvements on environmenthelper and deletion of old env vars
+13367,0,0,0,0,0,1,0,0,0,1,1,0,1,[pt run] windows terminal plugin
+13394,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor] fix crash on closing after deleting a custom layout
+13492,0,0,0,0,0,0,0,0,0,1,0,0,1,[ptrun][services] search for result full title
+13551,0,0,0,0,0,1,0,1,0,1,1,0,1,[pt run image resizer] fix for wpf dpi issue on net core 3119
+13558,0,0,0,0,0,0,0,0,0,0,1,0,0,[colorpicker] accessibility: announce color format for "copy to clipboard"
+13621,1,0,0,0,0,1,0,1,0,1,1,0,1,[fancyzones editor] prevent opening content dialog twice
+13678,1,0,0,0,0,1,0,1,0,1,1,0,1,[powerrename] fluent ux
+13678,1,0,0,0,0,1,0,1,0,1,1,0,1,[powerrename] fluent ux
+13678,1,0,0,0,0,1,0,1,0,1,1,0,1,[powerrename] fluent ux
+13678,1,0,0,0,0,1,0,1,0,1,1,0,1,[powerrename] fluent ux
+13678,1,0,0,0,0,1,0,1,0,1,1,0,1,[powerrename] fluent ux
+13678,1,0,0,0,0,1,0,1,0,1,1,0,1,[powerrename] fluent ux
+13678,1,0,0,0,0,1,0,1,0,1,1,0,1,[powerrename] fluent ux
+13678,1,0,0,0,0,1,0,1,0,1,1,0,1,[powerrename] fluent ux
+13678,1,0,0,0,0,1,0,1,0,1,1,0,1,[powerrename] fluent ux
+13685,0,0,0,0,0,0,0,0,0,1,0,0,1,[ptrun][program] avoid looping on folder cycles
+13702,0,0,0,0,0,0,0,0,0,1,1,0,1,[pt run] align selectedindex and selecteditem
+13727,1,0,0,0,0,1,0,1,0,1,1,0,1,[fz editor] open settings
+13747,0,0,0,0,0,0,0,1,0,0,1,0,0,[color picker] open settings
+13749,1,0,0,0,0,1,0,1,0,1,1,0,1,move settings deep link logic to microsoftpowertoyscommonui
+13774,0,0,0,0,0,0,0,0,0,0,0,0,0,[settings deep link support] use modules relative path to powertoysexe
+13795,0,0,0,0,0,0,0,0,0,0,0,0,1,add test case for #13760
+13811,0,0,0,0,0,0,0,0,0,0,0,0,1,[pt run] [folder plugin] environment variables with autocomplete
+13811,0,0,0,0,0,0,0,0,0,0,0,0,1,[pt run] [folder plugin] environment variables with autocomplete
+13912,1,0,0,0,0,1,0,1,0,1,1,0,1,[settings] restore window size and position
+13916,0,0,0,0,0,0,0,0,0,1,1,0,1,mouse utils - find my mouse
+13963,1,0,0,0,0,1,0,1,0,1,1,0,1,announce opening edit layout dialog
+13994,1,0,0,0,0,1,0,1,0,1,1,0,1,announce fz editor delete layout dialog
+14006,0,0,0,0,0,0,0,0,0,0,1,0,0,[oobe] link to vcm settings page
+14040,0,1,0,0,0,0,0,0,0,0,0,0,1,[imageresizer]sanitize target file name
+14057,0,0,0,0,0,0,0,0,0,0,0,0,1,[pt run] add support for application uri
+14199,1,0,0,0,0,1,0,1,0,1,1,0,1,[settings] fix default settings window size
+14209,0,0,0,0,0,0,0,0,0,1,1,0,1,[pt run] if only delayed results available select first
+14230,0,0,0,0,0,0,0,0,0,0,1,0,1,[settingsuiunittests][fancyzones] uncomment test in ci
+14249,1,1,0,0,0,1,0,0,0,1,1,0,1,add logging for powerrename

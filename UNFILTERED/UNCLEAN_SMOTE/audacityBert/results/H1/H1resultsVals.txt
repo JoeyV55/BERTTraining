@@ -1,0 +1,42 @@
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0         H1   0.505423  0.359568        0.420198      0.316281        0.683719              0.4  audacity
+1         H1   0.468235  0.614198        0.531375      0.345303        0.654697              0.4  audacity
+2         H1   0.458785  0.652778        0.538854      0.356124        0.643876              0.4  audacity
+3         H1   0.394619  0.543210        0.457143      0.411215        0.588785              0.4  audacity
+4         H1   0.353909  0.530864        0.424691      0.458436        0.541564              0.4  audacity
+Mean vals:  Precision          0.407639
+Recall             0.522068
+Fmeasure_score     0.452200
+hamming_loss       0.398131
+Accuracy_Score     0.601869
+Train/Test_Size    0.400000
+dtype: float64
+Model saved
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0         H1   0.400488  0.506173        0.447171      0.398918        0.601082              0.3  audacity
+1         H1   0.323727  0.520062        0.399053      0.499262        0.500738              0.3  audacity
+2         H1   0.396163  0.541667        0.457627      0.409247        0.590753              0.3  audacity
+3         H1   0.373102  0.530864        0.438217      0.433842        0.566158              0.3  audacity
+4         H1   0.355204  0.484568        0.409922      0.444663        0.555337              0.3  audacity
+Mean vals:  Precision          0.369245
+Recall             0.535648
+Fmeasure_score     0.435862
+hamming_loss       0.441810
+Accuracy_Score     0.558190
+Train/Test_Size    0.300000
+dtype: float64
+Model saved
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0         H1   0.423929  0.442901        0.433208      0.369405        0.630595              0.4  audacity
+1         H1   0.382934  0.567901        0.457427      0.429415        0.570585              0.4  audacity
+2         H1   0.275565  0.395062        0.324667      0.523856        0.476144              0.2  audacity
+3         H1   0.409910  0.561728        0.473958      0.397442        0.602558              0.2  audacity
+4         H1   0.271868  0.354938        0.307898      0.508608        0.491392              0.2  audacity
+Mean vals:  Precision          0.356758
+Recall             0.475952
+Fmeasure_score     0.405112
+hamming_loss       0.443843
+Accuracy_Score     0.556157
+Train/Test_Size    0.233333
+dtype: float64
+Model saved

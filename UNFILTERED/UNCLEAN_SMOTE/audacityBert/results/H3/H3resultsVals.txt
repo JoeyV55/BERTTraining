@@ -1,0 +1,14 @@
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size   Project
+0         H3   0.385093  0.502024        0.435852      0.417154        0.582846              0.3  audacity
+1         H3   0.400936  0.520243        0.452863      0.403509        0.596491              0.3  audacity
+2         H3   0.392670  0.455466        0.421743      0.400910        0.599090              0.3  audacity
+3         H3   0.433628  0.595142        0.501706      0.379467        0.620533              0.3  audacity
+4         H3   0.482639  0.562753        0.519626      0.333983        0.666017              0.3  audacity
+Mean vals:  Precision          0.441170
+Recall             0.551012
+Fmeasure_score     0.488031
+hamming_loss       0.371930
+Accuracy_Score     0.628070
+Train/Test_Size    0.300000
+dtype: float64
+Model saved

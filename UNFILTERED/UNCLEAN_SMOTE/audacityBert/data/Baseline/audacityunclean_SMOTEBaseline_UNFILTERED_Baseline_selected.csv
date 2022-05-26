@@ -1,0 +1,268 @@
+prNumber,Util,APM,Network,DB,Error.Handling,Logging,Lang,Data.Structure,i18n,Setup,Logic,IO,UI,Parser,Event.Handling,App,GIS,Multimedia,CG,corpus
+39,1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix uninitialized variables  fix uninitialized variables 
+39,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,fix uninitialized variables  fix uninitialized variables 
+39,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,fix uninitialized variables  fix uninitialized variables 
+43,0,0,0,1,0,0,0,1,0,1,1,1,1,0,0,1,0,1,0,prevent stereo->mono effects from causing a crash  prevent stereo->mono effects from causing a crash. 
+43,0,0,1,1,0,0,0,0,0,1,1,1,1,0,1,1,0,1,0,prevent stereo->mono effects from causing a crash  prevent stereo->mono effects from causing a crash. 
+43,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,1,1,0,0,prevent stereo->mono effects from causing a crash  prevent stereo->mono effects from causing a crash. 
+165,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,openmp trackartist::drawspectrum take 2  openmp trackartist::drawspectrum take 2 
+165,1,1,1,0,1,0,1,1,1,1,1,1,1,0,0,1,0,1,0,openmp trackartist::drawspectrum take 2  openmp trackartist::drawspectrum take 2 
+165,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,openmp trackartist::drawspectrum take 2  openmp trackartist::drawspectrum take 2 
+465,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,fix filedialog compilation error (gtk+3)  fix filedialog compilation error (gtk+3) 
+465,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fix filedialog compilation error (gtk+3)  fix filedialog compilation error (gtk+3) 
+465,1,0,0,0,1,1,0,1,0,1,1,1,1,0,1,0,1,1,0,fix filedialog compilation error (gtk+3)  fix filedialog compilation error (gtk+3) 
+603,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,0,sqlite open bugs  sqlite open bugs 
+603,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,sqlite open bugs  sqlite open bugs 
+603,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,sqlite open bugs  sqlite open bugs 
+700,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,fix cve-2020-11867  fix cve-2020-11867 
+700,0,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,fix cve-2020-11867  fix cve-2020-11867 
+700,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,fix cve-2020-11867  fix cve-2020-11867 
+986,0,0,0,0,1,0,0,0,1,1,0,0,1,0,0,1,0,0,0,fix #984 - errorreportingdialog does not support screen readers  fix #984 - errorreportingdialog does not support screen readers 
+986,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fix #984 - errorreportingdialog does not support screen readers  fix #984 - errorreportingdialog does not support screen readers 
+986,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fix #984 - errorreportingdialog does not support screen readers  fix #984 - errorreportingdialog does not support screen readers 
+1050,0,0,1,1,0,0,0,0,0,1,1,1,1,0,1,1,0,1,0,check for updates dialog will not interrupt recordings  check for updates dialog will not interrupt recordings 
+1050,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,check for updates dialog will not interrupt recordings  check for updates dialog will not interrupt recordings 
+1050,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,check for updates dialog will not interrupt recordings  check for updates dialog will not interrupt recordings 
+1167,0,0,0,1,0,0,0,0,0,1,1,1,1,0,1,1,0,1,0,check for updates will not interrupt the timer record wait dialog  check for updates will not interrupt the timer record wait dialog 
+1167,1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,check for updates will not interrupt the timer record wait dialog  check for updates will not interrupt the timer record wait dialog 
+1167,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,check for updates will not interrupt the timer record wait dialog  check for updates will not interrupt the timer record wait dialog 
+1192,1,1,1,0,1,0,1,1,1,1,1,1,1,0,0,1,0,1,0,opt-out of check for updates persists after preference resets  opt-out of check for updates persists after preference resets... 
+1192,0,0,0,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0,0,opt-out of check for updates persists after preference resets  opt-out of check for updates persists after preference resets... 
+1192,1,0,0,0,1,1,0,1,0,1,1,1,1,0,1,0,1,1,0,opt-out of check for updates persists after preference resets  opt-out of check for updates persists after preference resets... 
+1204,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fixes handling of invalid updatescheduledtime  fixes handling of invalid updatescheduledtime 
+1204,1,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1,0,fixes handling of invalid updatescheduledtime  fixes handling of invalid updatescheduledtime 
+1204,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,fixes handling of invalid updatescheduledtime  fixes handling of invalid updatescheduledtime 
+1207,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,track affordances  track affordances 
+1207,1,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1,0,track affordances  track affordances 
+1207,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,track affordances  track affordances 
+1207,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,track affordances  track affordances 
+1207,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,1,0,track affordances  track affordances 
+1207,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,track affordances  track affordances 
+1208,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,same custom over-aligned allocation routine on all platforms  same custom over-aligned allocation routine on all platforms... 
+1208,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,same custom over-aligned allocation routine on all platforms  same custom over-aligned allocation routine on all platforms... 
+1208,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,same custom over-aligned allocation routine on all platforms  same custom over-aligned allocation routine on all platforms... 
+1219,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,add additional checks for macro output directory  add additional checks for macro output directory. 
+1219,1,0,0,0,1,1,0,1,0,1,1,1,1,0,1,0,1,1,0,add additional checks for macro output directory  add additional checks for macro output directory. 
+1219,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,add additional checks for macro output directory  add additional checks for macro output directory. 
+1265,0,0,0,1,1,0,0,1,0,1,1,1,1,0,0,1,0,1,0,fix recording starting position (refs #1183)  fix recording starting position (refs #1183) 
+1265,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,fix recording starting position (refs #1183)  fix recording starting position (refs #1183) 
+1265,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fix recording starting position (refs #1183)  fix recording starting position (refs #1183) 
+1271,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,move privacy policy url to a different tab to improve its visibility  move privacy policy url to a different tab to improve it s visibility 
+1271,1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,move privacy policy url to a different tab to improve its visibility  move privacy policy url to a different tab to improve it s visibility 
+1271,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,move privacy policy url to a different tab to improve its visibility  move privacy policy url to a different tab to improve it s visibility 
+1297,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,fix bug 1243  fix bug 1243 
+1297,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,fix bug 1243  fix bug 1243 
+1297,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fix bug 1243  fix bug 1243 
+1300,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,sequence of audioio and networkmanager shutdowns fixes crash at exit  sequence of audioio and networkmanager shutdowns fixes crash at exit 
+1300,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1,sequence of audioio and networkmanager shutdowns fixes crash at exit  sequence of audioio and networkmanager shutdowns fixes crash at exit 
+1300,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,sequence of audioio and networkmanager shutdowns fixes crash at exit  sequence of audioio and networkmanager shutdowns fixes crash at exit 
+1306,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,fixes writability check for the macro output directory  fixes writability check for the macro output directory 
+1306,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,0,0,fixes writability check for the macro output directory  fixes writability check for the macro output directory 
+1306,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fixes writability check for the macro output directory  fixes writability check for the macro output directory 
+1313,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fix dangling pointers to project from lyricswindowcpp  fix dangling pointers to project from lyricswindow.cpp 
+1313,0,0,0,0,1,0,0,1,0,0,1,1,1,1,0,1,1,0,0,fix dangling pointers to project from lyricswindowcpp  fix dangling pointers to project from lyricswindow.cpp 
+1313,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,fix dangling pointers to project from lyricswindowcpp  fix dangling pointers to project from lyricswindow.cpp 
+1314,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,1,0,0,0,fix "scriptables" commands which broke at 02b6153  fix  scriptables  commands  which broke at 02b6153... 
+1314,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,1,1,1,fix "scriptables" commands which broke at 02b6153  fix  scriptables  commands  which broke at 02b6153... 
+1314,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,1,1,0,fix "scriptables" commands which broke at 02b6153  fix  scriptables  commands  which broke at 02b6153... 
+1322,0,0,0,0,1,0,0,1,0,1,1,1,1,1,0,1,0,1,0,extract lib exceptions  extract lib exceptions 
+1322,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,extract lib exceptions  extract lib exceptions 
+1322,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,extract lib exceptions  extract lib exceptions 
+1323,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,install updates  install updates 
+1323,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,install updates  install updates 
+1323,1,1,0,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,install updates  install updates 
+1328,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,extract lib preferences  extract lib preferences 
+1328,1,0,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,extract lib preferences  extract lib preferences 
+1328,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,1,1,0,0,extract lib preferences  extract lib preferences 
+1344,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,1,shift+drag of clips between tracks was never allowed up to 242  shift+drag of clips between tracks was never allowed up to 2.4.2... 
+1344,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,shift+drag of clips between tracks was never allowed up to 242  shift+drag of clips between tracks was never allowed up to 2.4.2... 
+1344,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,shift+drag of clips between tracks was never allowed up to 242  shift+drag of clips between tracks was never allowed up to 2.4.2... 
+1345,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,extract lib math  extract lib math 
+1345,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,1,1,0,extract lib math  extract lib math 
+1345,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,extract lib math  extract lib math 
+1359,1,1,0,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,extract lib files  extract lib files 
+1359,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,extract lib files  extract lib files 
+1359,1,0,0,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,extract lib files  extract lib files 
+1377,0,0,0,1,1,0,0,1,0,1,1,1,1,0,1,1,0,1,0,stereo track affordance  stereo track affordance 
+1377,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,stereo track affordance  stereo track affordance 
+1416,0,0,0,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0,0,experimental qa journalling basics  experimental qa journalling basics 
+1416,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,experimental qa journalling basics  experimental qa journalling basics 
+1429,0,0,0,0,1,0,0,1,0,1,1,1,1,0,1,0,0,1,1,extract lib registries  extract lib registries 
+1429,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,extract lib registries  extract lib registries 
+1437,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,fix update on uihandle change within cell  fix update on uihandle change within cell 
+1437,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,1,0,fix update on uihandle change within cell  fix update on uihandle change within cell 
+1441,1,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1,0,fix event types used in prefslistener singalling  fix event types used in prefslistener singalling... 
+1441,0,0,0,0,1,0,0,1,0,1,1,1,1,0,0,1,0,1,0,fix event types used in prefslistener singalling  fix event types used in prefslistener singalling... 
+1441,1,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1,0,fix event types used in prefslistener singalling  fix event types used in prefslistener singalling... 
+1441,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,fix event types used in prefslistener singalling  fix event types used in prefslistener singalling... 
+1475,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,stereo wave track channel resizing  stereo wave track channel resizing 
+1475,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,1,1,0,0,stereo wave track channel resizing  stereo wave track channel resizing 
+1478,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,1,0,1,0,extract lib xml  extract lib xml 
+1478,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,extract lib xml  extract lib xml 
+1482,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,experimental dialog journalling  experimental dialog journalling 
+1482,1,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,0,experimental dialog journalling  experimental dialog journalling 
+1495,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,rewrite dither  rewrite dither 
+1495,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,1,1,0,rewrite dither  rewrite dither 
+1502,1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix 1501  fix 1501 
+1502,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,fix 1501  fix 1501 
+1502,1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix 1501  fix 1501 
+1502,1,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,0,fix 1501  fix 1501 
+1502,1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix 1501  fix 1501 
+1502,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,fix 1501  fix 1501 
+1504,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,context menus  context menus 
+1504,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,context menus  context menus 
+1504,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,context menus  context menus 
+1504,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,context menus  context menus 
+1527,1,0,0,0,1,1,0,1,0,1,1,1,1,0,1,0,1,1,0,extract lib audio devices  extract lib audio devices 
+1527,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,extract lib audio devices  extract lib audio devices 
+1533,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,clip names  clip names 
+1533,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,clip names  clip names 
+1586,1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,extract lib project  extract lib project 
+1586,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,extract lib project  extract lib project 
+1587,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,extract lib screen geometry  extract lib screen geometry 
+1587,1,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,0,extract lib screen geometry  extract lib screen geometry 
+1588,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,0,1,1,extract lib project rate  extract lib project rate 
+1588,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,1,1,0,extract lib project rate  extract lib project rate 
+1594,0,0,0,1,0,0,0,0,0,1,1,1,1,0,1,1,0,1,0,some audio io refactoring  some audio io refactoring 
+1594,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,some audio io refactoring  some audio io refactoring 
+1602,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,0,0,audacitymessagebox button presses can now be replayed in journal  audacitymessagebox button presses can now be replayed in journal... 
+1602,1,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,0,audacitymessagebox button presses can now be replayed in journal  audacitymessagebox button presses can now be replayed in journal... 
+1614,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,wave clip rename  wave clip rename 
+1614,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,wave clip rename  wave clip rename 
+1616,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,label track: shift+drag  label track: shift+drag 
+1616,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,label track: shift+drag  label track: shift+drag 
+1616,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,label track: shift+drag  label track: shift+drag 
+1616,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,label track: shift+drag  label track: shift+drag 
+1623,1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update  ffmpeg update 
+1623,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,1,1,0,0,ffmpeg update  ffmpeg update 
+1623,1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update  ffmpeg update 
+1623,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,ffmpeg update  ffmpeg update 
+1623,1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update  ffmpeg update 
+1623,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,ffmpeg update  ffmpeg update 
+1623,1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update  ffmpeg update 
+1623,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,ffmpeg update  ffmpeg update 
+1623,1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update  ffmpeg update 
+1623,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,ffmpeg update  ffmpeg update 
+1623,1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update  ffmpeg update 
+1623,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,ffmpeg update  ffmpeg update 
+1623,1,0,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,ffmpeg update  ffmpeg update 
+1623,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,ffmpeg update  ffmpeg update 
+1630,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,not move clip on insertion by default  not move clip on insertion by default 
+1630,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,not move clip on insertion by default  not move clip on insertion by default 
+1637,0,0,0,0,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,disentangle midi play from audio io  disentangle midi play from audio io 
+1637,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,disentangle midi play from audio io  disentangle midi play from audio io 
+1638,0,0,0,1,0,0,0,1,0,1,1,1,1,0,1,1,0,1,0,generalize play head position updates  generalize play head position updates 
+1638,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,generalize play head position updates  generalize play head position updates 
+1639,0,0,0,0,1,0,0,1,0,0,1,1,1,1,0,1,1,0,0,fix journal of return key invoking default dialog button on mac  fix journal of return key invoking default dialog button on mac... 
+1639,1,0,0,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,fix journal of return key invoking default dialog button on mac  fix journal of return key invoking default dialog button on mac... 
+1664,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,1,1,1,playback policy classes 1  playback policy classes 1 
+1664,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,playback policy classes 1  playback policy classes 1 
+1675,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,restore missing localizations for linux appimage  restore missing localizations for linux appimage 
+1675,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,restore missing localizations for linux appimage  restore missing localizations for linux appimage 
+1677,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,the setclip command can set the clip name  the setclip command can set the clip name 
+1677,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,the setclip command can set the clip name  the setclip command can set the clip name 
+1678,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,clip renaming context menu item  clip renaming context menu item 
+1678,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,clip renaming context menu item  clip renaming context menu item 
+1678,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,clip renaming context menu item  clip renaming context menu item 
+1678,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,clip renaming context menu item  clip renaming context menu item 
+1679,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,smart clips  smart clips 
+1679,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,smart clips  smart clips 
+1679,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,smart clips  smart clips 
+1679,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,smart clips  smart clips 
+1711,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,wave time shift tool hit testing fix  wave time shift tool hit testing fix 
+1711,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,wave time shift tool hit testing fix  wave time shift tool hit testing fix 
+1717,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,makes selection tool available at affordance area  makes selection tool available at affordance area 
+1717,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,makes selection tool available at affordance area  makes selection tool available at affordance area 
+1736,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,fix clip frame drawing  fix clip frame drawing 
+1736,1,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,0,fix clip frame drawing  fix clip frame drawing 
+1756,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,loop play button  loop play button 
+1756,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,loop play button  loop play button 
+1758,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,fix for ffmpeg loading on macos  fix for ffmpeg loading on macos 
+1758,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fix for ffmpeg loading on macos  fix for ffmpeg loading on macos 
+1766,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix cut preview  fix cut preview 
+1766,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,fix cut preview  fix cut preview 
+1766,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix cut preview  fix cut preview 
+1766,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,1,0,fix cut preview  fix cut preview 
+1766,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix cut preview  fix cut preview 
+1766,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,fix cut preview  fix cut preview 
+1766,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix cut preview  fix cut preview 
+1766,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,fix cut preview  fix cut preview 
+1779,1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements  brush tool improvements 
+1779,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,brush tool improvements  brush tool improvements 
+1779,1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements  brush tool improvements 
+1779,0,0,0,0,1,0,0,1,0,1,1,1,1,0,0,1,0,1,0,brush tool improvements  brush tool improvements 
+1779,1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements  brush tool improvements 
+1779,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,brush tool improvements  brush tool improvements 
+1779,1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements  brush tool improvements 
+1779,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,brush tool improvements  brush tool improvements 
+1779,1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements  brush tool improvements 
+1779,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,1,1,0,brush tool improvements  brush tool improvements 
+1779,1,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,brush tool improvements  brush tool improvements 
+1779,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,brush tool improvements  brush tool improvements 
+1793,0,0,0,1,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,fix auto clip naming  fix auto clip naming 
+1793,1,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,1,0,fix auto clip naming  fix auto clip naming 
+1799,0,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,set the page_size for aup3 files using pragma  set the page_size for aup3 files using pragma 
+1799,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,set the page_size for aup3 files using pragma  set the page_size for aup3 files using pragma 
+1802,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,0,1,0,remove the requirement for the sqlite_enable_dbpage_vtab  remove the requirement for the sqlite_enable_dbpage_vtab 
+1802,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,remove the requirement for the sqlite_enable_dbpage_vtab  remove the requirement for the sqlite_enable_dbpage_vtab 
+1808,0,0,0,1,0,0,0,1,0,1,1,1,1,0,1,1,0,1,1,adjusting loop playback  adjusting loop playback 
+1808,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,adjusting loop playback  adjusting loop playback 
+1816,1,0,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,extract lib theme  extract lib theme 
+1816,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,extract lib theme  extract lib theme 
+1832,0,0,0,1,1,0,0,1,0,1,1,1,0,0,0,1,0,1,0,new clip naming scheme  new clip naming scheme 
+1832,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,new clip naming scheme  new clip naming scheme 
+1836,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,change default spectrogram settings  change default spectrogram settings 
+1836,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,change default spectrogram settings  change default spectrogram settings 
+1840,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,fix event handling in wavetrackaffordancecontrol  fix event handling in wavetrackaffordancecontrol 
+1840,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,fix event handling in wavetrackaffordancecontrol  fix event handling in wavetrackaffordancecontrol 
+1841,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,adds "whats new" link to the splash dialog  adds  what s new  link to the splash dialog 
+1841,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,adds "whats new" link to the splash dialog  adds  what s new  link to the splash dialog 
+1843,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,1,0,0,multi tool shortcut is again f6 not f5  multi tool shortcut is again f6 not f5 
+1843,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,multi tool shortcut is again f6 not f5  multi tool shortcut is again f6 not f5 
+1848,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,right channel delete key behavior  right channel delete key behavior 
+1848,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,right channel delete key behavior  right channel delete key behavior 
+1848,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,right channel delete key behavior  right channel delete key behavior 
+1848,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,right channel delete key behavior  right channel delete key behavior 
+1854,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,issue #1838: screen readers should read labels when tabbing  issue #1838: screen readers should read labels when tabbing 
+1854,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,issue #1838: screen readers should read labels when tabbing  issue #1838: screen readers should read labels when tabbing 
+1857,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,issue 1710 compromise  issue 1710 compromise 
+1857,1,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,issue 1710 compromise  issue 1710 compromise 
+1864,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,1,0,issue #1863: add names of clips to messages for screen readers  issue #1863: add names of clips to messages for screen readers 
+1865,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,fix text edit shortcuts  fix text edit shortcuts 
+1871,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,issue #1870: feedback for screen readers when tabbing to clips  issue #1870: feedback for screen readers when tabbing to clips 
+1872,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,exit editing of clip a name and redraw when a trackpanel loses focus  exit editing of clip a name and redraw when a trackpanel loses focus 
+1874,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,fix clip name editing  fix clip name editing 
+1874,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,fix clip name editing  fix clip name editing 
+1883,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,avoid drawing text outside the clipping rectangle if possible  avoid drawing text outside the clipping rectangle if possible 
+1894,0,0,0,1,0,0,0,1,0,1,1,1,1,0,1,1,0,1,0,less laggy response of looping playback to change of region bounds  less laggy response of looping playback to change of region bounds... 
+1898,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,customizable ctrl+f2 not hard-coded return to edit clip names  customizable ctrl+f2 not hard-coded return to edit clip names... 
+1914,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,1,1,1,0,allow the application appearance to match the theme on macos  allow the application appearance to match the theme on macos 
+1916,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix bug with lof unicode using  fix bug with lof unicode using. 
+1930,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,click-away from trackpanel (still in audacity) ends clip name edit  click-away from trackpanel (still in audacity) ends clip name edit... 
+1936,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,fix recording to a new track  fix recording to a new track 
+1938,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,fix tab usage in wavetrack  fix tab usage in wavetrack 
+1940,0,0,0,1,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,adds an ability to change projects user_version based on features used  adds an ability to change project s user_version based on features used 
+1947,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,issue #1934: renaming clip using the keyboard  issue #1934: renaming clip using the keyboard 
+1950,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,playback looping drags  playback looping drags 
+1950,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,playback looping drags  playback looping drags 
+1950,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,playback looping drags  playback looping drags 
+1958,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,fixes splash screen size when whats new is shown  fixes splash screen size when what s new is shown 
+1965,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,1,0,fix crash on looping play seen on windows  fix crash on looping play seen on windows... 
+1967,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,snapping when dragging whole play region leaves length unchanged  snapping when dragging whole play region leaves length unchanged 
+1976,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,fixes alt key behavior if track is present  fixes alt key behavior if track is present 
+1978,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,change shortcut for renaming label to hardcoded ctrl+f2  change shortcut for renaming label to hardcoded ctrl+f2 
+1981,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,clips visibility  clips visibility 
+1985,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,fix for text navigation with arrows  fix for text navigation with arrows 
+1992,0,0,0,1,0,0,0,1,0,1,1,1,1,0,1,1,0,1,0,issue #1924: starting play with empty selection loop disabled  issue #1924: starting play with empty selection  loop disabled... 
+1993,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,fix timeline hot zones  fix timeline hot zones 
+2002,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,fix playback policies  fix playback policies 
+2002,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,fix playback policies  fix playback policies 
+2002,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,fix playback policies  fix playback policies 
+2002,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,fix playback policies  fix playback policies 
+2007,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,1,0,1,1,minor looping region ui fixes  minor looping region ui fixes 
+2013,0,0,0,0,0,0,0,1,0,1,1,0,1,0,1,0,0,1,0,issue 1990: fix clip rename history  issue 1990: fix clip rename history 
+2014,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,1,0,issue 1969: fix recording starting position  issue 1969: fix recording starting position 
+2015,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,0,1,1,initialize play region to be invalid region  initialize play region to be invalid region 
+2023,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,1,0,adds a checkmark to "loop on/off" menu  adds a checkmark to  loop on/off  menu 
+2030,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,1,0,fix manual link  fix manual link 
+2039,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,0,1,0,fix envelope drawing again  fix envelope drawing again 

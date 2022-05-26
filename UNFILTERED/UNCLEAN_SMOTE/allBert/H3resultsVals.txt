@@ -1,0 +1,28 @@
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size Project
+0         H3   0.520922  0.366146        0.430032      0.213465        0.786535              0.3   all_2
+1         H3   0.572227  0.430372        0.491264      0.196040        0.803960              0.3   all_2
+2         H3   0.635783  0.358343        0.458349      0.186271        0.813729              0.3   all_2
+3         H3   0.561721  0.297719        0.389172      0.205545        0.794455              0.3   all_2
+4         H3   0.509682  0.394958        0.445046      0.216634        0.783366              0.3   all_2
+Mean vals:  Precision          0.574956
+Recall             0.367407
+Fmeasure_score     0.446428
+hamming_loss       0.199723
+Accuracy_Score     0.800277
+Train/Test_Size    0.300000
+dtype: float64
+Model saved
+  Hypothesis  Precision    Recall  Fmeasure_score  hamming_loss  Accuracy_Score  Train/Test_Size Project
+0         H3   0.574939  0.421369        0.486318      0.195776        0.804224              0.2   all_2
+1         H3   0.518212  0.375750        0.435630      0.214125        0.785875              0.2   all_2
+2         H3   0.636865  0.346339        0.448678      0.187195        0.812805              0.2   all_2
+3         H3   0.480142  0.486194        0.483149      0.228779        0.771221              0.2   all_2
+4         H3   0.538062  0.373349        0.440822      0.208317        0.791683              0.2   all_2
+Mean vals:  Precision          0.533933
+Recall             0.386855
+Fmeasure_score     0.444824
+hamming_loss       0.211538
+Accuracy_Score     0.788462
+Train/Test_Size    0.200000
+dtype: float64
+Model saved

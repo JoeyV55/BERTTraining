@@ -50,49 +50,9 @@ threshold = 0.5
 def choose_labels(proj_name):
     labels = []
     if proj_name == "jabRef_2":
-        #Unclean_SMOTE jabref2?
-        """labels = ["Util",
-        "NLP",
-        "APM",
-        "Network",
-        "DB",
-        "Interpreter",
-        "Logging",
-        "i18n",
-        "DevOps",
-        "Logic",
-        "Test",
-        "IO",
-        "UI",
-        "Security",
-        "App"]"""
-        #Nofilter: someClean_NOSMOTE, UNCLEAN
-        #Filter: 
-        """labels = ["Util",
-            "NLP",
-            "APM",
-            "Network",
-            "DB",
-            "Interpreter",
-            "Logging",
-            "DataStructure",
-            "i18n",
-            "DevOps",
-            "Logic",
-            "Microservices",
-            "ML",
-            "Test",
-            "Search",
-            "IO",
-            "UI",
-            "Parser",
-            "Security",
-            "Cloud",
-            "BigData",
-            "App",
-            "GIS"]"""
+        
         #someclean_SMOTE, unclean_SMOTE
-        labels = ["Util","NLP","APM","Network","DB","Interpreter","Logging","DataStructure","i18n","DevOps",
+        labels = ["Util","NLP","APM","Network","DB","Interpreter","Logging","Data.Structure","i18n","DevOps",
         "Logic","Microservices","Test","Search","IO","UI","Parser","Security","App"]
     elif proj_name == "guava_2":
         #Nofilter: someClean_NOSMOTE, UNCLEAN
@@ -161,14 +121,14 @@ def choose_labels(proj_name):
     print("Labels selected: ", labels)
     return labels
 
-def prec_rec_fscore_support_wrapper(y_pred:Tensor, y_true:Tensor, sigmoid:bool = True, thresh:float = threshold, average = 'micro', sample_weight = None, **kwargs):
+def prec_rec_fscore_support_wrapper(y_pred:Tensor, y_true:Tensor, sigmoid:bool = True, thresh:float = threshold, average = "micro", sample_weight = None, **kwargs):
     if sigmoid: y_pred = y_pred.sigmoid()
     y_pred = (y_pred > thresh).float()
     y_pred = y_pred.detach().cpu().numpy()
     y_true = y_true.detach().cpu().numpy()
     return precision_recall_fscore_support(y_true, y_pred, average=average)
 
-def F1_micro(y_pred:Tensor, y_true:Tensor, sigmoid:bool = True, thresh:float = threshold, average = 'micro', sample_weight = None, **kwargs):
+def F1_micro(y_pred:Tensor, y_true:Tensor, sigmoid:bool = True, thresh:float = threshold, average = "micro", sample_weight = None, **kwargs):
     if sigmoid: y_pred = y_pred.sigmoid()
     y_pred = (y_pred > thresh).float()
     y_pred = y_pred.detach().cpu().numpy()
@@ -198,7 +158,7 @@ def Hamming_loss_mod(
 """
 Used to find the total True Positives, False Positives, and False Negatives for use in computing the micro fmeasure.
 
-    'micro':
+    "micro":
             Calculate metrics globally by counting the total true positives,
             false negatives and false positives.
 """
